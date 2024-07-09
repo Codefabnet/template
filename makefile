@@ -9,8 +9,8 @@ TARGETS := temp
 # Common build rules
 ############################################################
 OBJDIR := ./obj
-OUTPUTDIR := .
-SOURCEDIR := .
+OUTPUTDIR := ./source
+SOURCEDIR := ./output
 
 COMPILEFLAGS := -g -Wall
 #COMPILEFLAGS += -ffunction-sections
@@ -41,27 +41,4 @@ $(OBJDIR):
 clean:
 	rm -rf $(OUTPUTDIR)
 	rm -rf $(OBJDIR)
-
-############################################################
-
-REV_LLIST_DIR := ./source
-
-REV_LLIST_OBJECTS := $(addprefix $(OBJDIR)/, \
-             rev_llist.o \
-             rev_llist_funcs.o \
-             rev_llist_algorithm.o \
-	     )
-
-REV_LLIST_HEADERS := $(REV_LLIST_DIR)/rev_llist.h \
-                     $(REV_LLIST_DIR)/rev_llist_algorithm.h
-
-############################################################
-
-rev_llist: $(REV_LLIST_OBJECTS)
-	gcc $(LINKERFLAGS) $(REV_LLIST_OBJECTS) -o $(OUTPUTDIR)/$@
-
-$(OBJDIR)/%.o : $(REV_LLIST_DIR)/%.c $(REV_LLIST_HEADERS) $(COMMON_HEADERS)
-	gcc $(COMPILEFLAGS) -c $< -o $@
-
-$(REV_LLIST_OBJECTS): | $(OBJDIR)
 
