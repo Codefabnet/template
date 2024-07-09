@@ -1,0 +1,3727 @@
+    1  2024-07-09 04:02:47 exit
+    2  2024-06-05 23:38:08 cd workspace
+    3  2024-06-05 23:38:12 cd -
+    4  2024-06-05 23:38:17 cd test
+    5  2024-06-05 23:38:29 cd temp/prCtice/python
+    6  2024-06-05 23:38:45 cd temp/practice/python
+    7  2024-06-05 23:38:49 ls
+    8  2024-06-05 23:38:58 vim lists.py
+    9  2024-06-07 05:58:58 cd ..
+   10  2024-06-07 05:59:03 ls
+   11  2024-06-07 05:59:18 df -h
+   12  2024-06-07 06:24:18 ls
+   13  2024-06-07 06:24:21 cd ..
+   14  2024-06-07 06:24:28 cd test
+   15  2024-06-07 06:26:37 ls -al
+   16  2024-06-07 06:27:55 cd ..
+   17  2024-06-07 06:27:56 ls
+   18  2024-06-07 06:28:15 mv temp temp.bak
+   19  2024-06-07 06:28:53 history | grep clone
+   20  2024-06-07 06:29:51 git clone ssh://spb@192.168.1.9:/date/dev/src/temp
+   21  2024-06-07 06:30:24 ssh spb@192.168.1.9
+   22  2024-06-07 06:31:36 git clone ssh://spb@192.168.1.9:/data/dev/src/temp
+   23  2024-06-07 06:31:41 ls temp
+   24  2024-06-07 06:31:53 ls temp.bak
+   25  2024-06-07 06:35:19 cat temp/,gitign
+   26  2024-06-07 06:35:31 cat temp/.gitignore 
+   27  2024-06-07 06:35:55 mv temp.bak/practice/ temp/[B
+   28  2024-06-07 06:36:32 diff temp.bak/devskiller/ workspace/devskiller/
+   29  2024-06-07 06:36:56 diff --help
+   30  2024-06-07 06:38:24 diff -r temp.bak/devskiller/ workspace/devskiller/
+   31  2024-06-07 06:59:57 ls rm -rf temp.bak
+   32  2024-06-07 07:00:07 rm -rf temp.bak
+   33  2024-06-07 07:01:11 cd temp
+   34  2024-06-07 07:01:15 ls
+   35  2024-06-07 07:01:27 find -type f -name makefile
+   36  2024-06-07 07:02:02 less makefile
+   37  2024-06-07 07:05:11 cd practice
+   38  2024-06-07 07:05:13 ls
+   39  2024-06-07 07:05:43 c dlists
+   40  2024-06-07 07:05:47 cd lists
+   41  2024-06-07 07:06:07 cp ~/temp/makefile .
+   42  2024-06-07 07:06:21 ls
+   43  2024-06-07 07:06:35 ls dbl
+   44  2024-06-07 07:06:56 vim makefile 
+   45  2024-06-07 07:52:02 shutdown -r now
+   46  2024-06-07 07:57:11 cd temp
+   47  2024-06-07 07:57:13 ls
+   48  2024-06-07 07:57:18 cd practice
+   49  2024-06-07 07:57:20 ls
+   50  2024-06-07 07:57:24 c dlists
+   51  2024-06-07 07:57:28 cd lists
+   52  2024-06-07 07:57:34 cat makefile
+   53  2024-06-07 07:57:49 vim sngl/list.c
+   54  2024-06-07 08:24:20 output/list
+   55  2024-06-07 08:24:28 fg
+   56  2024-06-07 08:26:28 output/list
+   57  2024-06-07 08:26:41 fg
+   58  2024-06-07 08:27:04 output/list
+   59  2024-06-07 08:27:07 fg
+   60  2024-06-07 08:28:56 gdb output/list
+   61  2024-06-07 08:30:57 fg
+   62  2024-06-07 11:51:41 output/list
+   63  2024-06-07 11:58:08 fg
+   64  2024-06-07 12:02:25 ls
+   65  2024-06-07 12:02:33 ls abl
+   66  2024-06-07 12:05:54 ls dbl
+   67  2024-06-07 12:06:26 vim -S dbl/vim.mks 
+   68  2024-06-07 12:06:54 rm dbl/vim.mks 
+   69  2024-06-07 12:07:37 vim -p dbl/llist.c dbl/nllist.c dbl/nllist_funcs.c dbl/llist.h
+   70  2024-06-07 12:08:04 vim -p dbl/llist.c dbl/nllist.c dbl/nllist_funcs.c dbl/nllist.h
+   71  2024-06-07 12:16:10 cd ..
+   72  2024-06-07 12:17:25 ls -al
+   73  2024-06-07 12:22:05 cd lists
+   74  2024-06-07 12:22:06 ls
+   75  2024-06-07 12:22:14 ls sngl
+   76  2024-06-07 12:22:29 vim sngl/list.c 
+   77  2024-06-07 12:42:37 vim -S dbl/dbl.mks
+   78  2024-06-07 19:45:07 git checkout dbl_wip
+   79  2024-06-07 19:45:09 ls
+   80  2024-06-07 19:45:19 vim makefile 
+   81  2024-06-07 20:00:24 git log
+   82  2024-06-07 20:00:34 git merge dbl_wip
+   83  2024-06-07 20:01:17 git dbl/nllist.c
+   84  2024-06-07 20:01:31 vim dbl/nllist.c
+   85  2024-06-07 20:02:45 git staus
+   86  2024-06-07 20:02:51 git status
+   87  2024-06-07 20:03:07 git commit
+   88  2024-06-07 20:03:33 vim dbl/nllist.c
+   89  2024-06-07 20:03:53 git add dbl/nllist.c
+   90  2024-06-07 20:03:55 git commit
+   91  2024-06-07 20:04:13 git status
+   92  2024-06-07 20:04:27 git log
+   93  2024-06-07 20:05:46 make nllist
+   94  2024-06-07 20:05:55 output/nllist
+   95  2024-06-07 20:06:05 vim dbl/nllist.c
+   96  2024-06-08 11:18:02 ssh spb@192.168.1.9
+   97  2024-06-08 19:17:29 cd ../python/lists
+   98  2024-06-08 19:17:34 cd ../python
+   99  2024-06-08 19:17:40 ls
+  100  2024-06-08 19:18:01 vim lists.py
+  101  2024-06-09 08:38:38 vim list_comprehension.txt
+  102  2024-06-09 09:08:58 vim lists.py
+  103  2024-06-09 14:06:06 exit
+  104  2024-06-09 15:13:20 pythno3
+  105  2024-06-09 15:13:27 python3
+  106  2024-06-09 15:15:12 exit
+  107  2024-06-07 12:30:47 cd ..
+  108  2024-06-07 12:30:50 ls
+  109  2024-06-07 12:31:15 git help init
+  110  2024-06-07 12:32:27 git init
+  111  2024-06-07 12:32:55 git status
+  112  2024-06-07 12:33:18 vim class_op.cpp 
+  113  2024-06-07 12:34:14 cd python
+  114  2024-06-07 12:34:22 ls -al
+  115  2024-06-07 12:34:51 nano .gitignore
+  116  2024-06-07 12:35:19 cat .gitignore
+  117  2024-06-07 12:35:23 git status
+  118  2024-06-07 12:35:47 rm .gitignore
+  119  2024-06-07 12:35:51 cd..
+  120  2024-06-07 12:35:54 cd ..
+  121  2024-06-07 12:36:06 nano .gitignore
+  122  2024-06-07 12:36:32 git status
+  123  2024-06-07 12:37:04 git add .gitignore class_op.cpp lists
+  124  2024-06-07 12:37:06 git status
+  125  2024-06-07 12:37:33 nano .gitignore
+  126  2024-06-07 12:37:55 git status
+  127  2024-06-07 12:38:05 git add .gitignore 
+  128  2024-06-07 12:38:07 git status
+  129  2024-06-07 12:38:26 git commit -m "initial checkin."
+  130  2024-06-07 12:38:31 git push
+  131  2024-06-07 12:38:46 git log
+  132  2024-06-07 12:39:07 git help branch
+  133  2024-06-07 12:39:48 git branch dbl_wip
+  134  2024-06-07 12:39:54 git log
+  135  2024-06-07 12:40:10 git help branch
+  136  2024-06-07 12:40:43 git checkout
+  137  2024-06-07 12:40:52 git help checkout
+  138  2024-06-07 12:41:56 git checkout dbl_wip
+  139  2024-06-07 13:44:38 cd lists
+  140  2024-06-07 13:44:40 ls
+  141  2024-06-07 13:44:51 make nllist
+  142  2024-06-07 13:45:47 ls
+  143  2024-06-07 13:45:52 output/nllist
+  144  2024-06-07 13:46:08 gdb output/nllist
+  145  2024-06-07 13:47:04 make nllist
+  146  2024-06-07 13:47:06 output/nllist
+  147  2024-06-07 13:47:11 gdb output/nllist
+  148  2024-06-07 13:49:17 make nllist
+  149  2024-06-07 13:49:19 output/nllist
+  150  2024-06-07 13:49:23 gdb output/nllist
+  151  2024-06-07 13:51:28 make nllist
+  152  2024-06-07 13:51:30 output/nllist
+  153  2024-06-07 13:51:33 gdb output/nllist
+  154  2024-06-07 13:54:17 make nllist
+  155  2024-06-07 13:54:19 output/nllist
+  156  2024-06-07 13:54:21 gdb output/nllist
+  157  2024-06-07 13:57:29 make nllist
+  158  2024-06-07 13:57:31 output/nllist
+  159  2024-06-07 13:59:18 links2 -g &
+  160  2024-06-07 14:04:43 ls /var/log/apport
+  161  2024-06-07 14:04:57 ls /var/lib/apport
+  162  2024-06-07 14:05:15 history | grep core
+  163  2024-06-07 14:07:42 dmesg
+  164  2024-06-07 14:14:54 ls /var/crash
+  165  2024-06-07 14:15:58 coredumpctl
+  166  2024-06-07 14:16:15 coredumpctl list
+  167  2024-06-07 14:17:26 coredumpctl debug 9056
+  168  2024-06-07 14:24:34 gdb output/nllist
+  169  2024-06-07 14:33:06 make nllist
+  170  2024-06-07 14:33:15 output/nllist
+  171  2024-06-07 14:33:19 gdb output/nllist
+  172  2024-06-07 14:35:42 make nllist
+  173  2024-06-07 14:35:45 output/nllist
+  174  2024-06-07 14:35:47 gdb output/nllist
+  175  2024-06-07 18:33:28 make nllist
+  176  2024-06-07 18:34:52 output/nllist
+  177  2024-06-07 18:35:00 gdb output/nllist
+  178  2024-06-07 18:36:36 make nllist
+  179  2024-06-07 18:36:38 output/nllist
+  180  2024-06-07 18:45:17 make nllist
+  181  2024-06-07 18:45:24 gdb output/nllist
+  182  2024-06-07 19:00:47 make nllist
+  183  2024-06-07 19:00:52 output/nllist
+  184  2024-06-07 19:01:37 cd ..
+  185  2024-06-07 19:01:45 git status
+  186  2024-06-07 19:02:17 nano .gitignore 
+  187  2024-06-07 19:02:54 git status
+  188  2024-06-07 19:03:15 nano .gitignore 
+  189  2024-06-07 19:03:34 git status
+  190  2024-06-07 19:04:06 git log
+  191  2024-06-07 19:04:36 nano .gitignore 
+  192  2024-06-07 19:04:53 git status
+  193  2024-06-07 19:40:19 set -o vi
+  194  2024-06-07 19:41:58 git add .gitignore lists/dbl/nllist.c lists/dbl/nllist.h lists/dbl/nllist_funcs.c lists/sngl.list.c.swp
+  195  2024-06-07 19:42:13 git add .gitignore lists/dbl/nllist.c lists/dbl/nllist.h lists/dbl/nllist_funcs.c lists/sngl/.list.c.swp
+  196  2024-06-07 19:42:18 git status
+  197  2024-06-07 19:42:40 git commit -m "dbl: wip."
+  198  2024-06-07 19:42:57 git checkout master
+  199  2024-06-07 19:43:08 make nllist
+  200  2024-06-07 19:43:11 ls
+  201  2024-06-07 19:45:31 git checkout master
+  202  2024-06-07 19:45:33 ls
+  203  2024-06-07 19:46:12 sts
+  204  2024-06-07 19:46:17 cd lists
+  205  2024-06-07 19:46:19 ls
+  206  2024-06-07 19:46:27 make nllist
+  207  2024-06-07 19:46:36 output/nllist
+  208  2024-06-07 19:47:00 gdb output/nllist
+  209  2024-06-07 19:51:40 make nllist
+  210  2024-06-07 19:51:43 output/nllist
+  211  2024-06-07 19:52:19 gdb output/nllist
+  212  2024-06-07 19:55:58 git status
+  213  2024-06-07 19:56:14 git add dbl/nllist.c
+  214  2024-06-07 19:56:35 git commit -m "nllist: fix for loop."
+  215  2024-06-07 20:06:23 make nllist
+  216  2024-06-07 20:06:35 output/nllist
+  217  2024-06-07 20:06:54 gdb output/nllist
+  218  2024-06-07 20:08:48 make nllist
+  219  2024-06-07 20:08:51 output/nllist
+  220  2024-06-07 20:09:06 coredumpctl list
+  221  2024-06-07 20:09:19 coredumpctl debug 15481
+  222  2024-06-07 20:11:11 git diff
+  223  2024-06-07 20:25:50 cd ..
+  224  2024-06-07 20:26:01 ls python
+  225  2024-06-08 05:27:52 ifconfig
+  226  2024-06-08 05:29:17 sshd
+  227  2024-06-08 09:01:02 make nllist
+  228  2024-06-08 09:01:12 cd lists
+  229  2024-06-08 09:01:14 make nllist
+  230  2024-06-08 09:01:23 output/nllist
+  231  2024-06-08 09:01:43 coredumpctl list
+  232  2024-06-08 09:02:11 coredumpctl debug 29295
+  233  2024-06-08 09:02:20 coredumpctl debug 29195
+  234  2024-06-08 09:35:18 make nllist
+  235  2024-06-08 09:35:22 output/nllist
+  236  2024-06-08 09:38:23 gdb output/nllist
+  237  2024-06-08 09:40:51 make nllist
+  238  2024-06-08 09:40:53 output/nllist
+  239  2024-06-08 09:48:17 make nllist
+  240  2024-06-08 09:48:19 output/nllist
+  241  2024-06-08 09:48:41 make nllist
+  242  2024-06-08 09:48:43 output/nllist
+  243  2024-06-08 09:53:20 git status
+  244  2024-06-08 09:53:56 git add dbl/nllist.c dbl/nllist.h dbl/nllist_funcs.c 
+  245  2024-06-08 09:54:41 git commit -m "nllist: transition to queue base - wip."
+  246  2024-06-08 09:54:43 git log
+  247  2024-06-08 09:55:02 git help branch
+  248  2024-06-08 09:55:25 git branch
+  249  2024-06-08 09:55:41 git help branch
+  250  2024-06-08 09:56:32 git branch -d dbl_wip
+  251  2024-06-08 09:56:37 git branch
+  252  2024-06-08 10:05:45 ssh spb@192.168.1.9
+  253  2024-06-08 10:08:10 history | grep git
+  254  2024-06-08 10:08:56 git help remote
+  255  2024-06-08 11:18:40 git remote add origin ssh://spb@192.168.1.9:/data/dev/src/spb-desktop/lists
+  256  2024-06-08 11:19:08 git push --set-upstream origin master
+  257  2024-06-08 11:46:16 ls
+  258  2024-06-08 11:46:23 ls -al
+  259  2024-06-08 11:46:30 ls sngl
+  260  2024-06-08 11:46:39 ls
+  261  2024-06-08 11:47:48 links2 -g &
+  262  2024-06-08 11:58:05 vim ~/.bashrc
+  263  2024-06-08 12:11:47 ls sngl
+  264  2024-06-08 19:11:00 cd ..
+  265  2024-06-08 19:11:02 ls
+  266  2024-06-08 19:11:05 cd python
+  267  2024-06-08 19:11:07 ls
+  268  2024-06-08 19:11:15 git status
+  269  2024-06-08 19:11:34 git diff
+  270  2024-06-08 19:12:00 python3 lists.py
+  271  2024-06-08 19:30:25 python3
+  272  2024-06-08 19:38:59 python3 lists.py
+  273  2024-06-08 19:59:01 git status
+  274  2024-06-08 19:59:13 git add lists.py
+  275  2024-06-08 19:59:54 git commit -m "lists: work on slice description."
+  276  2024-06-08 19:59:59 git push
+  277  2024-06-08 20:02:26 links2 -g &
+  278  2024-06-08 20:04:04 ls -alrt ~
+  279  2024-06-08 20:04:18 cat ~/testclip 
+  280  2024-06-08 20:04:59 vim ~/testclip
+  281  2024-06-08 20:15:16 cp ~/testclip lists
+  282  2024-06-08 20:15:20 ls lists
+  283  2024-06-08 20:15:35 ls python
+  284  2024-06-08 20:15:41 ls
+  285  2024-06-08 20:15:58 cat lists
+  286  2024-06-08 20:16:03 rm lists
+  287  2024-06-08 20:16:11 cp ~/testclip .
+  288  2024-06-08 20:16:13 ls
+  289  2024-06-08 20:16:35 rm testclip 
+  290  2024-06-08 20:16:48 cp ~/testclip ./list_funcs.txt
+  291  2024-06-08 20:16:51 ls
+  292  2024-06-09 02:26:22 python3
+  293  2024-06-09 02:30:38 cat list_funcs.txt
+  294  2024-06-09 02:30:57 vim list_funcs.c
+  295  2024-06-09 02:31:05 ls
+  296  2024-06-09 02:31:12 vim list_funcs.txt
+  297  2024-06-09 02:31:58 python3
+  298  2024-06-09 02:35:49 vim list_funcs.txt
+  299  2024-06-09 02:41:47 python3 list.py
+  300  2024-06-09 02:41:53 ls
+  301  2024-06-09 02:42:03 python3 lists.py
+  302  2024-06-09 02:49:38 it status
+  303  2024-06-09 02:49:57 git status
+  304  2024-06-09 02:50:30 git add lists.py list_funcs.txt
+  305  2024-06-09 02:51:22 git commit -m "lists: add text file to show list cwfunctions."
+  306  2024-06-09 02:51:29 git push
+  307  2024-06-09 02:52:08 python3 lists.py
+  308  2024-06-09 08:51:18 git status
+  309  2024-06-09 08:51:28 rm lcomp
+  310  2024-06-09 08:51:41  
+  311  2024-06-09 08:52:11 git commit -m "lists: add text file to show list comprehension."
+  312  2024-06-09 08:52:16 git push
+  313  2024-06-09 09:02:53 python3 lists.py
+  314  2024-06-09 09:06:21 python3
+  315  2024-06-09 09:10:47 python3 lists.py
+  316  2024-06-09 09:17:10 git status
+  317  2024-06-09 09:17:56 git add lists.py list_comprehension.txt 
+  318  2024-06-09 09:18:23 git commit -m "lists: wip."
+  319  2024-06-09 09:18:29 git push
+  320  2024-06-09 09:18:38 python3 lists.py
+  321  2024-06-09 09:22:38 git diff
+  322  2024-06-09 09:24:42 git status
+  323  2024-06-09 09:24:57 git add lists.py 
+  324  2024-06-09 09:25:05 git commit -m "lists: wip."
+  325  2024-06-09 09:25:09 git push
+  326  2024-06-09 09:25:15 python3 lists.py
+  327  2024-06-09 09:30:53 git log
+  328  2024-06-09 09:31:11 git status
+  329  2024-06-09 13:49:36 cd ~/workspace/test
+  330  2024-06-09 13:49:38 ls
+  331  2024-06-09 13:49:52 ls bit_manip
+  332  2024-06-09 13:50:10 vim -S bm.mks
+  333  2024-06-09 19:33:02 bm.mks
+  334  2024-06-09 19:33:11 vim -S bm.mks
+  335  2024-06-09 19:55:00 ls
+  336  2024-06-09 19:55:16 make bit_manip
+  337  2024-06-09 19:55:31 output/bit_manip
+  338  2024-06-09 19:55:51 vim -S bm.mks
+  339  2024-06-09 20:07:48 fg
+  340  2024-06-09 21:40:22 exit
+  341  2024-06-09 13:52:17 cd ~/temp/practice
+  342  2024-06-09 13:52:20 ls
+  343  2024-06-09 13:52:31 mkdir bits
+  344  2024-06-09 13:52:36 cd bits
+  345  2024-06-09 14:06:36 vim bits.h
+  346  2024-06-09 14:33:11 gcc buts.c -o bits
+  347  2024-06-09 14:33:18 gcc bits.c -o bits
+  348  2024-06-09 14:33:24 fg
+  349  2024-06-09 14:33:47 gcc bits.c -o bits
+  350  2024-06-09 14:33:53 fg
+  351  2024-06-09 14:34:28 gcc bits.c -o bits
+  352  2024-06-09 14:34:35 ./bits
+  353  2024-06-09 14:34:54 fg
+  354  2024-06-09 15:16:07 gcc bits.c -o bits
+  355  2024-06-09 15:16:09 ./bits
+  356  2024-06-09 15:16:14 fg
+  357  2024-06-09 15:16:26 gcc bits.c -o bits
+  358  2024-06-09 15:16:27 ./bits
+  359  2024-06-09 15:16:33 fg
+  360  2024-06-09 15:18:21 gcc bits.c -o bits
+  361  2024-06-09 15:18:23 ./bits
+  362  2024-06-09 15:18:38 fg
+  363  2024-06-09 15:20:12 gcc bits.c -o bits
+  364  2024-06-09 15:20:21 fg
+  365  2024-06-09 15:20:35 gcc bits.c -o bits
+  366  2024-06-09 15:20:39 ./bits
+  367  2024-06-09 15:20:45 fg
+  368  2024-06-09 15:20:59 gcc bits.c -o bits
+  369  2024-06-09 15:21:01 ./bits
+  370  2024-06-09 15:21:04 fg
+  371  2024-06-09 15:21:20 gcc bits.c -o bits
+  372  2024-06-09 15:21:23 ./bits
+  373  2024-06-09 15:21:35 fg
+  374  2024-06-09 15:21:49 ./bits
+  375  2024-06-09 15:21:52 gcc bits.c -o bits
+  376  2024-06-09 15:21:55 ./bits
+  377  2024-06-09 15:22:07 fg
+  378  2024-06-09 15:28:51 gcc bits.c -o bits
+  379  2024-06-09 15:28:52 ./bits
+  380  2024-06-09 15:28:58 fg
+  381  2024-06-09 15:29:10 gcc bits.c -o bits
+  382  2024-06-09 15:29:12 fg
+  383  2024-06-09 15:30:17 gcc bits.c -o bits
+  384  2024-06-09 15:30:20 ./bits
+  385  2024-06-09 15:30:23 fg
+  386  2024-06-09 15:30:43 gcc bits.c -o bits
+  387  2024-06-09 15:40:31 kfg
+  388  2024-06-09 15:40:37 fg
+  389  2024-06-09 15:41:41 gcc bits.c -o bits
+  390  2024-06-09 15:42:15 fg
+  391  2024-06-09 15:43:02 gcc bits.c -o bits
+  392  2024-06-09 15:43:27 fg
+  393  2024-06-09 15:45:53 gcc bits.c -o bits
+  394  2024-06-09 15:46:25 fg
+  395  2024-06-09 15:47:38 gcc bits.c -o bits
+  396  2024-06-09 15:47:51 ,/bits
+  397  2024-06-09 15:47:56 ./bits
+  398  2024-06-09 15:48:03 fg
+  399  2024-06-09 15:48:53 gcc bits.c -o bits
+  400  2024-06-09 15:48:56 ./bits
+  401  2024-06-09 15:49:11 fg
+  402  2024-06-09 15:50:50 gcc bits.c -o bits
+  403  2024-06-09 15:50:58 fg
+  404  2024-06-09 15:51:28 gcc bits.c -o bits
+  405  2024-06-09 15:52:53 fg
+  406  2024-06-09 15:54:16 gcc bits.c -o bits
+  407  2024-06-09 15:54:23 ./bits
+  408  2024-06-09 15:54:28 fg
+  409  2024-06-09 15:54:55 ./bits
+  410  2024-06-09 15:54:57 gcc bits.c -o bits
+  411  2024-06-09 15:55:00 ./bits
+  412  2024-06-09 15:55:16 fg
+  413  2024-06-09 15:58:47 gcc bits.c -o bits
+  414  2024-06-09 15:58:49 ./bits
+  415  2024-06-09 15:58:59 fg
+  416  2024-06-09 16:00:23 gcc bits.c -o bits
+  417  2024-06-09 16:00:25 ./bits
+  418  2024-06-09 16:00:45 gcc -g bits.c -o bits
+  419  2024-06-09 16:00:51 gdb bits
+  420  2024-06-09 16:04:34 fg
+  421  2024-06-09 16:04:54 gcc -g bits.c -o bits
+  422  2024-06-09 16:04:58 ./bits
+  423  2024-06-09 16:05:36 fg
+  424  2024-06-09 16:06:19 gcc -g bits.c -o bits
+  425  2024-06-09 16:06:21 ./bits
+  426  2024-06-09 16:06:38 fg
+  427  2024-06-09 16:06:56 gcc -g bits.c -o bits
+  428  2024-06-09 16:06:58 ./bits
+  429  2024-06-09 16:07:45 fg
+  430  2024-06-09 16:08:32 gcc -g bits.c -o bits
+  431  2024-06-09 16:08:33 ./bits
+  432  2024-06-09 16:10:07 fg
+  433  2024-06-09 16:21:15 gcc -g bits.c -o bits
+  434  2024-06-09 16:21:17 ./bits
+  435  2024-06-09 16:21:36 fg
+  436  2024-06-09 16:22:31 gcc -g bits.c -o bits
+  437  2024-06-09 16:22:33 ./bits
+  438  2024-06-09 16:34:24 fg
+  439  2024-06-09 16:46:02 gcc -g bits.c -o bits
+  440  2024-06-09 16:46:18 fg
+  441  2024-06-09 16:46:52 gcc -g bits.c -o bits
+  442  2024-06-09 16:46:58 fg
+  443  2024-06-09 16:47:05 gcc -g bits.c -o bits
+  444  2024-06-09 16:47:11 ./bits
+  445  2024-06-09 16:47:41 fg
+  446  2024-06-09 17:05:58 gcc -g bits.c -o bits
+  447  2024-06-09 17:06:04 fg
+  448  2024-06-09 17:06:17 gcc -g bits.c -o bits
+  449  2024-06-09 17:06:27 fg
+  450  2024-06-09 17:07:33 gcc -g bits.c -o bits
+  451  2024-06-09 17:07:38 fg
+  452  2024-06-09 17:07:51 gcc -g bits.c -o bits
+  453  2024-06-09 17:08:00 fg
+  454  2024-06-09 17:09:55 gcc -g bits.c -o bits
+  455  2024-06-09 17:10:27 fg
+  456  2024-06-09 17:11:09 gcc -g bits.c -o bits
+  457  2024-06-09 17:11:13 fg
+  458  2024-06-09 17:11:31 gcc -g bits.c -o bits
+  459  2024-06-09 17:11:39 ./bits
+  460  2024-06-09 17:12:01 fg
+  461  2024-06-09 17:12:48 gcc -g bits.c -o bits
+  462  2024-06-09 17:12:49 ./bits
+  463  2024-06-09 17:13:14 fg
+  464  2024-06-09 17:59:07 gcc -g bits.c -o bits
+  465  2024-06-09 17:59:09 ./bits
+  466  2024-06-09 17:59:23 fg
+  467  2024-06-09 18:05:23 gcc -g bits.c -o bits
+  468  2024-06-09 18:05:30 fg
+  469  2024-06-09 18:06:16 gcc -g bits.c -o bits
+  470  2024-06-09 18:06:20 ./bits
+  471  2024-06-09 18:06:25 fg
+  472  2024-06-09 18:12:43 gcc -g bits.c -o bits
+  473  2024-06-09 18:12:49 fg
+  474  2024-06-09 18:13:03 gcc -g bits.c -o bits
+  475  2024-06-09 18:13:11 fg
+  476  2024-06-09 18:13:29 gcc -g bits.c -o bits
+  477  2024-06-09 18:13:33 ./bits
+  478  2024-06-09 18:13:38 fg
+  479  2024-06-09 18:16:33 gcc -g bits.c -o bits
+  480  2024-06-09 18:16:36 ./bits
+  481  2024-06-09 18:16:41 fg
+  482  2024-06-09 18:17:04 gcc -g bits.c -o bits
+  483  2024-06-09 18:17:06 ./bits
+  484  2024-06-09 18:17:11 fg
+  485  2024-06-09 19:47:32 man INT_MIN
+  486  2024-06-09 19:47:41 man limits.h
+  487  2024-06-09 19:47:50 which limits.h
+  488  2024-06-09 19:48:01 where limits.h
+  489  2024-06-09 19:48:16 ls /usr
+  490  2024-06-09 19:48:26 ls /usr/src
+  491  2024-06-09 19:49:08 cd /usr/src/linux-headers-5.4.0-182
+  492  2024-06-09 19:49:10 ls
+  493  2024-06-09 19:49:22 cd -
+  494  2024-06-09 19:49:42 where gcc
+  495  2024-06-09 19:49:46 which gcc
+  496  2024-06-09 19:49:58 ls /usr/bin/gcc
+  497  2024-06-09 19:50:45 ls /usr
+  498  2024-06-09 19:51:01 ls /usr/include
+  499  2024-06-09 21:40:37 shutdown -r now
+  500  2024-06-12 00:55:00 /bin/python3 /home/spb/temp/practice/python/test.py
+  501  2024-06-12 00:56:06 /bin/python3 /home/spb/temp/practice/python/lists.py
+  502  2024-06-10 00:06:45 sudo umount /dev/sda2
+  503  2024-06-10 00:07:08 mount | grep sda
+  504  2024-06-10 00:07:12 mount 
+  505  2024-06-10 18:39:11 cd ~/temp
+  506  2024-06-10 18:39:18 cd practice/lists
+  507  2024-06-10 18:39:20 ls
+  508  2024-06-10 18:39:31 vim sngl/list.c
+  509  2024-06-10 18:51:32 cd ..
+  510  2024-06-10 18:51:37 git status
+  511  2024-06-11 01:17:48 cd lists
+  512  2024-06-11 01:18:12 ls sngl
+  513  2024-06-11 01:18:26 vim sngl/list.c
+  514  2024-06-12 17:07:04 exit
+  515  2024-06-09 22:20:16 history | grep cmake
+  516  2024-06-09 22:20:28 ls
+  517  2024-06-09 22:20:45 less bash_history.bak 
+  518  2024-06-09 22:21:15 ls temp
+  519  2024-06-09 22:21:29 which cmake
+  520  2024-06-09 22:21:37 cd temp
+  521  2024-06-09 22:21:42 cmake
+  522  2024-06-09 22:21:56 cmake --help
+  523  2024-06-09 22:22:39 ls
+  524  2024-06-09 22:22:48 ls practice
+  525  2024-06-09 22:22:57 cd ../workspace
+  526  2024-06-09 22:23:00 ls
+  527  2024-06-09 22:23:07 ls httpbookmarks/
+  528  2024-06-09 22:23:18 less httpbookmarks/history_5_6 
+  529  2024-06-09 22:52:58 history | grep apt
+  530  2024-06-09 22:53:16 history | grep "sudo apt"
+  531  2024-06-09 22:53:44 ls
+  532  2024-06-09 22:54:01 find -type -name hist*
+  533  2024-06-09 22:54:10 find -type f -name hist*
+  534  2024-06-09 22:54:23 find -type f -name history*
+  535  2024-06-09 22:54:40 ssh spb@192.168.1.9
+  536  2024-06-09 22:59:46 sudo apt autoremove
+  537  2024-06-09 23:00:26 df -h
+  538  2024-06-09 23:14:49 history | grep mount
+  539  2024-06-09 23:15:06 lsblk
+  540  2024-06-09 23:15:21 d /mnt
+  541  2024-06-09 23:15:26 cd /mnt
+  542  2024-06-09 23:15:28 ls
+  543  2024-06-09 23:16:02 mount /dev/sda2 tmpmnt
+  544  2024-06-09 23:16:07 sudo mount /dev/sda2 tmpmnt
+  545  2024-06-09 23:16:57 lstmpmnt
+  546  2024-06-09 23:17:04 ls tmpmnt
+  547  2024-06-09 23:17:29 cd tmpmnt
+  548  2024-06-09 23:17:34 du -h
+  549  2024-06-09 23:17:50 df -h
+  550  2024-06-09 23:18:17 df -T
+  551  2024-06-09 23:19:07 ls
+  552  2024-06-09 23:19:26 ls -al
+  553  2024-06-09 23:19:53 ls -al Documents/
+  554  2024-06-09 23:20:23 ls -al pictures/
+  555  2024-06-09 23:20:29 ls -al pictures/Casey/
+  556  2024-06-09 23:21:00 ls -al utils/
+  557  2024-06-09 23:22:34 df -Th
+  558  2024-06-09 23:50:28 cd ..
+  559  2024-06-09 23:50:37 umount tmpmnt
+  560  2024-06-09 23:50:50 sudo umount tmpmnt
+  561  2024-06-09 23:51:09 df -h
+  562  2024-06-09 23:51:26 df -hT
+  563  2024-06-09 23:53:27 lsblk
+  564  2024-06-09 23:57:06 sudo fdisk -l
+  565  2024-06-10 00:03:49 sudo fdisk /dev/sda
+  566  2024-06-10 00:04:40 sudo unount /dev/sda1
+  567  2024-06-10 00:05:04 sudo umount /dev/sda1
+  568  2024-06-10 00:05:13 sudo fdisk /dev/sda
+  569  2024-06-10 00:05:56 sudo umount /dev/sda2
+  570  2024-06-10 00:06:00 sudo fdisk /dev/sda
+  571  2024-06-10 00:12:47 mkfs.ext4 /dev/sda1
+  572  2024-06-10 00:12:55 sudo mkfs.ext4 /dev/sda1
+  573  2024-06-10 00:13:16 lsblk
+  574  2024-06-10 00:13:26 df -T
+  575  2024-06-10 00:16:41 mkfs.ext4 --help
+  576  2024-06-10 00:22:20 mkfs.ext4 -help
+  577  2024-06-10 00:22:32 mkfs.ext4 -h
+  578  2024-06-10 00:23:42 man mkfs.ext4
+  579  2024-06-10 00:24:44 lsblk
+  580  2024-06-10 00:24:55 lsblk --help
+  581  2024-06-10 00:27:29 lsblk -o LABEL
+  582  2024-06-10 00:27:49 lsblk -a
+  583  2024-06-10 00:28:15 man lsblk
+  584  2024-06-10 00:29:35 lsblk -o
+  585  2024-06-10 00:29:48 man lsblk
+  586  2024-06-10 00:30:02 lsblk -O
+  587  2024-06-10 00:30:14 lsblk -O /dev/sda1
+  588  2024-06-10 00:30:29 man lsblk
+  589  2024-06-10 00:31:08 lsblk -o LABEL /dev/sda1
+  590  2024-06-10 00:31:19 lsblk -o LABEL -a
+  591  2024-06-10 00:32:09 lsblk
+  592  2024-06-10 00:32:43 mkfs.ext4 -L working /dev/sda1
+  593  2024-06-10 00:32:50 sudo mkfs.ext4 -L working /dev/sda1
+  594  2024-06-10 00:33:30 lsblk -o LABEL -a
+  595  2024-06-10 00:33:47 lsblk
+  596  2024-06-10 00:34:14 lsblk -o NAME LABEL
+  597  2024-06-10 00:34:34 lsblk -o NAME -o LABEL /dev/sda1
+  598  2024-06-10 00:34:51 cd ~
+  599  2024-06-10 00:34:53 ls
+  600  2024-06-10 00:36:01 ls /etc
+  601  2024-06-10 00:36:09 ls /etc/mtab
+  602  2024-06-10 00:36:16 less /etc/mtab
+  603  2024-06-10 00:37:16 mv working working.bak
+  604  2024-06-10 00:37:51 sudo mkfs.ext4 -L workspace /dev/sda1
+  605  2024-06-10 00:38:38 mv workspace workspace.bak
+  606  2024-06-10 00:38:46 mkdir workspace
+  607  2024-06-10 00:39:13 sudo mount /dev/sda1 workspace
+  608  2024-06-10 00:39:25 ls workspace
+  609  2024-06-10 00:39:47 rm -rf workspace/lost+found/
+  610  2024-06-10 00:39:54 sudo rm -rf workspace/lost+found/
+  611  2024-06-10 00:39:57 ls workspace
+  612  2024-06-10 00:40:30 cp -r workspace.bak workspace
+  613  2024-06-10 00:41:05 cp -r workspace.bak/* workspace/
+  614  2024-06-10 00:41:13 ls workspace
+  615  2024-06-10 00:41:38 ls -al workspace
+  616  2024-06-10 00:41:51 ls -al
+  617  2024-06-10 00:42:23 chown --help
+  618  2024-06-10 00:43:28 sudo chown spb:spb workspace
+  619  2024-06-10 00:43:32 ls -al
+  620  2024-06-10 00:44:28 chmod --help
+  621  2024-06-10 00:46:22 sudo chmod g+w workspace
+  622  2024-06-10 00:46:25 ls -al
+  623  2024-06-10 00:46:40 cp -r workspace.bak/* workspace/
+  624  2024-06-10 00:49:01 ls -al workspace
+  625  2024-06-10 00:49:14 df -h
+  626  2024-06-10 00:50:25 ls
+  627  2024-06-10 00:59:35 less /etc/fstab
+  628  2024-06-10 10:41:57 ls /etc/fstab
+  629  2024-06-10 10:42:03 less /etc/fstab
+  630  2024-06-10 10:42:13 cat /etc/fstab
+  631  2024-06-10 10:42:19 lsblk
+  632  2024-06-10 10:42:56 links2 -g &
+  633  2024-06-10 10:43:26 cat /etc/fstab
+  634  2024-06-10 10:43:29 lsblk
+  635  2024-06-10 10:44:06 ls workspace
+  636  2024-06-10 10:45:50 vim /etc/fstab
+  637  2024-06-10 10:54:48 sudo vim /etc/fstab
+  638  2024-06-10 10:55:56 cat /etc/fstab
+  639  2024-06-10 10:56:02 lsblk
+  640  2024-06-10 10:58:49 sudo umount /dev/sda1
+  641  2024-06-10 10:59:01 sudo mount -a
+  642  2024-06-10 10:59:21 mount | grep workspace
+  643  2024-06-10 11:02:17 sudo blkid
+  644  2024-06-10 11:02:59 cat /etc/fstab
+  645  2024-06-10 11:03:31 sudo vim /etc/fstab
+  646  2024-06-10 11:03:57 sudo umount /dev/sda1
+  647  2024-06-10 11:04:01 sudo vim /etc/fstab
+  648  2024-06-10 11:05:05 fg
+  649  2024-06-10 11:06:46 mount | grep workspace
+  650  2024-06-10 11:07:00 sudo mount -a
+  651  2024-06-10 11:07:04 mount | grep workspace
+  652  2024-06-10 11:16:05 cd workspace
+  653  2024-06-10 11:16:32 mkdir vmware
+  654  2024-06-10 13:32:05 cd ../temp
+  655  2024-06-10 13:32:10 ls -al
+  656  2024-06-10 13:32:22 cd practic
+  657  2024-06-10 13:32:28 cd practice/
+  658  2024-06-10 13:32:30 ls -al
+  659  2024-06-10 13:36:06 cd lists
+  660  2024-06-10 13:36:12 ls -al
+  661  2024-06-10 13:36:21 cd ..
+  662  2024-06-10 13:36:24 git log
+  663  2024-06-10 13:38:03 ls-al
+  664  2024-06-10 13:38:09 ls -al
+  665  2024-06-10 13:38:36 git remotes
+  666  2024-06-10 13:38:38 git remote
+  667  2024-06-10 13:39:10 git help remote
+  668  2024-06-10 13:39:28 git remote get-url
+  669  2024-06-10 13:39:42 git remote get-url --all
+  670  2024-06-10 13:40:05 git help remote
+  671  2024-06-10 13:40:56 git remote get-url origin
+  672  2024-06-10 14:56:32 ls
+  673  2024-06-10 15:12:07 vim bits/bits.c
+  674  2024-06-10 16:25:49 ls -al ~
+  675  2024-06-10 16:26:48 cd ~
+  676  2024-06-10 16:27:39 sudo chmod u-w shared
+  677  2024-06-10 16:28:00 ls -al ~
+  678  2024-06-10 16:28:14 sudo chmod u+w shared
+  679  2024-06-10 16:28:18 ls -al
+  680  2024-06-10 16:28:27 man ls
+  681  2024-06-10 16:29:19 man chmod
+  682  2024-06-10 16:30:13 sudo chmod o-w shared
+  683  2024-06-10 16:30:18 ls -al
+  684  2024-06-10 16:30:42 ls .linuxmint
+  685  2024-06-10 16:31:05 ls -al .linuxmint
+  686  2024-06-10 16:31:14 ls -al .linuxmint/mintupdate/
+  687  2024-06-10 16:31:32 less .linuxmint/mintupdate/updates.json 
+  688  2024-06-10 16:32:24 cat ~/.linuxmint/mintupdate/updates.json 
+  689  2024-06-10 16:32:39 sudo apt update
+  690  2024-06-10 16:32:45 cat ~/.linuxmint/mintupdate/updates.json 
+  691  2024-06-10 17:17:02 ls shared
+  692  2024-06-10 18:03:33 lstemp
+  693  2024-06-10 18:03:38 ls temp
+  694  2024-06-10 18:03:46 ls temp/practice
+  695  2024-06-10 18:03:53 ls temp/practice/lists
+  696  2024-06-10 18:04:29 set -o vi
+  697  2024-06-10 18:05:05 cd -o
+  698  2024-06-10 18:05:28 cd temp/practice
+  699  2024-06-10 18:05:34 ls
+  700  2024-06-10 18:05:46 cd lists
+  701  2024-06-10 18:05:48 ls
+  702  2024-06-10 18:05:57 ls sngl
+  703  2024-06-10 18:06:08 vim sngl/list.c
+  704  2024-06-11 02:38:33 make list
+  705  2024-06-11 02:39:08 source/list
+  706  2024-06-11 02:39:16 output/list
+  707  2024-06-11 15:10:34 make list
+  708  2024-06-11 15:12:52 source/list
+  709  2024-06-11 15:13:00 output/list
+  710  2024-06-11 16:20:06 make list
+  711  2024-06-11 16:20:50 output/list
+  712  2024-06-11 16:28:47 ls
+  713  2024-06-11 16:29:18 c d~/worspace
+  714  2024-06-11 16:29:26 cd ~/worspace
+  715  2024-06-11 16:29:41 cd ~/workspace
+  716  2024-06-11 16:29:44 ls
+  717  2024-06-11 16:30:37 ls tests
+  718  2024-06-11 16:30:41 ls test
+  719  2024-06-11 16:31:07 ls test/source
+  720  2024-06-11 16:31:31 cd test
+  721  2024-06-11 16:31:33 ls
+  722  2024-06-11 16:31:41 less makefile
+  723  2024-06-11 16:33:50 ls source
+  724  2024-06-12 17:07:07 exit
+  725  2024-06-14 14:57:00 links2 -g &
+  726  2024-06-14 15:13:44 set -o vi
+  727  2024-06-14 15:14:40 uptime
+  728  2024-06-14 15:18:12 free
+  729  2024-06-14 15:18:18 free -h
+  730  2024-06-14 15:20:51 
+  731  2024-06-14 15:21:06 :e
+  732  2024-06-14 15:38:54 cd temp/practice/lists
+  733  2024-06-14 15:38:55 ls
+  734  2024-06-14 15:39:08 vim sngl/list.c
+  735  2024-06-15 07:28:39 cd ..
+  736  2024-06-15 07:28:49 cd ~/workspace
+  737  2024-06-15 07:28:50 ls
+  738  2024-06-15 07:28:59 cd funcs
+  739  2024-06-15 07:29:01 ls
+  740  2024-06-15 07:29:20 ls -al
+  741  2024-06-15 07:29:33 cat h
+  742  2024-06-15 07:29:42 rm h
+  743  2024-06-15 07:29:46 cat h
+  744  2024-06-15 07:29:49 ls -al
+  745  2024-06-15 07:30:21 vim -S gvim.mks
+  746  2024-06-15 07:35:32 ctags
+  747  2024-06-15 07:35:38 ctags .
+  748  2024-06-15 07:35:40 ls
+  749  2024-06-15 07:35:44 fg
+  750  2024-06-15 07:44:09 ls
+  751  2024-06-15 07:47:25 vim -p funcs.c funcs_parse_functions.c vars_parse_functions.c symbol_table_functions.c common_parse_functions.c funcs.h funcs_parse_functions.h vars_parse_functions.h symbol_table_functions.h common_parse_functions.h symbol_target_structs.h vars.c
+  752  2024-06-15 07:49:11 vim -S funcs.mks
+  753  2024-06-15 16:24:04 exit
+  754  2024-06-13 17:42:34 links2 -g &
+  755  2024-06-13 17:53:57 ls /etc/rc
+  756  2024-06-13 17:54:07 ls /etc/
+  757  2024-06-13 17:54:41 ls /etc/rc0.d/K01
+  758  2024-06-13 17:54:47 ls /etc/rc1.d/
+  759  2024-06-13 17:55:23 ls /etc/rc2.d/
+  760  2024-06-13 17:56:17 ls /etc/rc3.d/
+  761  2024-06-13 17:56:29 ls /etc/rc4.d/
+  762  2024-06-13 17:56:36 ls /etc/rc5.d/
+  763  2024-06-13 17:56:59 ls /etc/rc6.d/
+  764  2024-06-13 17:57:08 ls /etc/rcS.d/
+  765  2024-06-13 17:57:55 man init
+  766  2024-06-14 15:40:11 cd temp/practice/lists
+  767  2024-06-14 17:40:40 make list
+  768  2024-06-14 17:43:56 output/list
+  769  2024-06-15 07:38:48 links2 -g &
+  770  2024-06-15 07:51:38 grep -In vars_parse_functions *.c
+  771  2024-06-15 07:51:54 cd ~/workspace/funcs
+  772  2024-06-15 07:51:56 grep -In vars_parse_functions *.c
+  773  2024-06-15 07:52:39 grep -In funcs_parse_functions *.c
+  774  2024-06-15 07:57:51 vim 
+  775  2024-06-15 07:59:00 ls
+  776  2024-06-15 08:02:26 ls -al
+  777  2024-06-15 08:02:38 ls .vscode
+  778  2024-06-15 08:03:25 vimdiff launch.json .vscode/launch.json 
+  779  2024-06-15 08:04:18 rm launch.json 
+  780  2024-06-15 08:05:22 make funcs
+  781  2024-06-15 08:05:47 ./funcs funcs.c
+  782  2024-06-15 08:05:52 ls
+  783  2024-06-15 08:07:46 ls obj
+  784  2024-06-15 08:09:13 make
+  785  2024-06-15 08:09:26 ls
+  786  2024-06-15 08:10:50 make
+  787  2024-06-15 09:06:56 vim tags
+  788  2024-06-15 09:07:15 ctags
+  789  2024-06-15 09:07:24 ctags --help
+  790  2024-06-15 09:09:20 ctags -h ".h" *
+  791  2024-06-15 09:09:26 vim tags
+  792  2024-06-15 10:37:12 vim
+  793  2024-06-15 16:24:11 exit
+  794  2024-06-15 12:49:11 /main
+  795  2024-06-15 08:09:59 cd "/home/spb/workspace/funcs/" && gcc funcs.c -o funcs && "/home/spb/workspace/funcs/"funcs
+  796  2024-06-16 07:25:01 exit
+  797  2024-06-15 20:23:29 1
+  798  2024-06-16 02:54:37 :30
+  799  2024-06-16 19:58:29 cd workspace/funcs
+  800  2024-06-16 19:58:40 make
+  801  2024-06-16 19:58:50 ./funcs funcs.c
+  802  2024-06-16 20:00:02 :tabe
+  803  2024-06-16 20:00:30 set -o vi
+  804  2024-06-16 20:00:54 cd workspace/funcs
+  805  2024-06-16 20:01:04 ./funcs funcs.c
+  806  2024-06-16 20:01:23 gdb funcs
+  807  2024-06-15 17:36:42 cd workspace/funcs
+  808  2024-06-15 17:37:15 vim -p funcs.c vars.c
+  809  2024-06-17 11:24:38 exit
+  810  2024-06-15 20:02:44 ./funcs read_data
+  811  2024-06-15 20:03:11 ./funcs funcs.c
+  812  2024-06-15 20:15:50 make
+  813  2024-06-15 20:15:55 ./funcs funcs.c
+  814  2024-06-15 20:18:09 make
+  815  2024-06-15 20:18:11 ./funcs funcs.c
+  816  2024-06-16 03:04:28 make
+  817  2024-06-16 03:04:33 ./funcs funcs.c
+  818  2024-06-16 03:17:43 vim makefile
+  819  2024-06-16 03:18:08 make vars
+  820  2024-06-16 03:18:11 ls
+  821  2024-06-16 03:18:23 ./vars read_data
+  822  2024-06-16 03:21:29 gdb vars
+  823  2024-06-16 03:23:14 links2 -g &
+  824  2024-06-16 03:26:44 gdb vars
+  825  2024-06-16 06:35:00 make
+  826  2024-06-16 06:35:09 ./vars read_data
+  827  2024-06-16 06:40:17 gdb vars
+  828  2024-06-16 06:47:24 run
+  829  2024-06-16 06:47:29 gdb vars
+  830  2024-06-16 07:00:59 make
+  831  2024-06-16 07:01:10 ./vars read_data
+  832  2024-06-16 08:16:33 make
+  833  2024-06-16 08:16:38 ./vars read_data
+  834  2024-06-16 08:20:58 make vars
+  835  2024-06-16 08:21:02 ./vars read_data
+  836  2024-06-16 08:23:06 make vars
+  837  2024-06-16 08:23:08 ./vars read_data
+  838  2024-06-16 08:29:07 links2 -g &
+  839  2024-06-16 08:38:11 make
+  840  2024-06-16 08:38:25 ./funcs funcs.c
+  841  2024-06-16 08:47:53 vim makefile
+  842  2024-06-16 09:19:27 make
+  843  2024-06-16 09:34:13 make vars
+  844  2024-06-16 09:46:18 make
+  845  2024-06-16 09:46:25 ./funcs funcs.c
+  846  2024-06-16 10:03:31 make
+  847  2024-06-16 10:03:37 make vars
+  848  2024-06-16 10:03:40 ./funcs funcs.c
+  849  2024-06-16 10:28:42 make vars
+  850  2024-06-16 10:28:47 make
+  851  2024-06-16 10:29:33 ./vars read_data
+  852  2024-06-16 11:55:23 make vars
+  853  2024-06-16 11:58:50 ./vars read_data
+  854  2024-06-16 12:01:51 make vars
+  855  2024-06-16 12:01:53 ./vars read_data
+  856  2024-06-16 12:07:01 man strstr
+  857  2024-06-16 12:15:06 make vars
+  858  2024-06-16 12:21:13 man strstr
+  859  2024-06-16 12:23:18 make vars
+  860  2024-06-16 12:33:47 ./vars read_data
+  861  2024-06-16 12:34:23 make vars
+  862  2024-06-16 12:34:25 ./vars read_data
+  863  2024-06-16 12:35:06 git status
+  864  2024-06-16 12:35:53 gitadd funcs.c symbol_table_functions.c symbol_target_structs.h vars_parse_functions.c
+  865  2024-06-16 12:36:01 git add funcs.c symbol_table_functions.c symbol_target_structs.h vars_parse_functions.c
+  866  2024-06-16 12:36:04 git status
+  867  2024-06-16 12:37:04 git commit -m "vars: parse fixes and general cleanup."
+  868  2024-06-16 12:37:08 git push
+  869  2024-06-16 12:37:31 ./vars read_data
+  870  2024-06-16 12:42:09 make vars
+  871  2024-06-16 12:42:12 ./vars read_data
+  872  2024-06-16 12:43:41 make vars
+  873  2024-06-16 12:43:42 ./vars read_data
+  874  2024-06-16 12:45:44 make vars
+  875  2024-06-16 12:45:45 ./vars read_data
+  876  2024-06-16 12:48:00 make vars
+  877  2024-06-16 12:48:02 ./vars read_data
+  878  2024-06-16 12:49:08 make
+  879  2024-06-16 12:49:18 ./funcs funcs.c
+  880  2024-06-16 12:52:42 make
+  881  2024-06-16 12:52:43 ./funcs funcs.c
+  882  2024-06-16 12:53:43 git status
+  883  2024-06-16 12:54:09 git add funcs.c vars_parse_functions.c 
+  884  2024-06-16 12:54:11 git status
+  885  2024-06-16 12:55:00 git commit -m "funcs: add the vars target_name during symbol search."
+  886  2024-06-16 12:55:05 git push
+  887  2024-06-16 12:55:14 ./funcs funcs.c
+  888  2024-06-16 12:56:05 vim funcs.c +103
+  889  2024-06-16 12:56:17 ./funcs funcs.c
+  890  2024-06-16 12:58:58 make
+  891  2024-06-16 12:59:01 ./funcs funcs.c
+  892  2024-06-16 13:07:01 make vars
+  893  2024-06-16 13:07:16 ./vars READ_BUSIZE
+  894  2024-06-16 13:45:41 coredumpctl list
+  895  2024-06-16 13:46:03 coredumpctl 21387
+  896  2024-06-16 13:46:28 coredumpctl debug 21387
+  897  2024-06-16 13:47:20 coredumpctl list
+  898  2024-06-16 13:47:39 coredumpctl debug 21331
+  899  2024-06-16 13:47:43 coredumpctl list
+  900  2024-06-16 13:48:01 coredumpctl debug 36909
+  901  2024-06-16 13:49:09 ./funcs funcs.c
+  902  2024-06-16 13:49:22 coredumpctl list
+  903  2024-06-16 13:49:34 coredumpctl debug 37313
+  904  2024-06-16 13:52:16 ./funcs funcs.c
+  905  2024-06-16 13:52:44 grep -In VAR_LEN
+  906  2024-06-16 13:52:50 grep -In VAR_LEN *
+  907  2024-06-16 13:53:39 ./funcs funcs_parse_functions.c
+  908  2024-06-16 13:54:21 coredumpctl list
+  909  2024-06-16 13:54:34 coredumpctl debug 37554
+  910  2024-06-16 14:00:56 grep -In VAR_LEN *
+  911  2024-06-16 14:02:50 grep -RIn VAR_LEN *
+  912  2024-06-16 14:14:54 ctags --help
+  913  2024-06-16 15:25:47 man sring.h
+  914  2024-06-16 15:25:53 man string.h
+  915  2024-06-16 15:25:58 man string
+  916  2024-06-16 16:29:56 man gcc
+  917  2024-06-16 16:31:38 gcc -E funcs.c
+  918  2024-06-16 16:31:46 gcc -E funcs.c | grep read_data
+  919  2024-06-16 16:33:17 cat funcs.c | grep read_data
+  920  2024-06-16 16:40:14 grep -IRn VAR_LEN
+  921  2024-06-16 16:41:00 grep -IRn read_data
+  922  2024-06-16 16:41:44 grep -IRn read_data | cut -f 0 -d ':'
+  923  2024-06-16 16:41:54 cut--help
+  924  2024-06-16 16:42:00 cut --help
+  925  2024-06-16 16:42:27 grep -IRn read_data | cut -f 1 -d ':'
+  926  2024-06-16 16:42:54 grep -IRn read_data | cut -f 1 -d ':' | uniq
+  927  2024-06-16 16:43:26 grep -IRn read_data | cut -f 1 -d ':' | uniq | xagrs gcc -E
+  928  2024-06-16 16:43:35 grep -IRn read_data | cut -f 1 -d ':' | uniq | xargs gcc -E
+  929  2024-06-16 16:44:05 grep -IRn read_data | cut -f 1 -d ':' | uniq | xargs gcc -E | grep read_data
+  930  2024-06-16 17:15:25 `
+  931  2024-06-16 17:15:52 ./vars symbol_filename
+  932  2024-06-16 17:16:17 gdb vars
+  933  2024-06-16 17:20:34 ls ..
+  934  2024-06-16 17:20:46 ls ~/temp
+  935  2024-06-16 17:21:03 ls ../notes
+  936  2024-06-16 17:21:11 less ../notes/cmdlines 
+  937  2024-06-16 17:21:46 gdb vars
+  938  2024-06-16 17:37:47 ls ../notes
+  939  2024-06-16 17:37:58 vim ../notes/gdb
+  940  2024-06-16 17:49:01 history
+  941  2024-06-16 17:50:26 vim ../notes/cmdlines 
+  942  2024-06-16 19:10:18 gcc -E funcs.c
+  943  2024-06-16 19:10:48 gcc -E funcs.c | grep read_data
+  944  2024-06-16 19:13:51 gcc -E funcs.c | ctags --sort=no --c-kinds=+p --fi    lter=yes --fields=nk
+  945  2024-06-16 19:14:12 gcc -E funcs.c | ctags --sort=no --c-kinds=+p --filter=yes --fields=nk
+  946  2024-06-16 19:14:33 gcc -E funcs.c > ctags --sort=no --c-kinds=+p --filter=yes --fields=nk
+  947  2024-06-16 19:15:03 gcc -E funcs.c | ctags --filter=yes
+  948  2024-06-16 19:17:08 set -o vi
+  949  2024-06-16 19:17:29 gcc -E funcs.c > temp 
+  950  2024-06-16 19:17:50 echo temp | ctags --filter=yes
+  951  2024-06-16 19:18:03 cat temp
+  952  2024-06-16 19:18:18 echo funcs.c | ctags --filter=yes
+  953  2024-06-16 19:18:33 echo temp | ctags --filter=yes
+  954  2024-06-16 19:19:10 echo temp | ctags --filter=yes --fields=nk
+  955  2024-06-16 19:19:33 echo temp
+  956  2024-06-16 19:20:03 less temp
+  957  2024-06-16 19:20:39 rm temp
+  958  2024-06-16 19:20:45 make
+  959  2024-06-16 19:20:57 ./funcs funcs.c
+  960  2024-06-16 19:21:12 gcc -E funcs.c > temp 
+  961  2024-06-16 19:21:17 ./funcs temp
+  962  2024-06-16 19:21:42 rm temp
+  963  2024-06-16 21:34:29 cd ..
+  964  2024-06-16 21:34:31 ls
+  965  2024-06-16 21:34:42 cd funcs_py
+  966  2024-06-16 21:34:45 ls
+  967  2024-06-16 21:35:15 vim -S funcs_py.mks
+  968  2024-06-16 22:20:48 vim tags
+  969  2024-06-16 22:21:33 cd-
+  970  2024-06-16 22:21:37 cd -
+  971  2024-06-16 22:21:42 cd funcs
+  972  2024-06-16 22:21:51 vim tags
+  973  2024-06-16 22:22:39 ctags *
+  974  2024-06-16 22:22:43 vim tags
+  975  2024-06-16 22:23:31 man gcc
+  976  2024-06-16 22:31:21 gcc -E funcs.c -o temp
+  977  2024-06-16 22:31:27 vim temp
+  978  2024-06-16 22:32:18 gcc -EM funcs.c
+  979  2024-06-16 22:32:24 gcc -E -M funcs.c
+  980  2024-06-16 22:32:46 fg
+  981  2024-06-16 22:36:51 gcc -M funcs.c
+  982  2024-06-16 22:36:56 fg
+  983  2024-06-16 22:37:25 gcc -MM funcs.c
+  984  2024-06-16 22:37:37 gcc -MM -E funcs.c
+  985  2024-06-16 22:37:40 fg
+  986  2024-06-16 22:41:34 gcc -MM funcs.c
+  987  2024-06-16 22:41:37 fg
+  988  2024-06-16 22:43:14 gcc -fpreprocessed -E funcs.c
+  989  2024-06-16 22:43:39 gcc -fpreprocessed funcs.c
+  990  2024-06-16 22:43:55 gcc -fpreprocessed -E funcs.c | grep read_data
+  991  2024-06-16 22:44:09 gcc -fpreprocessed -E funcs.c | grep VAR_LEN
+  992  2024-06-16 22:44:52 gcc -fpreprocessed -E funcs.c -o temp
+  993  2024-06-16 22:45:00 ./funcs temp
+  994  2024-06-16 22:50:05 echo funcs.c | ctags --filter=yes
+  995  2024-06-16 22:50:18 echo temp | ctags --filter=yes
+  996  2024-06-16 22:50:31 vim temp
+  997  2024-06-16 22:51:50 echo temp | ctags --filter=yes
+  998  2024-06-16 22:52:05 echo funcs.c | ctags --filter=yes
+  999  2024-06-16 22:52:14 vim temp
+ 1000  2024-06-16 22:52:30 echo temp.c | ctags --filter=yes
+ 1001  2024-06-16 22:53:20 gcc -fpreprocessed -E funcs.c -o temp.c
+ 1002  2024-06-16 22:53:24 echo temp.c | ctags --filter=yes
+ 1003  2024-06-16 22:54:56 echo temp.c | ctags --filter=yes --c-kinds=+p
+ 1004  2024-06-16 22:55:24 echo temp.c | ctags --filter=yes --c-kinds=+p --fields=nk
+ 1005  2024-06-16 22:56:14 gcc -fpreprocessed -E funcs_parse_functions.c -o temp.c
+ 1006  2024-06-16 22:56:18 echo temp.c | ctags --filter=yes --c-kinds=+p --fields=nk
+ 1007  2024-06-16 22:57:05 ./funcs temp.c
+ 1008  2024-06-16 22:57:46 gcc -fpreprocessed -E funcs_parse_functions.c -o temp.pp
+ 1009  2024-06-16 22:57:57 echo temp.pp | ctags --filter=yes --c-kinds=+p --fields=nk
+ 1010  2024-06-16 22:58:29 echo temp.c | ctags --filter=yes --c-kinds=+p --fields=nk
+ 1011  2024-06-16 22:58:48 ./funcs temp.c
+ 1012  2024-06-16 22:59:46 coredumpctl list
+ 1013  2024-06-16 23:00:09 coredumpctl debug 57573
+ 1014  2024-06-16 23:00:55 make
+ 1015  2024-06-16 23:01:04 ./funcs temp.c
+ 1016  2024-06-16 23:01:56 gcc -fpreprocessed -E funcs.c -o temp.c
+ 1017  2024-06-16 23:02:00 ./funcs temp.c
+ 1018  2024-06-16 23:02:46 vim temp.c
+ 1019  2024-06-16 23:05:05 gcc -fpreprocessed -E funcs_parse_functions.c -o temp.pp
+ 1020  2024-06-16 23:05:09 gcc -fpreprocessed -E funcs_parse_functions.c -o temp.c
+ 1021  2024-06-16 23:05:24 vim temp.c
+ 1022  2024-06-16 23:05:35 ./funcs temp.c
+ 1023  2024-06-16 23:06:49 gcc -fpreprocessed -E funcs_parse_functions.c -o output/temp.c
+ 1024  2024-06-16 23:06:57 mkdir output
+ 1025  2024-06-16 23:07:00 gcc -fpreprocessed -E funcs_parse_functions.c -o output/temp.c
+ 1026  2024-06-16 23:07:13 ./funcs output/temp.c
+ 1027  2024-06-16 23:27:57 ./funcs funcs.c
+ 1028  2024-06-16 23:29:23 make
+ 1029  2024-06-16 23:29:26 ./funcs funcs.c
+ 1030  2024-06-16 23:31:17 make
+ 1031  2024-06-16 23:31:19 ./funcs funcs.c
+ 1032  2024-06-16 23:31:40 ./funcs funcs_parse_functions.c
+ 1033  2024-06-16 23:33:05 rm -r output
+ 1034  2024-06-16 23:33:08 ./funcs funcs_parse_functions.c
+ 1035  2024-06-16 23:33:36 rm temp.c
+ 1036  2024-06-16 23:33:38 ./funcs funcs_parse_functions.c
+ 1037  2024-06-16 23:34:22 ls *.c
+ 1038  2024-06-16 23:34:43 ./funcs symbol_table_functions.c
+ 1039  2024-06-16 23:35:30 ./vars symbol_table
+ 1040  2024-06-16 23:36:44 make vars
+ 1041  2024-06-16 23:36:47 make
+ 1042  2024-06-16 23:36:50 ./vars symbol_table
+ 1043  2024-06-16 23:37:23 grep --help
+ 1044  2024-06-16 23:38:03 grep -w symbol_table*
+ 1045  2024-06-16 23:38:16 grep -w symbol_table *
+ 1046  2024-06-16 23:38:23 ./vars symbol_table
+ 1047  2024-06-16 23:39:05 grep -In grep *
+ 1048  2024-06-16 23:39:56 make
+ 1049  2024-06-16 23:40:00 make vars
+ 1050  2024-06-16 23:40:06 ./vars symbol_table
+ 1051  2024-06-16 23:40:47 ./vars symbol_def
+ 1052  2024-06-16 23:42:23 grep -Inw symbol_def *
+ 1053  2024-06-16 23:42:49 grep -Inw --exclude=tags symbol_def *
+ 1054  2024-06-16 23:43:33 ./vars symbol_def_t
+ 1055  2024-06-16 23:44:52 grep -Inw --exclude=tags symbol_def *
+ 1056  2024-06-16 23:45:23 ./funcs symbol_target_structs.h
+ 1057  2024-06-16 23:46:58 make
+ 1058  2024-06-16 23:47:02 make vars
+ 1059  2024-06-16 23:47:08 ./funcs symbol_target_structs.h
+ 1060  2024-06-16 23:49:00 git status
+ 1061  2024-06-16 23:49:48 git add funcs.c vars_parse_functions.c funcs_parse_functions.c
+ 1062  2024-06-16 23:50:52 git commit -m "funcs: add more symbol types to show."
+ 1063  2024-06-16 23:50:58 git push
+ 1064  2024-06-16 23:51:05 ./funcs symbol_target_structs.h
+ 1065  2024-06-16 23:52:46 ./vars funcs_symbol_table_head
+ 1066  2024-06-16 23:54:19 ./funcs funcs_parse_functions
+ 1067  2024-06-16 23:54:45 ./funcs funcs_parse_functions.c
+ 1068  2024-06-17 00:05:41 make vars
+ 1069  2024-06-17 00:05:46 make
+ 1070  2024-06-17 00:05:49 ./funcs funcs_parse_functions.c
+ 1071  2024-06-17 00:06:59 ./vars skip_function
+ 1072  2024-06-17 00:07:44 ./funcs skip_function
+ 1073  2024-06-17 00:13:43 make vars
+ 1074  2024-06-17 00:14:52 ./funcs skip_function
+ 1075  2024-06-17 00:15:00 ./vars skip_function
+ 1076  2024-06-17 00:19:31 make vars
+ 1077  2024-06-17 00:19:52 make
+ 1078  2024-06-17 00:19:56 ./vars skip_function
+ 1079  2024-06-17 00:38:50 make
+ 1080  2024-06-17 00:38:53 make vars
+ 1081  2024-06-17 00:38:56 ./vars skip_function
+ 1082  2024-06-17 00:40:43 git status
+ 1083  2024-06-17 00:40:51 git add funcs.c
+ 1084  2024-06-17 00:41:19 git commit -m "wip."
+ 1085  2024-06-17 00:41:24 git push
+ 1086  2024-06-17 00:43:38 grep -In run_parse *
+ 1087  2024-06-17 00:45:29 make vars
+ 1088  2024-06-17 00:46:22 make
+ 1089  2024-06-17 00:46:27 ./vars skip_function
+ 1090  2024-06-17 00:50:29 make
+ 1091  2024-06-17 00:50:32 make vars
+ 1092  2024-06-17 00:50:34 ./vars skip_function
+ 1093  2024-06-17 00:51:13 make vars
+ 1094  2024-06-17 00:51:16 ./vars skip_function
+ 1095  2024-06-17 00:51:35 make vars
+ 1096  2024-06-17 00:51:37 ./vars skip_function
+ 1097  2024-06-17 02:42:44 git status
+ 1098  2024-06-17 02:42:49 git diff
+ 1099  2024-06-17 02:44:07 git status
+ 1100  2024-06-17 02:44:25 git add funcs.c
+ 1101  2024-06-17 02:45:36 git commit -m "Set the parse target in the parse function struct."
+ 1102  2024-06-17 02:45:41 git push
+ 1103  2024-06-17 02:45:54 ./vars skip_function
+ 1104  2024-06-17 02:46:21 ./funcs funcs
+ 1105  2024-06-17 02:46:25 ./funcs funcs.c
+ 1106  2024-06-17 02:46:46 ./vars VA
+ 1107  2024-06-17 02:50:08 gitstatus
+ 1108  2024-06-17 02:50:16 gut status
+ 1109  2024-06-17 02:50:22 git status
+ 1110  2024-06-17 02:51:08 make
+ 1111  2024-06-17 02:51:15 make vars
+ 1112  2024-06-17 02:51:28 ./vars skip_function
+ 1113  2024-06-17 02:52:11 ./funcs funcs_parse_functions.c
+ 1114  2024-06-17 03:03:25 make
+ 1115  2024-06-17 03:03:53 make vars
+ 1116  2024-06-17 03:04:00 ./funcs funcs_parse_functions.c
+ 1117  2024-06-17 03:04:21 ./vars skip_function
+ 1118  2024-06-17 11:24:40 fg
+ 1119  2024-06-17 11:25:00 exit
+ 1120  2024-06-17 19:03:00 ./funcs func_parse_functions.c
+ 1121  2024-06-17 19:03:09 ./funcs funcs_parse_functions.c
+ 1122  2024-06-20 03:14:56 set -o vi
+ 1123  2024-06-20 07:06:27 ls
+ 1124  2024-06-20 07:13:35 cd dellwork
+ 1125  2024-06-20 07:13:43 cd dell_work/
+ 1126  2024-06-20 07:13:46 ls
+ 1127  2024-06-20 07:14:40 less funcs_out
+ 1128  2024-06-20 07:15:27 vim packages/fc/fc_cmds.c
+ 1129  2024-06-20 07:16:27 ls
+ 1130  2024-06-20 07:16:55 less func_list.json
+ 1131  2024-06-20 07:17:11 ls -al 
+ 1132  2024-06-20 07:17:46 cd ..
+ 1133  2024-06-20 07:17:48 ls
+ 1134  2024-06-20 07:18:40 gvim -d funcs.py ~/workspace/funcs_py/funcs.py
+ 1135  2024-06-20 07:20:18 diff funcs.py ~/workspace/funcs_py/funcs.py
+ 1136  2024-06-20 07:20:30 diff funcs.py ~/workspace/funcs_py/funcs.py | less
+ 1137  2024-06-20 07:22:37 python3 ~/workspace/funcs_py/funcs.py packages/fc/fc_cmds.c
+ 1138  2024-06-20 07:22:51 ls
+ 1139  2024-06-20 07:23:54 python3 ~/workspace/funcs_py/funcs.py dell_work/packages/fc/fc_cmds.c
+ 1140  2024-06-20 07:24:10 python3 ~/workspace/funcs_py/funcs.py ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1141  2024-06-20 07:24:30 vom ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1142  2024-06-20 07:24:37 vim ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1143  2024-06-20 07:25:04 cd ~/workspace/funcs_py
+ 1144  2024-06-20 07:26:16 python3 funcs.py ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1145  2024-06-20 07:26:46 cd ../funcs
+ 1146  2024-06-20 07:26:49 ls
+ 1147  2024-06-20 07:27:01 funcs ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1148  2024-06-20 07:27:05 ./funcs ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1149  2024-06-20 07:28:01 funcs ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1150  2024-06-20 07:28:06 ./funcs ~/temp/pymake/dell_work/packages/fc/fc_cmds.c
+ 1151  2024-06-20 07:34:03 help ln
+ 1152  2024-06-20 07:34:11 ln --help
+ 1153  2024-06-20 07:35:11 ln -s ~/temp/pymake/dell_work/ dell_work
+ 1154  2024-06-20 07:35:14 ls -al
+ 1155  2024-06-20 07:35:32 ./funcs dell_work/packages/fc/fc_cmds.c
+ 1156  2024-06-20 07:39:10 cd ../funcs_py
+ 1157  2024-06-20 07:39:14 ln -s ~/temp/pymake/dell_work/ dell_work
+ 1158  2024-06-20 07:39:42 python3 funcs.py funcs dell_work/packages/fc/fc_cmds.c
+ 1159  2024-06-20 07:40:11 python3 funcs.py dell_work/packages/fc/fc_cmds.c
+ 1160  2024-06-20 07:41:35 cd -
+ 1161  2024-06-20 07:41:50 ./vars do_fc_cmd
+ 1162  2024-06-20 07:41:59 ./funcs dell_work/packages/fc/fc_cmds.c
+ 1163  2024-06-20 07:45:16 cd ~
+ 1164  2024-06-20 07:45:19 ls
+ 1165  2024-06-20 07:45:23 cd shared
+ 1166  2024-06-20 07:45:25 ls
+ 1167  2024-06-20 07:45:32 ln -s ~/temp/pymake/dell_work/ dell_work
+ 1168  2024-06-20 07:53:14 exit
+ 1169  2024-06-17 13:40:53 cd workspace/funcs
+ 1170  2024-06-17 13:41:01 ls
+ 1171  2024-06-17 13:41:15 vim -S funcs.mks
+ 1172  2024-06-18 03:57:05 ls ~
+ 1173  2024-06-18 03:57:13 ls ~/shared/
+ 1174  2024-06-18 03:57:21 ls -al
+ 1175  2024-06-18 03:57:47 ls -al .vscode/
+ 1176  2024-06-18 03:58:11 cp funcs.code-workspace ~/shared
+ 1177  2024-06-18 03:58:29 cp -r .vscode/ ~/shared
+ 1178  2024-06-18 03:58:39 ls ~/shared/
+ 1179  2024-06-18 03:59:09 ls -al ~/shared/
+ 1180  2024-06-18 09:32:47 git status
+ 1181  2024-06-18 09:32:51 gti pull
+ 1182  2024-06-18 09:32:56 git pull
+ 1183  2024-06-18 09:33:07 make
+ 1184  2024-06-18 09:33:22 ./funcs funcs_parse_functions.c
+ 1185  2024-06-18 09:35:57 ./vars skip_function
+ 1186  2024-06-18 16:52:34 vim funcs.c
+ 1187  2024-06-20 06:30:41 cd ../funcs_py/
+ 1188  2024-06-20 06:31:49 ls
+ 1189  2024-06-20 06:33:39 vim -S funcs_py.mks
+ 1190  2024-06-20 07:53:32 exit
+ 1191  2024-06-17 13:45:06 make
+ 1192  2024-06-17 13:45:18 ./vars skip_function
+ 1193  2024-06-17 14:02:55 make vars
+ 1194  2024-06-17 14:02:57 ./vars skip_function
+ 1195  2024-06-17 14:06:28 make vars
+ 1196  2024-06-17 14:06:30 ./vars skip_function
+ 1197  2024-06-17 14:07:48 make vars
+ 1198  2024-06-17 14:07:50 ./vars skip_function
+ 1199  2024-06-17 14:12:15 make vars
+ 1200  2024-06-17 14:13:38 ./vars skip_function
+ 1201  2024-06-17 14:22:55 man exec
+ 1202  2024-06-17 18:15:40 make vars
+ 1203  2024-06-17 18:16:15 ./vars skip_function
+ 1204  2024-06-17 18:17:22 make
+ 1205  2024-06-17 18:17:49 ./funcs funcs_parse_functions.c
+ 1206  2024-06-17 19:06:43 make
+ 1207  2024-06-17 19:06:46 ./funcs funcs_parse_functions.c
+ 1208  2024-06-18 02:29:37 make
+ 1209  2024-06-18 02:29:40 ./funcs funcs_parse_functions.c
+ 1210  2024-06-18 02:31:52 make
+ 1211  2024-06-18 02:31:54 ./funcs funcs_parse_functions.c
+ 1212  2024-06-18 02:33:35 git status
+ 1213  2024-06-18 02:34:19 git add funcs.c vars_parse_functions.c funcs_parse_functions.c
+ 1214  2024-06-18 02:35:58 git commit -m "Added the call to vim."
+ 1215  2024-06-18 02:36:02 git oush
+ 1216  2024-06-18 02:36:09 git push
+ 1217  2024-06-18 02:36:58 cat ../vimconfig/vimrc
+ 1218  2024-06-18 02:53:47 ./funcs funcs_parse_functions.c
+ 1219  2024-06-18 02:54:30 vim --help
+ 1220  2024-06-18 02:56:23 man vim
+ 1221  2024-06-18 02:58:08 ./funcs funcs_parse_functions.c
+ 1222  2024-06-18 02:59:21 make
+ 1223  2024-06-18 02:59:25 ./funcs funcs_parse_functions.c
+ 1224  2024-06-18 03:01:47 make
+ 1225  2024-06-18 03:01:49 ./funcs funcs_parse_functions.c
+ 1226  2024-06-18 03:03:47 cat ../vimconfig/vimrc
+ 1227  2024-06-18 03:09:32 make
+ 1228  2024-06-18 03:13:56 coredumpctl list
+ 1229  2024-06-18 03:14:26 coredumpctl debug 25963
+ 1230  2024-06-18 03:16:44 make
+ 1231  2024-06-18 03:31:04 ./funcs funcs_parse_functions.c
+ 1232  2024-06-18 03:32:43 make
+ 1233  2024-06-18 03:32:46 ./funcs funcs_parse_functions.c
+ 1234  2024-06-18 03:40:56 make
+ 1235  2024-06-18 03:41:09 ./funcs funcs_parse_functions.c
+ 1236  2024-06-18 03:41:42 git status
+ 1237  2024-06-18 03:42:22 git add funcs.c symbol_table_functions.c
+ 1238  2024-06-18 03:43:15 git commit -m "Changed symbol table indexes to start at 1."
+ 1239  2024-06-18 03:43:20 git push
+ 1240  2024-06-18 19:43:15 git pull
+ 1241  2024-06-18 20:03:44 make
+ 1242  2024-06-18 20:03:50 ./funcs funcs_parse_functions.c
+ 1243  2024-06-18 20:04:43 ./vars skip_function
+ 1244  2024-06-18 20:19:38 make
+ 1245  2024-06-18 20:20:28 ./vars skip_function
+ 1246  2024-06-18 20:20:38 ./funcs funcs_parse_functions.c
+ 1247  2024-06-18 20:25:11 make
+ 1248  2024-06-18 20:25:22 ./vars skip_function
+ 1249  2024-06-18 20:25:27 ./funcs funcs_parse_functions.c
+ 1250  2024-06-18 20:41:10 make
+ 1251  2024-06-18 20:43:18 ./funcs funcs_parse_functions.c
+ 1252  2024-06-18 20:43:28 ./vars skip_function
+ 1253  2024-06-18 20:47:03 git status
+ 1254  2024-06-18 20:47:16 git add funcs.c
+ 1255  2024-06-18 20:48:06 git commit -m "clean and simplify."
+ 1256  2024-06-18 20:48:14 git push
+ 1257  2024-06-19 01:32:37 git status
+ 1258  2024-06-19 03:20:04 git pull
+ 1259  2024-06-19 03:23:13 make
+ 1260  2024-06-19 03:23:23 ./funcs funcs_parse_functions.c
+ 1261  2024-06-19 03:23:43 ./vars skip_function
+ 1262  2024-06-19 03:39:44 make
+ 1263  2024-06-19 03:39:53 ./funcs funcs.c
+ 1264  2024-06-19 03:44:50 git diff
+ 1265  2024-06-19 03:45:39 git add
+ 1266  2024-06-19 03:45:47 git add funcs.c
+ 1267  2024-06-19 03:46:38 git commit -m "Remove redundant puncs_ptr assignment, added comment."
+ 1268  2024-06-19 03:46:43 git push
+ 1269  2024-06-19 03:51:21 git status
+ 1270  2024-06-19 03:51:33 git add funcs.c
+ 1271  2024-06-19 03:52:15 git commit -m "Remove trailing spaces."
+ 1272  2024-06-19 03:52:21 git push
+ 1273  2024-06-19 04:14:22 git diff
+ 1274  2024-06-19 04:25:47 ./vars deallocate_function
+ 1275  2024-06-19 04:26:05 ./vars dealloc_function
+ 1276  2024-06-19 07:26:38 git status
+ 1277  2024-06-19 07:26:45 git diff
+ 1278  2024-06-19 07:32:28 make
+ 1279  2024-06-19 07:32:35 ./vars dealloc_function
+ 1280  2024-06-19 07:38:12 make
+ 1281  2024-06-19 07:39:27 ./vars dealloc_function
+ 1282  2024-06-19 08:18:21 make
+ 1283  2024-06-19 08:18:24 ./vars dealloc_function
+ 1284  2024-06-19 08:28:06 make
+ 1285  2024-06-19 08:28:12 ./vars
+ 1286  2024-06-19 08:28:56 make
+ 1287  2024-06-19 08:28:57 ./vars
+ 1288  2024-06-19 08:29:05 ./funcs
+ 1289  2024-06-19 08:29:18 ./funcs funcs.c
+ 1290  2024-06-19 08:32:05 make
+ 1291  2024-06-19 08:32:08 ./funcs funcs.c
+ 1292  2024-06-19 08:34:53 make
+ 1293  2024-06-19 08:35:15 ./funcs funcs.c
+ 1294  2024-06-19 08:37:04 make
+ 1295  2024-06-19 08:37:17 ./funcs funcs_parse_functions.c
+ 1296  2024-06-19 09:23:15 git status
+ 1297  2024-06-19 09:23:43 git diff vars_parse_functions.c
+ 1298  2024-06-19 09:28:59 make
+ 1299  2024-06-19 09:29:07 ./funcs funcs.c
+ 1300  2024-06-19 09:29:40 make
+ 1301  2024-06-19 09:29:42 ./funcs funcs.c
+ 1302  2024-06-19 10:19:15 make
+ 1303  2024-06-19 10:19:18 ./funcs funcs.c
+ 1304  2024-06-19 10:25:27 man getline
+ 1305  2024-06-19 10:47:50 ./vars append_symbol_table
+ 1306  2024-06-19 11:14:49 make
+ 1307  2024-06-19 11:14:52 ./vars append_symbol_table
+ 1308  2024-06-19 11:15:11 git status
+ 1309  2024-06-19 11:15:35 git add funcs.c vars_parse_functions.c
+ 1310  2024-06-19 11:16:19 git commit -m "Added header file targets for grep, comments in funcs.c."
+ 1311  2024-06-19 11:16:25 git push
+ 1312  2024-06-19 13:51:02 git status
+ 1313  2024-06-19 13:55:11 man ctags
+ 1314  2024-06-19 13:58:32 ctags --list-kinds
+ 1315  2024-06-19 14:03:25 man ctags
+ 1316  2024-06-19 14:06:37 ./vars print_funcs_file_symbols_table
+ 1317  2024-06-19 14:22:58 ls 
+ 1318  2024-06-19 14:24:24 make
+ 1319  2024-06-19 14:25:04 grep symbol_table_functions
+ 1320  2024-06-19 14:25:11 grep symbol_table_functions *
+ 1321  2024-06-19 14:26:05 make
+ 1322  2024-06-19 14:26:12 ./vars append_symbol_table
+ 1323  2024-06-19 14:26:54 ./funcs funcs_parse_functions.c
+ 1324  2024-06-19 14:34:46 ./vsrs append_symbol_ta
+ 1325  2024-06-19 14:34:54 ./vars append_symbol_table
+ 1326  2024-06-19 14:50:42 ./vars deallocate_symbol_table
+ 1327  2024-06-19 14:55:55 make
+ 1328  2024-06-19 14:55:58 ./vars deallocate_symbol_table
+ 1329  2024-06-19 14:56:46 git diff
+ 1330  2024-06-19 14:57:33 ls
+ 1331  2024-06-19 14:57:53 cat symbol_table_functions.h
+ 1332  2024-06-19 14:58:12 rm symbol_table_functions.h
+ 1333  2024-06-19 14:58:16 ls
+ 1334  2024-06-19 14:58:32 rm vars.c
+ 1335  2024-06-19 14:58:36 make
+ 1336  2024-06-19 14:58:41 make clean
+ 1337  2024-06-19 14:58:45 make
+ 1338  2024-06-19 15:01:34 git status
+ 1339  2024-06-19 15:02:01 git restore symbol_table_functions.h
+ 1340  2024-06-19 15:02:04 make
+ 1341  2024-06-19 15:05:18 make clean
+ 1342  2024-06-19 15:05:22 make
+ 1343  2024-06-19 15:17:45 ./vars copy_s_table_data
+ 1344  2024-06-19 15:29:42 make lean
+ 1345  2024-06-19 15:29:47 make clean
+ 1346  2024-06-19 15:29:50 make
+ 1347  2024-06-19 15:30:59 ./vars copy_s_table_data
+ 1348  2024-06-19 16:27:57 git diff symbol_table_functions.c
+ 1349  2024-06-19 16:28:15 git status
+ 1350  2024-06-19 16:29:41 git add vars.c funcs_parse_functions.c symbol_table_funtions.c symbol_target_structs,h
+ 1351  2024-06-19 16:29:54 git add vars.c funcs_parse_functions.c symbol_table_functions.c symbol_target_structs,h
+ 1352  2024-06-19 16:30:03 git add vars.c funcs_parse_functions.c symbol_table_functions.c symbol_target_structs.h
+ 1353  2024-06-19 16:30:53 git commit -m "remove copy_s_table_data, added comments."
+ 1354  2024-06-19 16:30:59 git push
+ 1355  2024-06-19 17:56:53 ./vars deallocate_vars_symbol_table
+ 1356  2024-06-20 06:30:52 cd ../funcs_py
+ 1357  2024-06-20 06:34:17 ls
+ 1358  2024-06-20 06:34:47 python3 funcs.py llist.c
+ 1359  2024-06-20 07:53:35 exit
+ 1360  2024-06-20 08:15:51 shutdown -r now
+ 1361  2024-06-20 08:29:54 rm dell_work
+ 1362  2024-06-20 08:30:43 ln --help
+ 1363  2024-06-20 08:31:30 ln ~/temp/pymake/dell_work/ dell_work
+ 1364  2024-06-20 08:31:42 sudo ln ~/temp/pymake/dell_work/ dell_work
+ 1365  2024-06-20 08:32:39 ls -al ~/temp/pymake/dell_work/
+ 1366  2024-06-20 08:32:56 ls -al ~/temp/pymake/
+ 1367  2024-06-20 08:33:08 sudo ln ~/temp/pymake/dell_work/ dell_work
+ 1368  2024-06-20 08:34:37 ls -al
+ 1369  2024-06-20 08:36:22 df -h
+ 1370  2024-06-20 08:40:50 ssh spb@192.168.1.9
+ 1371  2024-06-20 09:06:05 cd ~/workspace
+ 1372  2024-06-20 09:06:19 cd funcs-py
+ 1373  2024-06-20 09:06:30 cd funcs_py
+ 1374  2024-06-20 09:06:35 git status
+ 1375  2024-06-20 09:06:40 cd ../funcs
+ 1376  2024-06-20 09:06:42 git status
+ 1377  2024-06-20 09:08:04 git add funcs.c funcs_parse_functions.c vars_parse_functions.c
+ 1378  2024-06-20 09:08:30 git commit -m "added comments, wip."
+ 1379  2024-06-20 09:08:35 git push
+ 1380  2024-06-20 14:59:53 make
+ 1381  2024-06-20 15:05:13 man exit
+ 1382  2024-06-20 15:14:36 make
+ 1383  2024-06-20 15:14:46 man exit
+ 1384  2024-06-20 15:17:06 make
+ 1385  2024-06-20 15:17:21 ls -al
+ 1386  2024-06-20 15:17:38 ln -s ~/temp/pymake/dell_work/ dell_work
+ 1387  2024-06-20 15:18:00 git diff
+ 1388  2024-06-20 15:18:17 git status
+ 1389  2024-06-20 15:18:34 git add funcs.c funcs_parse_functions.c vars_parse_functions.c
+ 1390  2024-06-20 15:19:03 git commit -m "added check for malloc failures."
+ 1391  2024-06-20 15:19:07 git push
+ 1392  2024-06-20 15:42:02 git pull
+ 1393  2024-06-20 15:42:07 exit
+ 1394  2024-06-20 14:48:16 cd funcs
+ 1395  2024-06-20 14:48:34 ./vars malloc
+ 1396  2024-06-20 14:48:57 ls
+ 1397  2024-06-20 14:49:17 rm dell_work
+ 1398  2024-06-20 14:49:20 ./vars malloc
+ 1399  2024-06-20 14:50:39 vim funcs.c
+ 1400  2024-06-20 14:56:34 vim -p funcs.c funcs_parse_functions.c vars_parse_functions.c
+ 1401  2024-06-20 15:42:16 exit
+ 1402  2024-06-20 15:53:05 cd workspace/funcs
+ 1403  2024-06-20 15:53:11 make clean
+ 1404  2024-06-20 15:53:16 mK=Ke
+ 1405  2024-06-20 15:53:19 make
+ 1406  2024-06-20 15:53:31 ./funcs funcs.c
+ 1407  2024-06-20 15:54:01 vim -p funcs.c funcs_parse_functions.c vars_parse_functions.c
+ 1408  2024-06-22 08:12:10 git diff
+ 1409  2024-06-22 08:12:26 fg
+ 1410  2024-06-22 09:36:24 exit
+ 1411  2024-06-20 15:55:45 make
+ 1412  2024-06-20 15:56:04 ./funcs funcs.c
+ 1413  2024-06-20 15:58:07 rm dell_work
+ 1414  2024-06-20 15:58:11 ./funcs funcs.c
+ 1415  2024-06-20 20:24:34 git status
+ 1416  2024-06-20 20:24:40 git diff
+ 1417  2024-06-20 21:12:43 git restore vars_parser_functions.c
+ 1418  2024-06-20 21:13:04 git restore vars_parse_functions.c
+ 1419  2024-06-20 21:13:10 git pull
+ 1420  2024-06-21 12:57:39 git status
+ 1421  2024-06-21 13:07:00 git pull
+ 1422  2024-06-21 14:40:55 make
+ 1423  2024-06-21 14:55:21 ls
+ 1424  2024-06-21 15:16:22 make
+ 1425  2024-06-21 15:18:15 man getline
+ 1426  2024-06-21 15:19:03 make
+ 1427  2024-06-21 15:25:25 ./funcs funcs.c
+ 1428  2024-06-21 15:25:30 1
+ 1429  2024-06-21 15:25:53 ./funcs funcs.c
+ 1430  2024-06-21 15:26:10 make
+ 1431  2024-06-21 15:26:12 ./funcs funcs.c
+ 1432  2024-06-21 19:48:38 make
+ 1433  2024-06-21 19:49:14 ./funcs funcs.c
+ 1434  2024-06-21 19:51:24 vim ~/.vim vimrc
+ 1435  2024-06-21 19:53:24 ./funcs funcs.c
+ 1436  2024-06-21 19:54:12 vim ~/.vim vimrc
+ 1437  2024-06-21 19:54:28 vim ~/.vim/vimrc
+ 1438  2024-06-21 19:55:15 ./funcs funcs.c
+ 1439  2024-06-21 20:02:55 ./vars parse_functions
+ 1440  2024-06-21 20:04:46 make
+ 1441  2024-06-21 20:04:48 ./vars parse_functions
+ 1442  2024-06-21 20:13:09 git status
+ 1443  2024-06-21 20:13:15 git diff
+ 1444  2024-06-22 05:31:56 ./vars parse_functions
+ 1445  2024-06-22 05:33:34 git status
+ 1446  2024-06-22 05:33:39 git diff
+ 1447  2024-06-22 06:13:20 gvim funcs.c
+ 1448  2024-06-22 06:13:59 ls ~/.vim
+ 1449  2024-06-22 06:14:08 less ~/.vim/gvimrc
+ 1450  2024-06-22 06:14:39 ls ../vimconfig
+ 1451  2024-06-22 06:14:51 less ../vimconfig/gvimrc
+ 1452  2024-06-22 08:10:30 ssh spb@192.168.131.131
+ 1453  2024-06-22 08:15:19 git diff
+ 1454  2024-06-22 08:15:47 git status
+ 1455  2024-06-22 08:16:02 git restore funcs.c funcs.h
+ 1456  2024-06-22 08:16:05 git status
+ 1457  2024-06-22 08:34:53 ls temp
+ 1458  2024-06-22 08:35:03 ls -al temp
+ 1459  2024-06-22 08:35:13 cat temp
+ 1460  2024-06-22 08:35:22 cat temp.pp
+ 1461  2024-06-22 08:35:31 rm temp
+ 1462  2024-06-22 08:35:49 nano .gitignore
+ 1463  2024-06-22 08:37:10 git status
+ 1464  2024-06-22 08:37:24 nano .gitignore
+ 1465  2024-06-22 08:38:07 git status
+ 1466  2024-06-22 08:39:01 git pull
+ 1467  2024-06-22 08:39:10 git status
+ 1468  2024-06-22 08:39:16 git diff
+ 1469  2024-06-22 08:39:29 git status
+ 1470  2024-06-22 08:39:35 git add .
+ 1471  2024-06-22 08:39:37 git status
+ 1472  2024-06-22 08:39:59 git commit -m "update .gitignore."
+ 1473  2024-06-22 08:40:31 git push
+ 1474  2024-06-22 08:41:01 git branch local_spbdt
+ 1475  2024-06-22 08:41:13 git chaeckout spbdt
+ 1476  2024-06-22 08:41:19 git checkout spbdt
+ 1477  2024-06-22 08:41:25 git log
+ 1478  2024-06-22 08:42:05 git help pull
+ 1479  2024-06-22 09:36:27 exit
+ 1480  2024-06-22 09:37:49 shutdown -r now
+ 1481  2024-06-24 16:15:01 cd ../funcs
+ 1482  2024-06-24 16:15:06 git status
+ 1483  2024-06-23 15:40:01 cd workspace/funcs
+ 1484  2024-06-23 15:40:05 vim funcs.c
+ 1485  2024-06-23 16:15:49 git status
+ 1486  2024-06-23 16:16:01 rm target_name 
+ 1487  2024-06-23 16:16:02 git status
+ 1488  2024-06-23 16:16:07 git pull
+ 1489  2024-06-23 16:16:17 git log
+ 1490  2024-06-23 16:16:46 git log --all --graph
+ 1491  2024-06-23 16:17:23 git checkout local_spbdt
+ 1492  2024-06-23 16:17:29 git log --all --graph
+ 1493  2024-06-23 16:17:48 git rebase master
+ 1494  2024-06-23 16:17:50 git log --all --graph
+ 1495  2024-06-23 17:04:33 ls
+ 1496  2024-06-23 17:05:45 mv symbol_table_functions.c symbol_definition_functions.c
+ 1497  2024-06-23 17:06:42 mv symbol_table_functions.h symbol_definition_functions.h
+ 1498  2024-06-23 17:09:19 grep -In get_symbol_indexed *
+ 1499  2024-06-23 17:12:28 make clean
+ 1500  2024-06-23 17:12:30 make
+ 1501  2024-06-23 17:13:46 git status
+ 1502  2024-06-23 17:14:03 git log
+ 1503  2024-06-23 17:14:14 git add .
+ 1504  2024-06-23 17:14:19 git status
+ 1505  2024-06-23 17:17:25 git commit -m "renamed 'target' files to 'definition'."
+ 1506  2024-06-23 17:17:33 git status
+ 1507  2024-06-23 17:17:58 git log --all --graph
+ 1508  2024-06-23 17:18:19 git checkout master
+ 1509  2024-06-23 17:18:47 git merge local_spbdt
+ 1510  2024-06-23 17:18:51 git log --all --graph
+ 1511  2024-06-23 17:19:03 git push
+ 1512  2024-06-23 17:19:08 git log --all --graph
+ 1513  2024-06-23 17:19:36 git checkout local_spbdt
+ 1514  2024-06-23 17:19:58 ./funcs common_parse_functions.c
+ 1515  2024-06-23 17:42:41 git status
+ 1516  2024-06-23 17:42:50 git diff
+ 1517  2024-06-23 18:08:29 ./funcs funcs.c
+ 1518  2024-06-23 22:31:13 make
+ 1519  2024-06-23 22:31:43 ./funcs symbol_target_structs.h 
+ 1520  2024-06-23 22:33:12 make
+ 1521  2024-06-23 22:33:14 ./funcs symbol_target_structs.h 
+ 1522  2024-06-23 22:35:41 make
+ 1523  2024-06-23 22:35:45 ./funcs symbol_target_structs.h 
+ 1524  2024-06-23 22:37:20 ./funcs common_parse_functions.h
+ 1525  2024-06-23 22:44:21 make
+ 1526  2024-06-23 22:44:24 ./funcs common_parse_functions.h
+ 1527  2024-06-23 22:47:47 make
+ 1528  2024-06-23 22:47:50 ./funcs common_parse_functions.h
+ 1529  2024-06-23 23:36:12 cd ../tests
+ 1530  2024-06-23 23:36:14 cd ../test
+ 1531  2024-06-23 23:36:16 ls
+ 1532  2024-06-23 23:36:23 ls source
+ 1533  2024-06-23 23:36:40 ls output
+ 1534  2024-06-23 23:36:52 make ary_sort
+ 1535  2024-06-23 23:36:55 ls output
+ 1536  2024-06-23 23:37:30 output/ary_sort
+ 1537  2024-06-23 23:37:57 vim source/ary_sort.c
+ 1538  2024-06-23 23:38:56 git status
+ 1539  2024-06-23 23:39:15 nano test1.c
+ 1540  2024-06-23 23:39:37 rm test1.c
+ 1541  2024-06-23 23:39:40 git status
+ 1542  2024-06-23 23:39:44 git pull
+ 1543  2024-06-23 23:40:03 vim source/ary_sort.c
+ 1544  2024-06-23 23:41:10 make ary_sort
+ 1545  2024-06-23 23:41:39 fg
+ 1546  2024-06-23 23:44:16 make ary_sort
+ 1547  2024-06-23 23:44:39 fg
+ 1548  2024-06-23 23:44:58 make ary_sort
+ 1549  2024-06-23 23:45:08 fg
+ 1550  2024-06-23 23:45:30 make ary_sort
+ 1551  2024-06-23 23:45:56 ffg
+ 1552  2024-06-23 23:45:58 fg
+ 1553  2024-06-23 23:46:44 make ary_sort
+ 1554  2024-06-23 23:46:59 output/ary_sort
+ 1555  2024-06-23 23:47:07 output/ary_sort all
+ 1556  2024-06-23 23:52:53 output/ary_sort all skip_dupes
+ 1557  2024-06-23 23:53:05 output/ary_sort bubble
+ 1558  2024-06-23 23:53:12 output/ary_sort bubble skip_dups
+ 1559  2024-06-23 23:53:26 fg
+ 1560  2024-06-23 23:53:49 output/ary_sort bubble skip_dups
+ 1561  2024-06-23 23:54:23 fg
+ 1562  2024-06-23 23:55:20 output/ary_sort skip_dups bubble
+ 1563  2024-06-23 23:55:52 fg
+ 1564  2024-06-24 00:03:22 gdb output/ary_sort
+ 1565  2024-06-24 00:07:46 make ary_sort
+ 1566  2024-06-24 00:09:05 output/ary_sort 
+ 1567  2024-06-24 00:09:16 gdb output/ary_sort
+ 1568  2024-06-24 00:13:18 output/ary_sort 
+ 1569  2024-06-24 00:13:24 output/ary_sort bubble
+ 1570  2024-06-24 00:13:48 output/ary_sort bubble skip_dups
+ 1571  2024-06-24 00:14:48 output/ary_sort merge
+ 1572  2024-06-24 00:15:04 output/ary_sort merge skip_dups
+ 1573  2024-06-24 00:15:12 output/ary_sort merge
+ 1574  2024-06-24 00:15:14 output/ary_sort merge skip_dups
+ 1575  2024-06-24 00:15:21 output/ary_sort merge
+ 1576  2024-06-24 00:15:23 output/ary_sort merge skip_dups
+ 1577  2024-06-24 00:15:25 output/ary_sort merge
+ 1578  2024-06-24 00:15:29 output/ary_sort merge skip_dups
+ 1579  2024-06-24 00:16:02 output/ary_sort quick
+ 1580  2024-06-24 00:16:12 output/ary_sort quick skip_dups
+ 1581  2024-06-24 00:18:34 make
+ 1582  2024-06-24 00:19:25 make clean
+ 1583  2024-06-24 00:19:32 make ary_sort
+ 1584  2024-06-24 00:19:45 make bit_manip
+ 1585  2024-06-24 00:20:02 output/bit_manip
+ 1586  2024-06-24 00:22:07 make bit_manip
+ 1587  2024-06-24 00:26:56 ls
+ 1588  2024-06-24 00:27:06 make Makefile all
+ 1589  2024-06-24 00:27:18 ls output
+ 1590  2024-06-24 00:27:28 make Makefile clean
+ 1591  2024-06-24 00:27:34 ls output
+ 1592  2024-06-24 00:27:40 make Makefile all
+ 1593  2024-06-24 00:27:43 ls output
+ 1594  2024-06-24 00:27:51 make Makefile clean
+ 1595  2024-06-24 00:28:06 make Makefile Bit_Manip
+ 1596  2024-06-24 00:28:10 ls output
+ 1597  2024-06-24 00:29:06 ls
+ 1598  2024-06-24 00:29:20 make Makefile clean
+ 1599  2024-06-24 00:29:24 ls
+ 1600  2024-06-24 00:32:03 make Makefile
+ 1601  2024-06-24 00:32:13 make -f Makefile
+ 1602  2024-06-24 00:32:24 ls
+ 1603  2024-06-24 00:32:30 mkdir output
+ 1604  2024-06-24 00:32:40 make -f Makefile Bit_Manip
+ 1605  2024-06-24 00:32:48 ls outpu
+ 1606  2024-06-24 00:32:50 ls output
+ 1607  2024-06-24 00:33:11 make -f Makefile Ary_Sort
+ 1608  2024-06-24 00:33:20 ls output
+ 1609  2024-06-24 00:33:42 cat .gitignore
+ 1610  2024-06-24 00:33:56 make clean
+ 1611  2024-06-24 00:34:04 make -f Makefile clean
+ 1612  2024-06-24 00:34:06 ls
+ 1613  2024-06-24 00:34:34 rm -rf CMakeFiles
+ 1614  2024-06-24 00:34:49 rm cmake_install.cmake 
+ 1615  2024-06-24 00:35:00 rm CMakeCache.txt 
+ 1616  2024-06-24 00:35:12 rm Makefile 
+ 1617  2024-06-24 00:35:13 ls
+ 1618  2024-06-24 00:35:34 vim -S sptrs.mks 
+ 1619  2024-06-24 00:35:58 ls scratch_pointers/
+ 1620  2024-06-24 00:36:56 vim -p scratch_pointers/scratch_pointers.c scratch_pointers/scratch_pointers_funcs.c  scratch_pointers/scratch_pointers_print_funcs.c scratch_pointers/scratch_pointers.h
+ 1621  2024-06-24 00:37:32 ls
+ 1622  2024-06-24 00:37:39 ls pointers/
+ 1623  2024-06-24 00:37:49 vim -S ptrs.mks 
+ 1624  2024-06-24 00:40:16 ls
+ 1625  2024-06-24 00:40:30 ls timers
+ 1626  2024-06-24 00:40:44 ls wip
+ 1627  2024-06-24 00:40:57 less wip/algorithms.c 
+ 1628  2024-06-24 04:52:39 less wip/timers_platform_funcs.c 
+ 1629  2024-06-24 04:56:03 make bit_manip
+ 1630  2024-06-24 04:56:16 output bit_manip
+ 1631  2024-06-24 04:56:22 ls
+ 1632  2024-06-24 04:56:34 output/bit_manip
+ 1633  2024-06-24 08:40:16 ls
+ 1634  2024-06-24 08:40:28 ls -al
+ 1635  2024-06-24 08:40:40 ls -al .vscode
+ 1636  2024-06-24 08:44:39 ls output
+ 1637  2024-06-24 08:44:44 make clean
+ 1638  2024-06-24 08:44:46 ls output
+ 1639  2024-06-24 08:46:50 ls source
+ 1640  2024-06-24 08:47:07 rm source/word_llist
+ 1641  2024-06-24 08:47:10 ls source
+ 1642  2024-06-24 10:00:15 cat source/rev_llist.c > output/word_llist 
+ 1643  2024-06-24 10:00:24 cat source/rev_llist.c | output/word_llist 
+ 1644  2024-06-24 10:01:32 cat source/rev_llist.c
+ 1645  2024-06-24 10:02:06 echo source/rev_llist.c
+ 1646  2024-06-24 10:03:07 cat source/rev_llist.c | output/word_llist 
+ 1647  2024-06-24 10:08:03 cat source/rev_llist.c > output/word_llist 
+ 1648  2024-06-24 10:08:30 ls
+ 1649  2024-06-24 10:08:34 ls ..
+ 1650  2024-06-24 10:08:41 ls ../..
+ 1651  2024-06-24 10:08:53 less ../../bash_history.bak 
+ 1652  2024-06-24 10:10:54 ls ../..
+ 1653  2024-06-24 10:11:08 ls ../
+ 1654  2024-06-24 10:11:15 ls ../httpbookmarks/
+ 1655  2024-06-24 10:11:30 less ../httpbookmarks/history_5_6 
+ 1656  2024-06-24 10:13:56 cat source/rev_llist.c | output/word_llist 
+ 1657  2024-06-24 10:19:12 output/word_llist < source/rev_llist.c
+ 1658  2024-06-24 10:19:18 ls source
+ 1659  2024-06-24 10:19:36 output/word_llist < source/rev_llist.c
+ 1660  2024-06-24 10:19:47 cd output
+ 1661  2024-06-24 10:19:50 ls
+ 1662  2024-06-24 10:20:05 ./word_llist < ../source/rev_llist.c
+ 1663  2024-06-24 10:20:41 ls ../test
+ 1664  2024-06-24 10:22:48 cd ..
+ 1665  2024-06-24 10:23:14 output/word_llist < source/word_llist.c
+ 1666  2024-06-24 10:27:14 output/word_llist < echo testing
+ 1667  2024-06-24 10:28:07 cat source/word_llist.c > output/word_llist
+ 1668  2024-06-24 10:28:26 output/word_llist
+ 1669  2024-06-24 10:28:42 make
+ 1670  2024-06-24 10:28:45 output/word_llist
+ 1671  2024-06-24 10:29:07 output/word_llist < source/word_llist.c
+ 1672  2024-06-24 10:30:53 ls output
+ 1673  2024-06-24 10:31:00 make clean
+ 1674  2024-06-24 10:31:02 ls output
+ 1675  2024-06-24 12:17:23 output/casts
+ 1676  2024-06-24 13:16:34 ls output
+ 1677  2024-06-24 13:17:30 make clean
+ 1678  2024-06-24 13:17:32 ls output
+ 1679  2024-06-25 10:49:51 cd -
+ 1680  2024-06-25 10:49:59 cd .././.funcs
+ 1681  2024-06-25 10:50:06 cd ../../funcs
+ 1682  2024-06-25 10:50:11 ls
+ 1683  2024-06-25 10:54:01 git remote add github https://github.com/SteveBnAZ/symbol_parser.git
+ 1684  2024-06-25 10:54:32 git help push
+ 1685  2024-06-25 10:56:10 git push -u github master
+ 1686  2024-06-25 10:57:15 git remotes
+ 1687  2024-06-25 10:57:22 git remote
+ 1688  2024-06-25 11:03:17 git push -u github master
+ 1689  2024-06-25 11:04:33 vim
+ 1690  2024-06-25 11:07:37 git push -u github main
+ 1691  2024-06-25 11:09:00 git help branch
+ 1692  2024-06-25 11:09:21 git branch main
+ 1693  2024-06-25 11:09:33 git chackout main
+ 1694  2024-06-25 11:09:39 git checkout main
+ 1695  2024-06-25 11:09:44 git push -u github main
+ 1696  2024-06-25 11:18:27 git pull
+ 1697  2024-06-25 11:18:38 git pull github main
+ 1698  2024-06-25 11:18:45 git push -u github main
+ 1699  2024-06-25 11:19:12 git log
+ 1700  2024-06-25 11:19:40 git push -u github main
+ 1701  2024-06-25 11:20:28 git help pull
+ 1702  2024-06-25 11:20:49 git push -u github main --ff
+ 1703  2024-06-25 11:21:02 git pull github main --ff
+ 1704  2024-06-25 11:21:11 git log
+ 1705  2024-06-25 11:21:34 git pull github main --ff
+ 1706  2024-06-25 11:21:48 git help pull
+ 1707  2024-06-25 11:22:28 git pull github main --rebase=true
+ 1708  2024-06-25 11:23:24 vim funcs_parse_functions.h
+ 1709  2024-06-25 11:24:10 vim funcs_parse_functions.c
+ 1710  2024-06-25 11:39:37 git rebase --abort
+ 1711  2024-06-25 11:39:45 vim funcs_parse_functions.c
+ 1712  2024-06-25 11:39:56 git status
+ 1713  2024-06-25 11:40:11 git log --all --graph
+ 1714  2024-06-25 11:41:02 checkout origin/master
+ 1715  2024-06-25 11:41:07 git checkout origin/master
+ 1716  2024-06-25 11:41:18 git log --all --graph
+ 1717  2024-06-25 11:42:02 git checkout main
+ 1718  2024-06-25 11:42:10 git log --all --graph
+ 1719  2024-06-25 11:42:28 git checkout github/main
+ 1720  2024-06-25 11:42:34 git log --all --graph
+ 1721  2024-06-25 11:42:44 ls
+ 1722  2024-06-25 11:43:30 git mege main
+ 1723  2024-06-25 11:43:45 git merge main
+ 1724  2024-06-25 11:44:15 git checkout main
+ 1725  2024-06-25 11:46:05 git checkout github/main
+ 1726  2024-06-25 11:50:25 git checkout main
+ 1727  2024-06-25 11:50:54 git branch remove github/main
+ 1728  2024-06-25 11:51:10 git branch
+ 1729  2024-06-25 11:51:28 git help branch
+ 1730  2024-06-25 11:52:21 git log --all --graph
+ 1731  2024-06-25 11:53:13 git rebase  origin/master
+ 1732  2024-06-25 11:53:18 git log --all --graph
+ 1733  2024-06-25 11:53:42 git branch -d remove
+ 1734  2024-06-25 11:53:58 git branch -d github/main
+ 1735  2024-06-25 11:54:04 git log --all --graph
+ 1736  2024-06-25 11:54:14 git branch -d github/main
+ 1737  2024-06-25 11:54:23 git branch
+ 1738  2024-06-25 11:54:58 cit checkout master
+ 1739  2024-06-25 11:55:07 git checkout master
+ 1740  2024-06-25 11:55:17 git log --al --graph
+ 1741  2024-06-25 11:55:21 git log --all --graph
+ 1742  2024-06-25 11:55:48 git branch -d main
+ 1743  2024-06-25 11:56:11 git branch -D main
+ 1744  2024-06-25 11:56:14 git log --all --graph
+ 1745  2024-06-25 11:57:00 git branch
+ 1746  2024-06-25 11:57:09 log
+ 1747  2024-06-25 11:57:13 git log
+ 1748  2024-06-25 11:57:39 git merge local_spbdt
+ 1749  2024-06-25 11:57:49 git log --all --graph
+ 1750  2024-06-25 11:58:35 git push -u origin master
+ 1751  2024-06-25 11:58:38 git log --all --graph
+ 1752  2024-06-25 12:00:07 git push -u github master
+ 1753  2024-06-25 12:00:25 git log --all --graph
+ 1754  2024-06-25 12:02:13 git show 177220384c65
+ 1755  2024-06-25 12:02:45 ls -al
+ 1756  2024-06-25 12:03:04 git log --all --graph
+ 1757  2024-06-25 12:03:19 git branch
+ 1758  2024-06-25 12:05:45 git help rebase
+ 1759  2024-06-25 12:08:17 git log --all --graph
+ 1760  2024-06-25 12:08:55 git log 177220384c6
+ 1761  2024-06-25 12:09:19 git show
+ 1762  2024-06-25 12:10:01 make clean
+ 1763  2024-06-25 12:10:05 make
+ 1764  2024-06-25 12:10:29 ./funcs common_parser_functions.c
+ 1765  2024-06-25 12:10:41 ls
+ 1766  2024-06-25 12:10:49 ./funcs common_parse_functions.c
+ 1767  2024-06-25 12:11:05 git log
+ 1768  2024-06-25 13:00:11 history
+ 1769  2024-06-25 13:29:27 sudo apt install gh
+ 1770  2024-06-25 13:49:55 cd ../test
+ 1771  2024-06-25 13:49:57 ls
+ 1772  2024-06-25 13:50:03 git status
+ 1773  2024-06-25 13:50:14 git diff
+ 1774  2024-06-25 13:50:57 vim ~/.vim/vimrc
+ 1775  2024-06-25 14:27:22 vim  source/ary_sort.c 
+ 1776  2024-06-25 14:29:30 git diff
+ 1777  2024-06-25 14:31:36 vim  source/ary_sort.c 
+ 1778  2024-06-25 22:26:56 fg
+ 1779  2024-06-25 22:27:12 exit
+ 1780  2024-06-23 15:44:06 ls
+ 1781  2024-06-23 15:44:15 rm target_name.*
+ 1782  2024-06-23 16:57:23 ls 
+ 1783  2024-06-23 16:57:31 vim mKEFILE
+ 1784  2024-06-23 16:57:53 vim makefile
+ 1785  2024-06-24 00:02:20 cd ../test
+ 1786  2024-06-24 00:02:46 vim source/ary_sort.c
+ 1787  2024-06-24 00:20:42 ls
+ 1788  2024-06-24 00:20:51 vim -S bm.mks
+ 1789  2024-06-24 00:22:37 ls
+ 1790  2024-06-24 00:22:56 cmake build
+ 1791  2024-06-24 00:23:08 cmake
+ 1792  2024-06-24 00:23:28 ls
+ 1793  2024-06-24 00:23:37 cmake --help
+ 1794  2024-06-24 00:24:02 cmake .
+ 1795  2024-06-24 00:24:07 ls
+ 1796  2024-06-24 00:24:19 make Makefile
+ 1797  2024-06-24 00:24:26 make clean
+ 1798  2024-06-24 00:24:28 make Makefile
+ 1799  2024-06-24 00:24:56 ls ource
+ 1800  2024-06-24 00:25:04 ls output
+ 1801  2024-06-24 00:25:13 ls
+ 1802  2024-06-24 00:25:22 make Makefile
+ 1803  2024-06-24 00:25:42 vim CMakeLists.txt
+ 1804  2024-06-24 00:26:17 make Makefile Bit_Manip
+ 1805  2024-06-24 00:26:27 vim CMakeLists.txt
+ 1806  2024-06-24 00:30:17 vim Makefile
+ 1807  2024-06-24 04:53:13 ls
+ 1808  2024-06-24 04:53:34 vim -S bm.mks 
+ 1809  2024-06-24 05:53:39 ls source
+ 1810  2024-06-24 05:53:57 vim source/char_llist.c 
+ 1811  2024-06-24 06:08:45 vim source/word_llist.c 
+ 1812  2024-06-25 06:52:13 links2 -g &
+ 1813  2024-06-25 08:53:57 ls
+ 1814  2024-06-25 08:54:01 cd -
+ 1815  2024-06-25 08:54:04 ls
+ 1816  2024-06-25 09:25:14 ./funcs common_parse_functions.c
+ 1817  2024-06-25 10:11:49 git status
+ 1818  2024-06-25 10:11:57 git add .
+ 1819  2024-06-25 10:12:28 git commit -m "Comment and clenup."
+ 1820  2024-06-25 10:12:34 git push
+ 1821  2024-06-25 10:34:33 git help push
+ 1822  2024-06-25 10:37:31 ls
+ 1823  2024-06-25 10:37:38 ls .al
+ 1824  2024-06-25 10:37:43 ls -al
+ 1825  2024-06-25 10:39:24 ssh spb@192.168.1.9
+ 1826  2024-06-25 11:25:58 git diff funcs_parse_functions.h
+ 1827  2024-06-25 11:26:08 git diff funcs_parse_functions.c
+ 1828  2024-06-25 11:27:31 git status
+ 1829  2024-06-25 11:28:00 git diff funcs.c
+ 1830  2024-06-25 11:33:32 log --all --graph
+ 1831  2024-06-25 11:33:38 git log --all --graph
+ 1832  2024-06-25 11:34:22 git log
+ 1833  2024-06-25 11:34:57 git checkout master
+ 1834  2024-06-25 11:35:13 git log
+ 1835  2024-06-25 12:31:30 git remote
+ 1836  2024-06-25 12:31:38 git help remot
+ 1837  2024-06-25 12:31:42 git help remote
+ 1838  2024-06-25 12:32:27 git remote get-url github
+ 1839  2024-06-25 12:32:43 git help remote
+ 1840  2024-06-25 12:34:34 git remote set-url github https://github.com/Codefabnet/symbol_parser.git
+ 1841  2024-06-25 12:34:46 git remote get-url github
+ 1842  2024-06-25 12:59:52 history
+ 1843  2024-06-25 22:27:17 exit
+ 1844  2024-06-25 22:27:33 shutdown -r now
+ 1845  2024-06-26 13:23:54 cd workspace/test
+ 1846  2024-06-26 13:24:10 vim source/ary_sort.c
+ 1847  2024-06-26 13:49:14 make clean
+ 1848  2024-06-26 13:49:20 make ary_sort
+ 1849  2024-06-26 13:57:36 output/ary_sort
+ 1850  2024-06-26 13:57:42 output/ary_sort merge
+ 1851  2024-06-26 13:58:09 output/ary_sort merge skip_dups
+ 1852  2024-06-26 14:01:56 exit
+ 1853  2024-06-30 09:47:51 cd workspace/test
+ 1854  2024-06-30 09:48:16 git difftool -t vimdiff -- source/ary_sort.c
+ 1855  2024-06-30 09:48:42 vim ~/.vim/vimrc
+ 1856  2024-06-30 09:49:02 git difftool -t vimdiff -- source/ary_sort.c
+ 1857  2024-06-30 09:58:01 exit
+ 1858  2024-06-30 09:49:33 vim 
+ 1859  2024-06-30 09:58:04 exit
+ 1860  2024-06-26 15:46:43 cd workspace/test
+ 1861  2024-06-26 15:46:51 ls ary_sort
+ 1862  2024-06-26 15:47:01 ls ource
+ 1863  2024-06-26 15:47:06 ls source
+ 1864  2024-06-26 15:47:21 vim source/ary_sort.c
+ 1865  2024-06-26 16:28:03 ls source
+ 1866  2024-06-26 16:28:22 vim source/char_llist.c
+ 1867  2024-06-26 16:34:05 vim source/word_llist.c
+ 1868  2024-06-26 17:03:52 vim source/hstring_to_int.c 
+ 1869  2024-06-26 17:04:42 make hstring_to_int.c
+ 1870  2024-06-26 17:04:53 vim makefile
+ 1871  2024-06-26 17:06:08 gcc source/hstring_to_int.c -o output/hstring_to_int
+ 1872  2024-06-26 17:06:22 output/hstring_to_int 
+ 1873  2024-06-26 17:06:41 make hstring_to_int.c
+ 1874  2024-06-26 17:06:52 vim source/hstring_to_int.c 
+ 1875  2024-06-26 17:08:55 fg
+ 1876  2024-06-26 17:12:28 ls source
+ 1877  2024-06-26 17:12:39 vim source/constsnts
+ 1878  2024-06-26 17:12:43 vim source/constsnts.c
+ 1879  2024-06-26 17:12:51 vim source/constants.c
+ 1880  2024-06-27 08:28:38 vim source/rev_llist.c
+ 1881  2024-06-27 08:35:22 git status
+ 1882  2024-06-27 08:36:09 git diff bit_manip/bit_manip.h
+ 1883  2024-06-27 08:36:42 git add bit_manip/bit_manip.h
+ 1884  2024-06-27 08:37:25 git diff source/ary_sort.c
+ 1885  2024-06-27 08:38:37 vim source/ary_sort.cc
+ 1886  2024-06-27 08:42:50 set -o vi
+ 1887  2024-06-27 08:43:40 vim source/char_llist.c
+ 1888  2024-06-27 08:49:37 vim source/word_llist.c
+ 1889  2024-06-27 10:51:48 mske ary_sort
+ 1890  2024-06-27 10:51:57 make ary_sort
+ 1891  2024-06-27 10:52:18 git status
+ 1892  2024-06-27 10:52:45 git diff source/ary_sort.c --cached
+ 1893  2024-06-27 10:52:59 git diff --cached source/ary_sort.c 
+ 1894  2024-06-27 10:53:52 make ary_sort
+ 1895  2024-06-27 10:55:26 git diff source/ary_sort.c --cached
+ 1896  2024-06-27 10:55:31 git diff --cached source/ary_sort.c 
+ 1897  2024-06-27 10:56:17 vim source/ary_sort.cc
+ 1898  2024-06-27 10:56:21 vim source/ary_sort.c
+ 1899  2024-06-27 10:57:20 make ary_sort
+ 1900  2024-06-27 11:01:56 links2 -g &
+ 1901  2024-06-27 11:03:30 cd ..
+ 1902  2024-06-27 11:03:54 find -type f -name "launch.json"
+ 1903  2024-06-27 11:04:17 find -type f -name "launch.json" | xargs grep args
+ 1904  2024-06-27 11:04:32 cd -
+ 1905  2024-06-27 11:04:38 cd ~/temp
+ 1906  2024-06-27 11:04:41 find -type f -name "launch.json" | xargs grep args
+ 1907  2024-06-27 11:11:24 links2 -g &
+ 1908  2024-06-27 11:23:19 cd -
+ 1909  2024-06-27 11:23:27 output/rev_llist 
+ 1910  2024-06-27 11:24:41 output/tst_strrev
+ 1911  2024-06-27 11:25:30 output/pointersFp
+ 1912  2024-06-27 11:27:04 output/llist_test
+ 1913  2024-06-27 13:28:37 vim source/rev_llist.c
+ 1914  2024-06-30 19:54:42 gvim -S vim.mks
+ 1915  2024-07-01 04:24:09 fg
+ 1916  2024-07-01 04:25:05 vim -p makefile ~/test/makefile
+ 1917  2024-07-01 04:30:52 objdump -M intel --dissassmble=main output/rev_llist
+ 1918  2024-07-01 04:31:57 objdump -M intel --disassmble=main output/rev_llist
+ 1919  2024-07-01 04:32:13 objdump --disassmble=main output/rev_llist
+ 1920  2024-07-01 04:32:24 objdump 
+ 1921  2024-07-01 04:32:32 objdump -M
+ 1922  2024-07-01 04:33:12 objdump -M intel-mnemonic output/rev_llist
+ 1923  2024-07-01 04:33:24 objdump -M intel-mnemonic -D output/rev_llist
+ 1924  2024-07-01 04:33:43 objdump -M intel-mnemonic -disassemble=main output/rev_llist | less
+ 1925  2024-07-01 04:34:17 objdump -M intel-mnemonic -D output/rev_llist
+ 1926  2024-07-01 04:34:28 objdump -M intel-mnemonic -D output/rev_llist | less
+ 1927  2024-07-01 04:42:54 make clean
+ 1928  2024-07-01 04:43:00 make rev_llist
+ 1929  2024-07-01 04:44:41 objdump -M intel-mnemonic -disassemble=main output/rev_llist | less
+ 1930  2024-07-01 04:45:27 objdump -M intel-mnemonic -disassemble
+ 1931  2024-07-01 04:45:41 objdump --help
+ 1932  2024-07-01 04:46:33 objdump -M intel-mnemonic -disassemble=func1 output/rev_llist | less
+ 1933  2024-07-01 04:46:58 objdump -M intel-mnemonic - obj/rev_llist.o | less
+ 1934  2024-07-01 04:47:15 objdump  obj/rev_llist.o | less
+ 1935  2024-07-01 04:47:37 objdump -M intel-mnemonic --disassemble=func1 output/rev_llist | less
+ 1936  2024-07-01 04:47:50 objdump -M intel-mnemonic --disassemble=main output/rev_llist | less
+ 1937  2024-07-01 04:48:47 make clean
+ 1938  2024-07-01 04:48:54 make rev_llist
+ 1939  2024-07-01 04:48:57 objdump -M intel-mnemonic --disassemble=main output/rev_llist | less
+ 1940  2024-07-01 04:50:20 objdump -M intel-mnemonic --disassemble=pause_display_output output/rev_llist | less
+ 1941  2024-07-01 04:52:48 objdump -M intel-mnemonic --disassemble=main output/rev_llist | less
+ 1942  2024-07-01 04:53:13 objdump -M intel-mnemonic --disassemble=func1 output/rev_llist | less
+ 1943  2024-07-01 05:08:32 make rev_llist
+ 1944  2024-07-01 05:09:00 ls /
+ 1945  2024-07-01 05:09:58 make rev_llist
+ 1946  2024-07-01 05:10:02 ls output
+ 1947  2024-07-01 05:11:44 make clean
+ 1948  2024-07-01 05:11:46 make rev_llist
+ 1949  2024-07-01 05:11:49 ls output
+ 1950  2024-07-01 05:12:27 make clean
+ 1951  2024-07-01 05:12:29 make rev_llist
+ 1952  2024-07-01 05:12:35 ls output
+ 1953  2024-07-01 05:13:49 make clean
+ 1954  2024-07-01 05:13:51 make rev_llist
+ 1955  2024-07-01 05:13:53 ls output
+ 1956  2024-07-01 05:15:19 make clean
+ 1957  2024-07-01 05:15:22 make rev_llist
+ 1958  2024-07-01 05:15:24 ls output
+ 1959  2024-07-01 05:16:55 make clean
+ 1960  2024-07-01 05:16:57 make rev_llist
+ 1961  2024-07-01 05:16:59 ls output
+ 1962  2024-07-01 05:18:17 git status
+ 1963  2024-07-01 05:18:27 git diff
+ 1964  2024-07-01 05:19:58 git status
+ 1965  2024-07-01 05:20:22 vim .gitignore
+ 1966  2024-07-01 05:21:09 exit
+ 1967  2024-06-26 15:51:06 mske ary_sort
+ 1968  2024-06-26 15:51:13 make clean
+ 1969  2024-06-26 15:51:21 make ary_sort
+ 1970  2024-06-26 16:31:49 make char_llist
+ 1971  2024-06-26 16:32:11 output/char_llist < source/char_llist.c
+ 1972  2024-06-26 16:39:27 make clean
+ 1973  2024-06-26 16:39:34 make word_llist
+ 1974  2024-06-26 16:39:46 output/word_llist < source/char_llist.c
+ 1975  2024-06-26 16:40:13 set -o vi
+ 1976  2024-06-26 17:11:24 t
+ 1977  2024-06-26 17:11:28 python3
+ 1978  2024-06-26 17:46:42 cd ~/temp
+ 1979  2024-06-26 17:46:52 make all
+ 1980  2024-06-26 17:46:56 make
+ 1981  2024-06-26 17:46:58 ls
+ 1982  2024-06-26 17:47:04 ls output
+ 1983  2024-06-26 17:47:28 vim makefile
+ 1984  2024-06-26 17:47:51 output/test
+ 1985  2024-06-27 05:23:33 ls
+ 1986  2024-06-27 05:23:51 ls pratice
+ 1987  2024-06-27 05:24:11 make word_lliractice
+ 1988  2024-06-27 05:24:20 ls practice
+ 1989  2024-06-27 05:24:30 ls practice/python
+ 1990  2024-06-27 05:25:53 cd practice/python
+ 1991  2024-06-27 05:26:10 python3 lists.py
+ 1992  2024-06-27 05:27:13 ls
+ 1993  2024-06-27 05:27:53 python3 dir.py
+ 1994  2024-06-27 05:28:42 dir.py rps.py
+ 1995  2024-06-27 05:29:09 python3 rps.py
+ 1996  2024-06-27 05:31:12 cd -
+ 1997  2024-06-27 05:31:25 cd ../workspace/funcs_py
+ 1998  2024-06-27 05:31:42 ls
+ 1999  2024-06-27 05:32:25 python3 func.py llist.c 
+ 2000  2024-06-27 05:32:33 python3 funcs.py llist.c 
+ 2001  2024-06-27 05:33:52 vim funcs.py
+ 2002  2024-06-27 05:34:20 ls
+ 2003  2024-06-27 05:34:37 vim fparse.py
+ 2004  2024-06-27 07:59:30 git status
+ 2005  2024-06-27 07:59:56 vim .gitignore
+ 2006  2024-06-27 08:00:22 git status
+ 2007  2024-06-27 08:00:30 vim .gitignore
+ 2008  2024-06-27 08:00:45 git status
+ 2009  2024-06-27 08:01:00 vim .gitignore
+ 2010  2024-06-27 08:01:48 git status
+ 2011  2024-06-27 08:01:51 ls
+ 2012  2024-06-27 08:02:03 vim .gitignore
+ 2013  2024-06-27 08:02:17 git status
+ 2014  2024-06-27 08:02:46 git add .
+ 2015  2024-06-27 08:02:48 git status
+ 2016  2024-06-27 08:07:17 git commit -m "updated .gitignore."
+ 2017  2024-06-27 08:07:27 git push
+ 2018  2024-06-27 08:37:58 cd -
+ 2019  2024-06-27 08:38:04 cd ../test
+ 2020  2024-06-27 08:39:23 git status
+ 2021  2024-06-27 08:40:03 git add source/ary_sort.c
+ 2022  2024-06-27 08:41:52 git diff source/char_llist.c
+ 2023  2024-06-27 08:45:08 git add source/char_llist.c
+ 2024  2024-06-27 08:45:21 git add source/ary_sort.c
+ 2025  2024-06-27 08:45:28 git status
+ 2026  2024-06-27 08:45:46 set -o vi
+ 2027  2024-06-27 08:46:44 git diff source/rev_llist.c
+ 2028  2024-06-27 08:47:27 set -o vi
+ 2029  2024-06-27 08:47:34 git status
+ 2030  2024-06-27 08:48:43 git diff source/word_llist.c
+ 2031  2024-06-27 08:51:28 git add source/word_llist.c
+ 2032  2024-06-27 08:51:35 git status
+ 2033  2024-06-27 11:28:39 git diff source/rev_llist.c
+ 2034  2024-06-27 11:28:56 vim source/rev_llist.c
+ 2035  2024-06-27 12:41:13 output/word_llist
+ 2036  2024-06-27 12:44:28 output/char_llist
+ 2037  2024-06-27 12:44:39 ls output
+ 2038  2024-06-27 12:44:52 make char_llist
+ 2039  2024-06-27 12:44:55 output/char_llist
+ 2040  2024-06-27 13:32:37 output/rev_llist 
+ 2041  2024-06-27 13:36:10 vim source/word_llist.c
+ 2042  2024-06-27 13:40:33 make rev_llist
+ 2043  2024-06-27 14:11:55 vim ../funcs/funcs_parse_functions.c
+ 2044  2024-06-27 14:18:52 make rev_llist
+ 2045  2024-06-27 14:20:28 output/rev_llist 
+ 2046  2024-06-27 14:24:36 ls source
+ 2047  2024-06-27 14:27:12 make clean
+ 2048  2024-06-27 14:27:16 make rev_llist
+ 2049  2024-06-27 14:48:44 make clean
+ 2050  2024-06-27 14:48:47 make rev_llist
+ 2051  2024-06-27 14:49:23 make clean
+ 2052  2024-06-27 14:49:25 make rev_llist
+ 2053  2024-06-27 14:50:01 ls source
+ 2054  2024-06-27 14:50:13 mkdir rev_llist
+ 2055  2024-06-27 14:50:34 mv source/rev_llist* rev_llist/
+ 2056  2024-06-27 14:50:43 ls rev_llist
+ 2057  2024-06-27 14:50:51 make clean
+ 2058  2024-06-27 14:50:55 make rev_llist
+ 2059  2024-06-27 14:52:25 make clean
+ 2060  2024-06-27 14:52:28 ls obj
+ 2061  2024-06-27 14:52:33 make rev_llist
+ 2062  2024-06-27 14:53:26 c
+ 2063  2024-06-27 14:53:31 ls source
+ 2064  2024-06-27 14:54:06 rm rev_llist/rev_llist.c
+ 2065  2024-06-27 14:54:13 rm rev_llist/rev_llist.h
+ 2066  2024-06-27 14:54:18 mv source/rev_llist* rev_llist/
+ 2067  2024-06-27 14:54:26 ls rev_llist
+ 2068  2024-06-27 14:54:31 make rev_llist
+ 2069  2024-06-27 14:54:51 make clean
+ 2070  2024-06-27 14:54:52 make rev_llist
+ 2071  2024-06-27 15:06:20 make clean
+ 2072  2024-06-27 15:06:22 make rev_llist
+ 2073  2024-06-27 15:06:38 output/rev_llist
+ 2074  2024-06-27 15:08:44 make rev_llist
+ 2075  2024-06-27 15:08:47 output/rev_llist
+ 2076  2024-06-27 15:17:22 make clean
+ 2077  2024-06-27 15:17:27 make rev_llist
+ 2078  2024-06-27 15:29:16 output/rev_llist
+ 2079  2024-06-27 17:39:40 make clean
+ 2080  2024-06-27 17:39:47 make rev_llist
+ 2081  2024-06-27 17:40:00 output/rev_llist
+ 2082  2024-06-27 20:26:02 make rev_llist
+ 2083  2024-06-27 20:26:12 output/rev_llist
+ 2084  2024-06-28 12:01:11 make clean
+ 2085  2024-06-28 12:01:14 make rev_llist
+ 2086  2024-06-28 12:05:39 ls 
+ 2087  2024-06-28 12:05:56 mv rev_llist_algorithm.c source
+ 2088  2024-06-28 12:06:00 mv rev_llist_algorithm.h source
+ 2089  2024-06-28 12:06:02 ls
+ 2090  2024-06-28 12:06:54 make rev_llist
+ 2091  2024-06-28 12:07:55 mv source/rev_llist_algorithm.h rev_llist
+ 2092  2024-06-28 12:07:59 mv source/rev_llist_algorithm.c rev_llist
+ 2093  2024-06-28 12:08:07 make rev_llist
+ 2094  2024-06-28 12:10:14 ls rev_llist
+ 2095  2024-06-28 12:11:30 make rev_llist
+ 2096  2024-06-28 12:13:58 output/rev_llist
+ 2097  2024-06-28 12:16:39 make clean
+ 2098  2024-06-28 12:16:42 make rev_llist
+ 2099  2024-06-28 12:16:51 output/rev_llist
+ 2100  2024-06-28 12:17:34 make clean
+ 2101  2024-06-28 14:03:23 git status
+ 2102  2024-06-28 14:04:12 git diff source/ary_sort.c
+ 2103  2024-06-28 14:06:51 make ary_sort
+ 2104  2024-06-28 14:08:01 git add source/ary_sort.c
+ 2105  2024-06-28 14:08:30 git add .
+ 2106  2024-06-28 14:08:36 git status
+ 2107  2024-06-28 14:10:37 git commit -m "added vscode project, rev_llist cleanup."
+ 2108  2024-06-28 14:10:45 git push
+ 2109  2024-06-28 22:20:28 make rev_llist
+ 2110  2024-06-28 22:20:35 output/rev_llist
+ 2111  2024-06-28 22:23:24 make rev_llist
+ 2112  2024-06-28 22:23:26 output/rev_llist
+ 2113  2024-06-28 22:27:05 make rev_llist
+ 2114  2024-06-28 22:27:08 output/rev_llist
+ 2115  2024-06-28 22:28:32 make rev_llist
+ 2116  2024-06-28 22:28:34 output/rev_llist
+ 2117  2024-06-28 22:30:36 make rev_llist
+ 2118  2024-06-28 22:30:37 output/rev_llist
+ 2119  2024-06-28 22:32:14 make rev_llist
+ 2120  2024-06-28 22:32:15 output/rev_llist
+ 2121  2024-06-28 22:35:45 make rev_llist
+ 2122  2024-06-28 22:35:47 output/rev_llist
+ 2123  2024-06-28 22:46:47 ssh spb@192.168.1.9
+ 2124  2024-06-28 22:48:11 cd ..
+ 2125  2024-06-28 22:48:16 ls notes
+ 2126  2024-06-28 22:48:25 ls notes/gdb
+ 2127  2024-06-28 22:48:29 less notes/gdb
+ 2128  2024-06-28 22:48:52 less notes/cmdlines 
+ 2129  2024-06-28 22:49:14 cd qemu
+ 2130  2024-06-28 22:49:18 ls
+ 2131  2024-06-28 22:49:27 git log
+ 2132  2024-06-28 22:49:36 ls -al
+ 2133  2024-06-28 22:49:41 cd tutorial/
+ 2134  2024-06-28 22:49:42 ls -al
+ 2135  2024-06-28 22:50:08 ls
+ 2136  2024-06-28 22:50:18 ls -al
+ 2137  2024-06-28 22:50:26 cd ..
+ 2138  2024-06-28 22:50:28 ls -al
+ 2139  2024-06-28 22:50:35 cd ..
+ 2140  2024-06-28 22:50:37 ls
+ 2141  2024-06-28 22:51:00 cd ../temp
+ 2142  2024-06-28 22:51:03 ls -al
+ 2143  2024-06-28 22:51:19 ls -al practice
+ 2144  2024-06-28 22:51:57 ssh spb@192.168.1.9
+ 2145  2024-06-28 22:54:38 cd -
+ 2146  2024-06-28 22:54:43 cd qemu
+ 2147  2024-06-28 22:54:46 ls
+ 2148  2024-06-28 22:54:50 ls -al
+ 2149  2024-06-28 22:55:01 cd tutorial
+ 2150  2024-06-28 22:55:07 ls -al
+ 2151  2024-06-28 22:58:53 c d..
+ 2152  2024-06-28 22:58:56 cd ..
+ 2153  2024-06-28 22:59:02 ls -al
+ 2154  2024-06-28 22:59:17 find -type d -name .git
+ 2155  2024-06-28 22:59:51 cd ..
+ 2156  2024-06-28 22:59:55 find -type d -name .git
+ 2157  2024-06-28 23:01:29 cd test
+ 2158  2024-06-28 23:01:37 ls -al .git
+ 2159  2024-06-28 23:01:50 ls -al .git/objects
+ 2160  2024-06-28 23:02:15 
+ 2161  2024-06-28 23:02:30 clear
+ 2162  2024-06-30 04:06:21 make rev_list
+ 2163  2024-06-30 04:06:27 make rev_llist
+ 2164  2024-06-30 04:06:36 output/rev_llist
+ 2165  2024-06-30 04:24:23 make rev_llist
+ 2166  2024-06-30 04:24:26 output/rev_llist
+ 2167  2024-06-30 04:25:11 make rev_llist
+ 2168  2024-06-30 04:25:13 output/rev_llist
+ 2169  2024-06-30 04:26:24 make rev_llist
+ 2170  2024-06-30 04:26:26 output/rev_llist
+ 2171  2024-06-30 04:28:01 make rev_llist
+ 2172  2024-06-30 04:28:04 output/rev_llist
+ 2173  2024-06-30 04:29:51 make rev_llist
+ 2174  2024-06-30 04:29:53 output/rev_llist
+ 2175  2024-06-30 04:30:36 make rev_llist
+ 2176  2024-06-30 04:30:37 output/rev_llist
+ 2177  2024-06-30 04:32:07 make rev_llist
+ 2178  2024-06-30 04:32:09 output/rev_llist
+ 2179  2024-06-30 04:32:28 make rev_llist
+ 2180  2024-06-30 04:32:29 output/rev_llist
+ 2181  2024-06-30 04:33:55 make rev_llist
+ 2182  2024-06-30 04:33:57 output/rev_llist
+ 2183  2024-06-30 04:34:19 make rev_llist
+ 2184  2024-06-30 04:34:20 output/rev_llist
+ 2185  2024-06-30 04:35:44 make clean
+ 2186  2024-06-30 04:35:47 make rev_llist
+ 2187  2024-06-30 04:35:49 output/rev_llist
+ 2188  2024-06-30 04:36:04 ls
+ 2189  2024-06-30 04:36:09 ls timers
+ 2190  2024-06-30 04:36:25 less timers/timers.c
+ 2191  2024-06-30 04:36:46 less timers/timers_funcs.c
+ 2192  2024-06-30 04:37:11 man pause
+ 2193  2024-06-30 04:37:31 less timers/timers.c
+ 2194  2024-06-30 04:37:41 less timers/timers_funcs.c
+ 2195  2024-06-30 04:41:55 make clean
+ 2196  2024-06-30 04:42:03 make rev_llist
+ 2197  2024-06-30 04:42:10 ls obj
+ 2198  2024-06-30 04:42:19 ls output
+ 2199  2024-06-30 04:42:22 make clean
+ 2200  2024-06-30 04:43:14 make rev_llist
+ 2201  2024-06-30 04:43:32 ls obj
+ 2202  2024-06-30 04:43:43 make clean
+ 2203  2024-06-30 04:45:00 make rev_llist
+ 2204  2024-06-30 04:45:03 ls obj
+ 2205  2024-06-30 04:45:20 make clean
+ 2206  2024-06-30 04:48:06 make rev_llist
+ 2207  2024-06-30 04:48:10 ls obj
+ 2208  2024-06-30 04:48:57 make clean
+ 2209  2024-06-30 04:49:00 make rev_llist
+ 2210  2024-06-30 04:49:50 ls
+ 2211  2024-06-30 04:49:57 ls timers
+ 2212  2024-06-30 04:52:49 make clean
+ 2213  2024-06-30 04:52:51 make rev_llist
+ 2214  2024-06-30 04:53:07 output/rev_llist
+ 2215  2024-06-30 04:57:18 make rev_llist
+ 2216  2024-06-30 04:57:20 output/rev_llist
+ 2217  2024-06-30 04:59:47 make rev_llist
+ 2218  2024-06-30 04:59:49 output/rev_llist
+ 2219  2024-06-30 05:02:25 make rev_llist
+ 2220  2024-06-30 05:02:27 output/rev_llist
+ 2221  2024-06-30 05:06:32 make clean
+ 2222  2024-06-30 05:06:35 make rev_llist
+ 2223  2024-06-30 05:25:37 output/rev_llist
+ 2224  2024-06-30 05:28:40 make rev_llist
+ 2225  2024-06-30 05:28:42 output/rev_llist
+ 2226  2024-06-30 05:29:17 make rev_llist
+ 2227  2024-06-30 05:29:18 output/rev_llist
+ 2228  2024-06-30 05:29:57 make rev_llist
+ 2229  2024-06-30 05:29:59 output/rev_llist
+ 2230  2024-06-30 05:30:42 make rev_llist
+ 2231  2024-06-30 05:30:44 output/rev_llist
+ 2232  2024-06-30 05:31:36 make rev_llist
+ 2233  2024-06-30 05:31:38 output/rev_llist
+ 2234  2024-06-30 05:32:31 make rev_llist
+ 2235  2024-06-30 05:32:33 output/rev_llist
+ 2236  2024-06-30 05:33:35 make rev_llist
+ 2237  2024-06-30 05:33:43 output/rev_llist
+ 2238  2024-06-30 05:34:46 make rev_llist
+ 2239  2024-06-30 05:34:48 output/rev_llist
+ 2240  2024-06-30 05:36:49 make rev_llist
+ 2241  2024-06-30 05:36:57 output/rev_llist
+ 2242  2024-06-30 05:38:01 make rev_llist
+ 2243  2024-06-30 05:38:03 output/rev_llist
+ 2244  2024-06-30 05:38:27 man fprintf
+ 2245  2024-06-30 05:39:57 make rev_llist
+ 2246  2024-06-30 05:40:00 output/rev_llist
+ 2247  2024-06-30 05:40:53 make rev_llist
+ 2248  2024-06-30 05:40:54 output/rev_llist
+ 2249  2024-06-30 05:41:18 make rev_llist
+ 2250  2024-06-30 05:41:19 output/rev_llist
+ 2251  2024-06-30 05:41:38 man fprintf
+ 2252  2024-06-30 05:53:05 man alarm
+ 2253  2024-06-30 05:55:16 man pause
+ 2254  2024-06-30 07:10:46 man sleep
+ 2255  2024-06-30 07:11:50 man sleep 3
+ 2256  2024-06-30 07:12:06 man sleep (3)
+ 2257  2024-06-30 07:12:15 man 3 sleep
+ 2258  2024-06-30 07:13:42 make rev_llist
+ 2259  2024-06-30 07:13:46 output/rev_llist
+ 2260  2024-06-30 07:14:48 make rev_llist
+ 2261  2024-06-30 07:14:50 output/rev_llist
+ 2262  2024-06-30 07:31:18 make rev_llist
+ 2263  2024-06-30 07:31:20 output/rev_llist
+ 2264  2024-06-30 07:33:13 man putch
+ 2265  2024-06-30 07:33:16 man putchar
+ 2266  2024-06-30 07:34:16 make rev_llist
+ 2267  2024-06-30 07:34:20 output/rev_llist
+ 2268  2024-06-30 07:37:37 man fflush
+ 2269  2024-06-30 07:42:14 make rev_llist
+ 2270  2024-06-30 07:42:19 man fflush
+ 2271  2024-06-30 07:42:44 make rev_llist
+ 2272  2024-06-30 07:42:48 output/rev_llist
+ 2273  2024-06-30 07:43:27 make rev_llist
+ 2274  2024-06-30 07:43:28 output/rev_llist
+ 2275  2024-06-30 07:45:46 make rev_llist
+ 2276  2024-06-30 07:45:48 output/rev_llist
+ 2277  2024-06-30 07:46:39 make clean
+ 2278  2024-06-30 07:46:44 make rev_llist
+ 2279  2024-06-30 07:47:04 man sleep
+ 2280  2024-06-30 07:47:14 man 3 sleep
+ 2281  2024-06-30 07:47:53 make rev_llist
+ 2282  2024-06-30 07:47:58 output/rev_llist
+ 2283  2024-06-30 07:50:33 make rev_llist
+ 2284  2024-06-30 07:50:36 output/rev_llist
+ 2285  2024-06-30 07:59:51 make rev_llist
+ 2286  2024-06-30 08:01:16 output/rev_llist
+ 2287  2024-06-30 08:01:51 make rev_llist
+ 2288  2024-06-30 08:01:54 output/rev_llist
+ 2289  2024-06-30 08:02:42 make rev_llist
+ 2290  2024-06-30 08:02:44 output/rev_llist
+ 2291  2024-06-30 08:04:08 make rev_llist
+ 2292  2024-06-30 08:04:09 output/rev_llist
+ 2293  2024-06-30 08:09:20 make rev_llist
+ 2294  2024-06-30 08:09:21 output/rev_llist
+ 2295  2024-06-30 08:13:00 make ary_sort
+ 2296  2024-06-30 08:13:11 output/ary_sort all
+ 2297  2024-06-30 08:21:37 ls source
+ 2298  2024-06-30 08:25:12 mkdir ary_sort
+ 2299  2024-06-30 08:26:09 mv source/ary_sort.c ary_sort
+ 2300  2024-06-30 08:26:13 ls aource
+ 2301  2024-06-30 08:26:43 ls source
+ 2302  2024-06-30 08:27:08 ls ary_sort
+ 2303  2024-06-30 09:27:46 make ary_sort
+ 2304  2024-06-30 09:29:18 make clean
+ 2305  2024-06-30 09:30:50 make ary_sort
+ 2306  2024-06-30 09:31:05 ls obj
+ 2307  2024-06-30 09:32:00 ls ary_sort
+ 2308  2024-06-30 09:35:55 make ary_sort
+ 2309  2024-06-30 09:43:04 git difftool -t vimdiff source/ary_sort.c
+ 2310  2024-06-30 09:43:17 git difftool -t vimdiff -- source/ary_sort.c
+ 2311  2024-06-30 09:44:21 vim
+ 2312  2024-06-30 09:54:31 make ary_sort
+ 2313  2024-06-30 11:03:34 output/ary_sort all
+ 2314  2024-06-30 13:54:38 man select
+ 2315  2024-06-30 13:57:27 fg
+ 2316  2024-06-30 13:57:44 man timeval
+ 2317  2024-06-30 13:57:49 fg
+ 2318  2024-06-30 14:12:04 man getchar
+ 2319  2024-06-30 14:13:10 output/ary_sort all
+ 2320  2024-06-30 14:13:35 output/rev_llist
+ 2321  2024-06-30 14:13:53 make rev_llist
+ 2322  2024-06-30 14:13:56 output/rev_llist
+ 2323  2024-06-30 14:15:12 make rev_llist
+ 2324  2024-06-30 14:17:47 output/rev_llist
+ 2325  2024-06-30 14:19:27 make rev_llist
+ 2326  2024-06-30 14:19:29 output/rev_llist
+ 2327  2024-06-30 14:20:49 make rev_llist
+ 2328  2024-06-30 14:20:51 output/rev_llist
+ 2329  2024-06-30 14:22:13 make rev_llist
+ 2330  2024-06-30 14:22:14 output/rev_llist
+ 2331  2024-06-30 14:26:11 make rev_llist
+ 2332  2024-06-30 14:26:13 output/rev_llist
+ 2333  2024-06-30 14:27:42 make rev_llist
+ 2334  2024-06-30 14:27:44 output/rev_llist
+ 2335  2024-06-30 14:29:17 make rev_llist
+ 2336  2024-06-30 14:29:19 output/rev_llist
+ 2337  2024-06-30 14:32:18 make rev_llist
+ 2338  2024-06-30 14:32:19 output/rev_llist
+ 2339  2024-06-30 14:41:43 man select
+ 2340  2024-06-30 14:47:36 make rev_llist
+ 2341  2024-06-30 14:47:43 output/rev_llist
+ 2342  2024-06-30 14:48:27 make rev_llist
+ 2343  2024-06-30 14:48:29 output/rev_llist
+ 2344  2024-06-30 14:51:26 make ary_sort
+ 2345  2024-06-30 14:52:10 output/ary_sort
+ 2346  2024-06-30 14:52:26 output/ary_sort all
+ 2347  2024-06-30 14:55:36 output/ary_sort merge
+ 2348  2024-06-30 15:50:03 make clean
+ 2349  2024-06-30 15:50:12 make ary_sort
+ 2350  2024-06-30 15:50:19 make rev_llist
+ 2351  2024-06-30 15:50:38 output/rev_llist
+ 2352  2024-06-30 15:51:17 source/ary_sort all
+ 2353  2024-06-30 15:51:36 output/ary_sort all
+ 2354  2024-06-30 15:52:18 output/ary_sort all skip_dups
+ 2355  2024-06-30 15:54:03 output/ary_sort merge skip_dups
+ 2356  2024-06-30 16:04:12 make ary_sort
+ 2357  2024-06-30 16:04:22 output/ary_sort merge skip_dups
+ 2358  2024-06-30 16:06:30 make ary_sort
+ 2359  2024-06-30 16:07:00 output/ary_sort merge skip_dups
+ 2360  2024-06-30 16:09:43 make ary_sort
+ 2361  2024-06-30 16:09:45 output/ary_sort merge skip_dups
+ 2362  2024-06-30 16:10:20 make ary_sort
+ 2363  2024-06-30 16:10:21 output/ary_sort merge skip_dups
+ 2364  2024-06-30 16:12:18 make ary_sort
+ 2365  2024-06-30 16:12:20 output/ary_sort merge skip_dups
+ 2366  2024-06-30 16:15:42 make ary_sort
+ 2367  2024-06-30 16:15:44 output/ary_sort merge skip_dups
+ 2368  2024-06-30 16:17:51 make ary_sort
+ 2369  2024-06-30 16:17:53 output/ary_sort merge skip_dups
+ 2370  2024-06-30 16:30:17 make ary_sort
+ 2371  2024-06-30 16:30:20 output/ary_sort merge skip_dups
+ 2372  2024-06-30 16:33:38 make ary_sort
+ 2373  2024-06-30 16:33:40 output/ary_sort merge skip_dups
+ 2374  2024-06-30 16:38:08 make ary_sort
+ 2375  2024-06-30 16:38:09 output/ary_sort merge skip_dups
+ 2376  2024-06-30 16:41:24 make ary_sort
+ 2377  2024-06-30 16:41:26 output/ary_sort merge skip_dups
+ 2378  2024-06-30 16:42:06 make ary_sort
+ 2379  2024-06-30 16:42:08 output/ary_sort merge skip_dups
+ 2380  2024-06-30 16:44:13 make ary_sort
+ 2381  2024-06-30 16:44:15 output/ary_sort merge skip_dups
+ 2382  2024-06-30 16:46:05 make ary_sort
+ 2383  2024-06-30 16:46:11 output/ary_sort merge skip_dups
+ 2384  2024-06-30 16:47:35 make ary_sort
+ 2385  2024-06-30 16:47:37 output/ary_sort merge skip_dups
+ 2386  2024-06-30 16:49:31 make ary_sort
+ 2387  2024-06-30 16:49:33 output/ary_sort merge skip_dups
+ 2388  2024-06-30 16:53:31 make ary_sort
+ 2389  2024-06-30 16:53:35 output/ary_sort merge skip_dups
+ 2390  2024-06-30 16:58:58 make ary_sort
+ 2391  2024-06-30 16:59:00 output/ary_sort merge skip_dups
+ 2392  2024-06-30 17:01:34 output/ary_sort bubble skip_dups
+ 2393  2024-06-30 17:24:25 make ary_sort
+ 2394  2024-06-30 17:25:18 output/ary_sort merge skip_dups
+ 2395  2024-06-30 17:30:19 make ary_sort
+ 2396  2024-06-30 17:30:21 output/ary_sort merge skip_dups
+ 2397  2024-06-30 17:31:42 make ary_sort
+ 2398  2024-06-30 17:31:44 output/ary_sort merge skip_dups
+ 2399  2024-06-30 17:35:49 make ary_sort
+ 2400  2024-06-30 17:35:50 output/ary_sort merge skip_dups
+ 2401  2024-06-30 17:49:36 make ary_sort
+ 2402  2024-06-30 17:49:38 output/ary_sort merge skip_dups
+ 2403  2024-06-30 17:51:15 make ary_sort
+ 2404  2024-06-30 17:52:05 output/ary_sort merge skip_dups
+ 2405  2024-06-30 17:53:52 make ary_sort
+ 2406  2024-06-30 17:53:53 output/ary_sort merge skip_dups
+ 2407  2024-06-30 17:56:52 make ary_sort
+ 2408  2024-06-30 17:56:54 output/ary_sort merge skip_dups
+ 2409  2024-06-30 18:09:25 make ary_sort
+ 2410  2024-06-30 18:17:01 output/ary_sort merge skip_dups
+ 2411  2024-06-30 18:22:43 make ary_sort
+ 2412  2024-06-30 18:23:01 output/ary_sort merge skip_dups
+ 2413  2024-06-30 18:25:20 make ary_sort
+ 2414  2024-06-30 18:25:48 output/ary_sort merge skip_dups
+ 2415  2024-06-30 18:30:17 make ary_sort
+ 2416  2024-06-30 18:30:20 output/ary_sort merge skip_dups
+ 2417  2024-06-30 18:35:27 make ary_sort
+ 2418  2024-06-30 18:37:12 output/ary_sort merge skip_dups
+ 2419  2024-06-30 18:39:20 output/ary_sort merge
+ 2420  2024-06-30 18:41:16 make ary_sort
+ 2421  2024-06-30 18:41:21 output/ary_sort merge skip_dups
+ 2422  2024-06-30 18:43:03 make ary_sort
+ 2423  2024-06-30 18:43:05 output/ary_sort merge skip_dups
+ 2424  2024-06-30 18:43:54 output/ary_sort merge skip_dups rev
+ 2425  2024-06-30 18:44:40 output/ary_sort merge skip_dups
+ 2426  2024-06-30 18:44:51 make ary_sort
+ 2427  2024-06-30 18:44:57 output/ary_sort merge skip_dups rev
+ 2428  2024-06-30 18:46:10 output/ary_sort all skip_dups rev
+ 2429  2024-06-30 18:47:23 git status
+ 2430  2024-06-30 18:47:49 make clean
+ 2431  2024-06-30 18:47:52 make all
+ 2432  2024-06-30 19:02:17 make clean
+ 2433  2024-06-30 19:02:26 git add .
+ 2434  2024-06-30 19:02:31 git status
+ 2435  2024-06-30 19:03:34 git commit -m "restructure ary_sort and rev_llist, added display scroll pause."
+ 2436  2024-06-30 19:03:43 git push
+ 2437  2024-06-30 19:38:46 make rev_llist
+ 2438  2024-06-30 19:38:54 output/rev_llist
+ 2439  2024-06-30 20:09:31 make rev_llist
+ 2440  2024-06-30 20:12:42 output/rev_llist
+ 2441  2024-06-30 20:13:39 make rev_llist
+ 2442  2024-06-30 20:15:10 output/rev_llist
+ 2443  2024-06-30 20:18:11 make rev_llist
+ 2444  2024-06-30 20:18:13 output/rev_llist
+ 2445  2024-06-30 20:21:12 make rev_llist
+ 2446  2024-06-30 20:21:15 output/rev_llist
+ 2447  2024-07-01 04:17:12 objdump -D output/rev_llist
+ 2448  2024-07-01 04:17:27 objdump -M intel -D output/rev_llist
+ 2449  2024-07-01 04:17:49 objdump -M intel -dissassembly=main output/rev_llist
+ 2450  2024-07-01 04:18:24 objdump -M intel -dissassembly=main output/rev_llist | less
+ 2451  2024-07-01 04:23:33 ls ~/temp
+ 2452  2024-07-01 04:23:42 less ~/temp/makefile 
+ 2453  2024-07-01 04:25:44 vim ~/temp/makefile 
+ 2454  2024-07-01 04:26:30 vim -p ~/temp/makefile makefile
+ 2455  2024-07-01 05:21:13 exit
+ 2456  2024-07-01 05:21:46 shutdown -r now
+ 2457  2024-07-01 09:21:46 make clean
+ 2458  2024-07-01 09:21:53 make rev_llist
+ 2459  2024-07-01 09:22:01 output/rev_llist
+ 2460  2024-07-01 09:25:03 ls
+ 2461  2024-07-01 09:25:33 gvim -p rev_llist/*
+ 2462  2024-07-01 11:05:15 output/rev_llist
+ 2463  2024-07-01 11:33:53 vim source/word_llist.c
+ 2464  2024-07-01 12:04:02 ls bit_manip
+ 2465  2024-07-01 12:06:47 make bit_manip
+ 2466  2024-07-01 12:06:55 outputbit_manip
+ 2467  2024-07-01 12:07:00 output/bit_manip
+ 2468  2024-07-01 12:07:53 make bit_manip
+ 2469  2024-07-01 12:07:55 output/bit_manip
+ 2470  2024-07-01 12:09:32 make bit_manip
+ 2471  2024-07-01 12:09:33 output/bit_manip
+ 2472  2024-07-01 12:10:29 make bit_manip
+ 2473  2024-07-01 12:10:30 output/bit_manip
+ 2474  2024-07-01 12:11:37 ls
+ 2475  2024-07-01 12:11:45 make clean
+ 2476  2024-07-01 12:11:56 make scratch_pointers
+ 2477  2024-07-01 12:12:14 output/scratch_pointers
+ 2478  2024-07-01 12:12:39 ls scratch_pointers/
+ 2479  2024-07-01 12:16:44 make scratch_pointers
+ 2480  2024-07-01 12:17:54 output/scratch_pointers
+ 2481  2024-07-01 12:26:22 make pointers
+ 2482  2024-07-01 12:26:35 output/pointers
+ 2483  2024-07-01 12:27:06 ls
+ 2484  2024-07-01 12:27:17 ls timers
+ 2485  2024-07-01 12:27:23 make timers
+ 2486  2024-07-01 12:27:31 output/timers
+ 2487  2024-07-01 12:33:28 history | grep github
+ 2488  2024-07-01 12:33:48 ls
+ 2489  2024-07-01 12:34:02 lsexit
+ 2490  2024-07-01 12:34:05 exit
+ 2491  2024-07-01 07:36:48 cd workspace/test
+ 2492  2024-07-01 07:36:59 git status
+ 2493  2024-07-01 07:37:38 vim .gitignore
+ 2494  2024-07-01 07:37:57 git status
+ 2495  2024-07-01 07:38:24 git diff makefile
+ 2496  2024-07-01 07:40:01 vim makefile
+ 2497  2024-07-01 07:42:05 git diff makefile
+ 2498  2024-07-01 07:42:31 vim makefile
+ 2499  2024-07-01 07:42:59 make clean
+ 2500  2024-07-01 07:43:03 make rev_llist
+ 2501  2024-07-01 07:43:11 output rev_llist
+ 2502  2024-07-01 07:43:19 output/rev_llist
+ 2503  2024-07-01 07:43:51 output/rev_llistmake clean
+ 2504  2024-07-01 07:43:57 make ary_sort
+ 2505  2024-07-01 07:44:15 output/ary_sort
+ 2506  2024-07-01 07:44:26 output/ary_sort merge
+ 2507  2024-07-01 07:52:46 status
+ 2508  2024-07-01 07:52:51 git status
+ 2509  2024-07-01 07:53:04 git add .gitignore
+ 2510  2024-07-01 07:53:12 git diff makefile
+ 2511  2024-07-01 07:55:04 git add makefile
+ 2512  2024-07-01 07:55:10 git status
+ 2513  2024-07-01 07:55:58 git add rev_llist/rev__list.h
+ 2514  2024-07-01 07:56:21 git diff rev_llist/rev_llist.h
+ 2515  2024-07-01 07:56:48 git add rev_llist/rev_llist.h
+ 2516  2024-07-01 07:57:01 git diff rev_llist/rev_llist_algorithm.c
+ 2517  2024-07-01 07:57:18 git add rev_llist/rev_llist_algorithm.c
+ 2518  2024-07-01 07:57:24 git status
+ 2519  2024-07-01 07:57:36 git diff rev_llist/rev_llist_funcs.c
+ 2520  2024-07-01 07:57:54 git add rev_llist/rev_llist_funcs.c
+ 2521  2024-07-01 07:58:02 git status
+ 2522  2024-07-01 08:01:35 vim -p rev_llist/*
+ 2523  2024-07-01 11:57:32 make clean
+ 2524  2024-07-01 11:57:47 make rev_llist
+ 2525  2024-07-01 11:57:54 output/rev_llist
+ 2526  2024-07-01 11:58:20 vim -p rev_llist/*
+ 2527  2024-07-01 11:58:54 make clean
+ 2528  2024-07-01 11:58:57 make rev_llist
+ 2529  2024-07-01 11:58:59 output/rev_llist
+ 2530  2024-07-01 11:59:23 git ststaus
+ 2531  2024-07-01 11:59:28 git status
+ 2532  2024-07-01 11:59:38 git add .
+ 2533  2024-07-01 11:59:40 git status
+ 2534  2024-07-01 12:00:38 git commit -m "rev_llist: cleanup, comment."
+ 2535  2024-07-01 12:00:43 git push
+ 2536  2024-07-01 12:01:20 ls
+ 2537  2024-07-01 12:01:33 make bit_manip
+ 2538  2024-07-01 12:01:43 output/bit_manip
+ 2539  2024-07-01 12:01:57 ls
+ 2540  2024-07-01 12:02:18 vim -p bit_manip/*
+ 2541  2024-07-01 12:13:24 vim -p scratch_pointers/* rev_llist/rev_llist.h
+ 2542  2024-07-01 12:22:00 make clean
+ 2543  2024-07-01 12:22:05 make pointers
+ 2544  2024-07-01 12:22:11 output/pointers
+ 2545  2024-07-01 12:22:36 vim -p pointers/* rev_llist/rev_llist.h
+ 2546  2024-07-01 12:34:20 exit
+ 2547  2024-07-01 12:34:42 shutdown -r now
+ 2548  2024-07-01 12:37:26 cd workspace
+ 2549  2024-07-01 12:37:28 ls
+ 2550  2024-07-01 12:38:03 cp -r test/bit_manip/ .
+ 2551  2024-07-01 12:38:05 ls
+ 2552  2024-07-01 12:38:12 ls bit_manip/
+ 2553  2024-07-01 12:38:21 cd bit_manip/
+ 2554  2024-07-01 12:38:37 mkdir source
+ 2555  2024-07-01 12:38:49 mv bit_manip* source
+ 2556  2024-07-01 12:38:52 ls
+ 2557  2024-07-01 12:39:12 rm *.patch
+ 2558  2024-07-01 12:39:15 ls
+ 2559  2024-07-01 12:39:19 cd source
+ 2560  2024-07-01 12:39:21 rm *.patch
+ 2561  2024-07-01 12:39:23 ls
+ 2562  2024-07-01 12:39:25 cd ..
+ 2563  2024-07-01 12:39:33 cp ../test/makefile .
+ 2564  2024-07-01 12:39:40 vim makefile
+ 2565  2024-07-01 12:58:18 cd ../sort_array
+ 2566  2024-07-01 12:58:21 ls
+ 2567  2024-07-01 12:58:29 mkdir sourec
+ 2568  2024-07-01 12:59:19 mv ary_sort.c source/sort_array.c
+ 2569  2024-07-01 12:59:32 ls
+ 2570  2024-07-01 13:00:00 mv sourec/ source
+ 2571  2024-07-01 13:00:02 ls
+ 2572  2024-07-01 13:00:54 mv ary_sort*.* source/sort_array*.*
+ 2573  2024-07-01 13:01:25 mv ary_sort_algorithm.c source/sort_array_algorithm.c
+ 2574  2024-07-01 13:01:40 mv ary_sort_algorithm.h source/sort_array_algorithm.h
+ 2575  2024-07-01 13:01:49 mv ary_sort.h source/sort_array.h
+ 2576  2024-07-01 13:01:51 ls
+ 2577  2024-07-01 13:02:12 mv ary_sort_funcs.c source/sort_array_funcs.c
+ 2578  2024-07-01 13:02:18 ls
+ 2579  2024-07-01 13:02:23 ls sourec
+ 2580  2024-07-01 13:02:27 ls source
+ 2581  2024-07-01 13:03:59 make
+ 2582  2024-07-01 13:04:21 vim -p source/
+ 2583  2024-07-01 13:04:28 vim -p source/*
+ 2584  2024-07-01 13:06:07 make
+ 2585  2024-07-01 13:06:16 output/sort_array
+ 2586  2024-07-01 13:06:38 ls .vscode/
+ 2587  2024-07-01 13:06:52 rm .vscode/test.code-workspace 
+ 2588  2024-07-01 13:08:19 ls
+ 2589  2024-07-01 13:08:50 cp ../test/.gitignore .
+ 2590  2024-07-01 13:08:59 vim .gitignore 
+ 2591  2024-07-01 13:09:23 cp ../test/.gitignore ../bit_manip/
+ 2592  2024-07-01 13:09:32 cd ..
+ 2593  2024-07-01 13:09:47 mkdir -p rev_llist/source
+ 2594  2024-07-01 13:09:51 cd rev_llist/
+ 2595  2024-07-01 13:09:53 ls
+ 2596  2024-07-01 13:10:13 cp -r ../test/rev_llist/ source
+ 2597  2024-07-01 13:10:17 ls source
+ 2598  2024-07-01 13:10:40 rm -rf source/rev_llist/
+ 2599  2024-07-01 13:10:46 cp -r ../test/rev_llist/* source
+ 2600  2024-07-01 13:10:49 ls source
+ 2601  2024-07-01 13:11:09 cp ../test/.vscode/ .
+ 2602  2024-07-01 13:11:16 cp -r ../test/.vscode/ .
+ 2603  2024-07-01 13:11:39 cp ../test/.gitignore .
+ 2604  2024-07-01 13:11:47 cp ../test/makefile .
+ 2605  2024-07-01 13:11:57 vim makefile
+ 2606  2024-07-01 13:15:10 make
+ 2607  2024-07-01 13:15:29 vim makefile 
+ 2608  2024-07-01 13:16:45 make
+ 2609  2024-07-01 13:16:54 vim makefile 
+ 2610  2024-07-01 13:17:16 make
+ 2611  2024-07-01 13:17:26 output/rev_llist
+ 2612  2024-07-01 13:21:07 cd ..
+ 2613  2024-07-01 13:21:11 ls bit_manip/
+ 2614  2024-07-01 13:21:20 ls sort_array/
+ 2615  2024-07-01 13:21:28 ls rev_llist/
+ 2616  2024-07-01 13:37:20 cd bit_manip
+ 2617  2024-07-01 13:37:27 git init
+ 2618  2024-07-01 13:37:40 ls
+ 2619  2024-07-01 13:37:47 make clean
+ 2620  2024-07-01 13:37:51 ls
+ 2621  2024-07-01 13:38:02 cat .gitignore
+ 2622  2024-07-01 13:38:12 git status
+ 2623  2024-07-01 13:38:31 nano .gitignore
+ 2624  2024-07-01 13:38:52 git status
+ 2625  2024-07-01 13:39:02 nano .gitignore
+ 2626  2024-07-01 13:39:14 git status
+ 2627  2024-07-01 13:39:37 git add .
+ 2628  2024-07-01 13:40:12 git commit -m "initial commit for github repo."
+ 2629  2024-07-01 13:40:52 git branch -M main
+ 2630  2024-07-01 13:41:25 git remote add origin https://github.com/Codefabnet/bit_manip.git
+ 2631  2024-07-01 13:41:52 git push -u origin main
+ 2632  2024-07-01 13:44:41 cd ..\rev_llist
+ 2633  2024-07-01 13:44:51 git init
+ 2634  2024-07-01 13:45:19 cd ../rev_llist
+ 2635  2024-07-01 13:45:36 cp ../bit_manip/.gitignore .
+ 2636  2024-07-01 13:45:38 cd -
+ 2637  2024-07-01 13:45:45 git branch -M main
+ 2638  2024-07-01 13:45:57 git log
+ 2639  2024-07-01 13:46:02 git remote add origin https://github.com/Codefabnet/bit_manip.git
+ 2640  2024-07-01 13:46:09 cd -
+ 2641  2024-07-01 13:46:22 nano .gitignore
+ 2642  2024-07-01 13:46:43 git status
+ 2643  2024-07-01 13:46:56 ls -al
+ 2644  2024-07-01 13:47:03 git init
+ 2645  2024-07-01 13:47:08 ls -al
+ 2646  2024-07-01 13:47:16 make clean
+ 2647  2024-07-01 13:47:18 ls -al
+ 2648  2024-07-01 13:47:32 git add .
+ 2649  2024-07-01 13:47:43 git commit -m "initial commit for github repo."
+ 2650  2024-07-01 13:47:54 git branch -M main
+ 2651  2024-07-01 13:48:20 git remote add origin https://github.com/Codefabnet/rev_llist.git
+ 2652  2024-07-01 13:48:32 git push -u origin main
+ 2653  2024-07-01 13:50:30 cd ../sort_array
+ 2654  2024-07-01 13:50:45 cp ../bit_manip/.gitignore .
+ 2655  2024-07-01 13:50:51 ls -al
+ 2656  2024-07-01 13:50:55 make clean
+ 2657  2024-07-01 13:51:08 git init
+ 2658  2024-07-01 13:51:13 git status
+ 2659  2024-07-01 13:51:38 git add .
+ 2660  2024-07-01 13:51:44 git commit -m "initial commit for github repo."
+ 2661  2024-07-01 13:51:52 git branch -M main
+ 2662  2024-07-01 13:52:13 git remote add origin https://github.com/Codefabnet/sort_array.git
+ 2663  2024-07-01 13:52:19 git push -u origin main
+ 2664  2024-07-01 13:59:47 exit
+ 2665  2024-07-01 12:42:52 make
+ 2666  2024-07-01 12:42:59 ls
+ 2667  2024-07-01 12:43:34 make
+ 2668  2024-07-01 12:43:39 make clean
+ 2669  2024-07-01 12:43:51 ls
+ 2670  2024-07-01 12:43:56 make
+ 2671  2024-07-01 12:43:58 ls
+ 2672  2024-07-01 12:44:03 ls obj
+ 2673  2024-07-01 12:44:43 make
+ 2674  2024-07-01 12:46:43 make
+ 2675  2024-07-01 12:46:52 output/bit_manip
+ 2676  2024-07-01 12:47:30 cp -r ../test/.vscode/ .
+ 2677  2024-07-01 12:47:37 ls .vscode
+ 2678  2024-07-01 12:48:10 mv .vscode/test.code-workspace .
+ 2679  2024-07-01 12:48:21 vim test.code-workspace 
+ 2680  2024-07-01 12:49:21 rm test.code-workspace 
+ 2681  2024-07-01 12:53:05 ls
+ 2682  2024-07-01 12:53:21 cd ..
+ 2683  2024-07-01 12:53:39 mkdir/ary_sort
+ 2684  2024-07-01 12:53:49 mkdir ary_sort
+ 2685  2024-07-01 12:54:03 rm ary_sort
+ 2686  2024-07-01 12:54:14 rmdir ary_sort
+ 2687  2024-07-01 12:55:17 cp -r test/ary_sort sort_array
+ 2688  2024-07-01 12:55:37 cp -r test/ary_sort/makefile sort_array/
+ 2689  2024-07-01 12:55:45 cp -r test/makefile sort_array/
+ 2690  2024-07-01 12:55:55 cp -r test/.vscode sort_array/
+ 2691  2024-07-01 12:56:04 cd sort_array
+ 2692  2024-07-01 12:56:35 vim -p makefile ../bit_manip/makefile 
+ 2693  2024-07-01 13:59:54 exit
+ 2694  2024-07-01 19:07:40 cd workspace
+ 2695  2024-07-01 19:07:42 ls
+ 2696  2024-07-01 19:08:50 cd test
+ 2697  2024-07-01 19:08:54 ls
+ 2698  2024-07-01 19:09:15 vim -p pointers/*
+ 2699  2024-07-01 20:10:17 cd pointers
+ 2700  2024-07-01 20:10:25 ctags .
+ 2701  2024-07-01 20:10:27 cd ..
+ 2702  2024-07-01 20:10:31 vim -p pointers/*
+ 2703  2024-07-02 00:17:35 exit
+ 2704  2024-07-01 19:13:35 make ointers
+ 2705  2024-07-01 19:13:41 make pointers
+ 2706  2024-07-01 19:13:56 output/pointers
+ 2707  2024-07-01 19:22:44 links2 -g &
+ 2708  2024-07-01 19:26:27 output/pointers
+ 2709  2024-07-01 20:14:19 cd pointers
+ 2710  2024-07-01 20:14:32 ctags ./*
+ 2711  2024-07-01 20:37:02 make pointers
+ 2712  2024-07-01 20:37:23 cd ..
+ 2713  2024-07-01 20:37:26 make pointers
+ 2714  2024-07-01 20:37:32 output/pointers
+ 2715  2024-07-01 20:41:30 make pointers
+ 2716  2024-07-01 20:41:32 output/pointers
+ 2717  2024-07-01 20:43:58 make pointers
+ 2718  2024-07-01 20:44:00 output/pointers
+ 2719  2024-07-02 00:17:44 exit
+ 2720  2024-07-02 00:21:25 shutdown -r now
+ 2721  2024-07-02 14:41:18 cd temp
+ 2722  2024-07-02 14:41:20 ls
+ 2723  2024-07-02 14:41:22 ls -al
+ 2724  2024-07-02 14:41:30 cd practice
+ 2725  2024-07-02 14:41:31 ls -al
+ 2726  2024-07-02 14:41:40 cd ..
+ 2727  2024-07-02 14:41:44 ls -al test
+ 2728  2024-07-02 14:41:48 cd test
+ 2729  2024-07-02 14:41:50 ls
+ 2730  2024-07-02 14:42:17 vim min_makefile 
+ 2731  2024-07-02 14:42:56 make -f min_makefile 
+ 2732  2024-07-02 14:43:11 ls
+ 2733  2024-07-02 14:43:25 git init
+ 2734  2024-07-02 14:43:32 git status
+ 2735  2024-07-02 14:43:44 nano .gitignore
+ 2736  2024-07-02 14:44:13 git status
+ 2737  2024-07-02 14:44:22 make -f min_makefile 
+ 2738  2024-07-02 14:44:31 git add .
+ 2739  2024-07-02 14:44:35 make -f min_makefile 
+ 2740  2024-07-02 14:44:38 git status
+ 2741  2024-07-02 14:45:08 git commit -m "initial commit."
+ 2742  2024-07-02 14:45:11 git status
+ 2743  2024-07-02 14:45:18 vim min_makefile 
+ 2744  2024-07-02 14:45:59 make -f min_makefile 
+ 2745  2024-07-02 14:46:04 ./test
+ 2746  2024-07-02 14:46:11 ls
+ 2747  2024-07-02 14:46:32 vim min_makefile 
+ 2748  2024-07-02 21:07:50 exit
+ 2749  2024-07-02 14:47:55 ls
+ 2750  2024-07-02 14:49:22 make clean
+ 2751  2024-07-02 14:49:48 ls
+ 2752  2024-07-02 14:49:58 make min_makefile
+ 2753  2024-07-02 14:50:03 make -f min_makefile
+ 2754  2024-07-02 14:50:06 ls
+ 2755  2024-07-02 14:50:09 ls output
+ 2756  2024-07-02 14:50:15 output test
+ 2757  2024-07-02 14:50:20 output/test
+ 2758  2024-07-02 14:52:33 make clean
+ 2759  2024-07-02 14:52:46 make -f min_makefile clean
+ 2760  2024-07-02 14:54:48 ls
+ 2761  2024-07-02 14:57:05 mkdir source
+ 2762  2024-07-02 14:57:07 ls
+ 2763  2024-07-02 14:57:18 mv *.c source
+ 2764  2024-07-02 14:57:20 ls
+ 2765  2024-07-02 14:57:24 ls source
+ 2766  2024-07-02 15:07:17 make
+ 2767  2024-07-02 15:10:34 ls obj
+ 2768  2024-07-02 15:10:36 ls
+ 2769  2024-07-02 15:12:45 make
+ 2770  2024-07-02 15:12:47 ls
+ 2771  2024-07-02 15:16:20 make
+ 2772  2024-07-02 15:17:42 ls
+ 2773  2024-07-02 15:18:34 make
+ 2774  2024-07-02 15:18:38 ls
+ 2775  2024-07-02 15:21:16 make
+ 2776  2024-07-02 15:22:18 make clean
+ 2777  2024-07-02 15:22:20 make
+ 2778  2024-07-02 15:23:27 ls
+ 2779  2024-07-02 15:24:13 make
+ 2780  2024-07-02 15:24:16 ls
+ 2781  2024-07-02 15:24:53 make
+ 2782  2024-07-02 15:24:55 ls
+ 2783  2024-07-02 15:25:34 make
+ 2784  2024-07-02 15:25:36 ls
+ 2785  2024-07-02 15:27:13 make
+ 2786  2024-07-02 15:27:51 ls
+ 2787  2024-07-02 15:27:56 ls source
+ 2788  2024-07-02 15:29:11 make
+ 2789  2024-07-02 15:29:19 ls 
+ 2790  2024-07-02 15:31:51 make
+ 2791  2024-07-02 15:31:57 ls
+ 2792  2024-07-02 15:32:16 make
+ 2793  2024-07-02 15:35:25 make clean
+ 2794  2024-07-02 15:35:40 make -f makefile.bak
+ 2795  2024-07-02 15:35:43 ls
+ 2796  2024-07-02 15:37:26 make
+ 2797  2024-07-02 15:37:39 ls
+ 2798  2024-07-02 15:39:05 make
+ 2799  2024-07-02 15:40:42 make clean
+ 2800  2024-07-02 15:40:44 make
+ 2801  2024-07-02 15:40:46 ls
+ 2802  2024-07-02 15:40:50 make clean
+ 2803  2024-07-02 15:40:55 ls
+ 2804  2024-07-02 15:40:59 make
+ 2805  2024-07-02 15:42:00 make clean
+ 2806  2024-07-02 15:42:02 make
+ 2807  2024-07-02 15:42:05 ls
+ 2808  2024-07-02 15:42:14 output/test
+ 2809  2024-07-02 15:44:06 make clean
+ 2810  2024-07-02 15:44:08 make
+ 2811  2024-07-02 15:44:11 ls
+ 2812  2024-07-02 15:47:33 make clean
+ 2813  2024-07-02 15:47:37 make -f makefile.bak
+ 2814  2024-07-02 15:50:21 make clean
+ 2815  2024-07-02 15:50:23 make
+ 2816  2024-07-02 15:50:31 git status
+ 2817  2024-07-02 15:50:54 nano .gitignore
+ 2818  2024-07-02 15:51:26 git status
+ 2819  2024-07-02 15:51:39 git diff min_makefile
+ 2820  2024-07-02 15:51:54 git status
+ 2821  2024-07-02 19:41:43 git config --global init.defaultBranch main
+ 2822  2024-07-02 21:07:54 exit
+ 2823  2024-07-03 11:32:19 cd temp
+ 2824  2024-07-03 11:32:37 ls -al
+ 2825  2024-07-03 11:32:51 cd .git
+ 2826  2024-07-03 11:32:52 ls
+ 2827  2024-07-03 11:32:56 ls objects/
+ 2828  2024-07-03 11:34:09 ls objects/pack
+ 2829  2024-07-03 11:34:20 ls objects/info
+ 2830  2024-07-03 11:34:32 ls objects/info/refs
+ 2831  2024-07-03 11:34:43 ls objects/refs
+ 2832  2024-07-03 11:34:53 ls refs
+ 2833  2024-07-03 11:35:13 ls -al
+ 2834  2024-07-03 11:35:32 ls -al objects
+ 2835  2024-07-03 11:35:51 cd ..
+ 2836  2024-07-03 11:35:52 ls
+ 2837  2024-07-03 11:35:57 cd test
+ 2838  2024-07-03 11:36:03 cd .git
+ 2839  2024-07-03 11:36:05 ls
+ 2840  2024-07-03 11:36:12 ls -al objects
+ 2841  2024-07-03 11:36:24 ls -al objects/2e
+ 2842  2024-07-03 11:36:39 cat objects/2e/7a77ac2b546b23b95a990a49034aca42fd255b 
+ 2843  2024-07-03 11:37:09 cd ..
+ 2844  2024-07-03 11:37:21 ls
+ 2845  2024-07-03 11:37:32 mkdir gittest
+ 2846  2024-07-03 11:37:35 cd gittest
+ 2847  2024-07-03 11:37:40 git init
+ 2848  2024-07-03 11:38:40 echo "hello world" > hello.txt
+ 2849  2024-07-03 11:38:45 git add hello.txt 
+ 2850  2024-07-03 11:38:54 cd .git/objects
+ 2851  2024-07-03 11:38:57 ls
+ 2852  2024-07-03 11:39:06 cd 3b/
+ 2853  2024-07-03 11:39:07 ls
+ 2854  2024-07-03 11:39:16 cat 18e512dba79e4c8300dd08aeb37f8e728b8dad 
+ 2855  2024-07-03 11:40:41 git cat-file -p 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2856  2024-07-03 11:41:34 cd ../../
+ 2857  2024-07-03 11:41:37 cd ..
+ 2858  2024-07-03 11:41:39 git cat-file -p 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2859  2024-07-03 11:42:24 find -typr f -name 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2860  2024-07-03 11:42:32 find -type f -name 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2861  2024-07-03 11:43:00 git help cat-file
+ 2862  2024-07-03 11:45:20 git cat-file -p 18e512
+ 2863  2024-07-03 11:45:26 find -type f -name 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2864  2024-07-03 11:45:36 git cat-file -p 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2865  2024-07-03 11:45:41 git help cat-file
+ 2866  2024-07-03 11:46:03 man gitrevisions
+ 2867  2024-07-03 11:46:41 git log
+ 2868  2024-07-03 11:46:58 git status
+ 2869  2024-07-03 11:47:16 git help cat-file
+ 2870  2024-07-03 11:49:10 git cat-file -p 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2871  2024-07-03 11:49:20 git cat-file -t 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2872  2024-07-03 11:50:33 ls .git
+ 2873  2024-07-03 11:50:45 ls -al .git
+ 2874  2024-07-03 11:51:02 cat .git/index
+ 2875  2024-07-03 11:51:57 git cat-file -p index
+ 2876  2024-07-03 11:52:11 git cat-file -p objects/18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2877  2024-07-03 11:52:20 git cat-file -p .git/objects/18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2878  2024-07-03 11:52:35 git cat-file -p -- 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2879  2024-07-03 11:54:26 git commit -m "initial commit"
+ 2880  2024-07-03 11:54:35 git cat-file -p 18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2881  2024-07-03 11:54:47 ls -al .git/objects
+ 2882  2024-07-03 11:54:56 ls -al .git/objects/67
+ 2883  2024-07-03 11:55:18 git cat-file -p 02e9d03d1b5452cbee6d25ace1157d49fad66d
+ 2884  2024-07-03 11:55:32 ls -al .git/objects/68
+ 2885  2024-07-03 11:55:57 git cat-file -p aba62e560c0ebc3396e8ae9335232cd93a3f60t
+ 2886  2024-07-03 11:56:05 git cat-file -t aba62e560c0ebc3396e8ae9335232cd93a3f60t
+ 2887  2024-07-04 10:10:49 man atoi
+ 2888  2024-07-04 10:11:48 strtol
+ 2889  2024-07-04 10:11:51 man atoi
+ 2890  2024-07-04 10:12:09 strtol
+ 2891  2024-07-04 10:12:15 man strtol
+ 2892  2024-07-04 16:24:11 vim temp.c
+ 2893  2024-07-04 16:24:54 gcc temp.c -o temp
+ 2894  2024-07-04 16:25:11 fg
+ 2895  2024-07-04 16:26:36 gcc temp.c -o temp
+ 2896  2024-07-04 16:26:41 fg
+ 2897  2024-07-04 16:26:59 gcc temp.c -o temp
+ 2898  2024-07-04 16:27:06 ,/temp
+ 2899  2024-07-04 16:27:12 ./temp
+ 2900  2024-07-04 16:27:21 fg
+ 2901  2024-07-04 16:33:09 ls -alrt
+ 2902  2024-07-04 16:33:16 rm temp
+ 2903  2024-07-04 16:33:18 rm temp.c
+ 2904  2024-07-04 16:52:57 vim temp.c
+ 2905  2024-07-04 16:54:05 gcc temp.c -o temp
+ 2906  2024-07-04 16:54:11 ./temp
+ 2907  2024-07-04 16:54:21 fg
+ 2908  2024-07-04 16:55:08 gcc temp.c -o temp
+ 2909  2024-07-04 16:55:12 fg
+ 2910  2024-07-04 16:55:25 gcc temp.c -o temp
+ 2911  2024-07-04 16:55:28 ./temp
+ 2912  2024-07-04 16:57:25 fg
+ 2913  2024-07-04 16:58:00 gcc temp.c -o temp
+ 2914  2024-07-04 16:58:03 ./temp
+ 2915  2024-07-04 16:58:29 fg
+ 2916  2024-07-06 10:53:04 history
+ 2917  2024-07-06 10:53:32 ls -al .git
+ 2918  2024-07-06 10:53:38 ls -al .git/objects
+ 2919  2024-07-06 10:53:46 ls -al .git/objects/68
+ 2920  2024-07-06 10:54:49 git cat-file -p .git/objects/68aba62e560c0ebc3396e8ae9335232cd93a3f60
+ 2921  2024-07-06 10:55:26 git cat-file -p 68aba62e560c0ebc3396e8ae9335232cd93a3f60
+ 2922  2024-07-06 10:55:52 ls -al .git/objects/67/
+ 2923  2024-07-06 10:56:16 git cat-file -p 6702e9d03d1b5452cbee6d25ace1157d49fad66d
+ 2924  2024-07-06 10:56:37 ls -al .git/objects/3b
+ 2925  2024-07-06 10:56:54 git cat-file -p 3b18e512dba79e4c8300dd08aeb37f8e728b8dad
+ 2926  2024-07-06 12:13:55 ls -al .git
+ 2927  2024-07-06 12:14:02 ls -al .git/index
+ 2928  2024-07-06 12:14:07 cat .git/index
+ 2929  2024-07-06 12:14:16 git status
+ 2930  2024-07-06 12:14:39 ls
+ 2931  2024-07-06 12:14:47 git log
+ 2932  2024-07-06 12:14:57 git show
+ 2933  2024-07-06 12:22:23 git show-index
+ 2934  2024-07-06 12:22:37 git help show-index
+ 2935  2024-07-06 12:24:50 vim hello.txt 
+ 2936  2024-07-06 12:25:07 git status
+ 2937  2024-07-06 12:25:17 git show-index
+ 2938  2024-07-06 12:26:48 git ls-files
+ 2939  2024-07-06 12:27:13 git restore hello.txt
+ 2940  2024-07-06 12:27:15 git ls-files
+ 2941  2024-07-06 12:29:36 vim hello.txt 
+ 2942  2024-07-06 12:29:51 git status
+ 2943  2024-07-06 12:30:05 git add hello.txt 
+ 2944  2024-07-06 12:30:09 git show-index
+ 2945  2024-07-06 12:32:29 git ls-files
+ 2946  2024-07-06 12:33:44 git ls-files -s
+ 2947  2024-07-06 12:36:31 ls -al .git/objects
+ 2948  2024-07-06 12:36:50 tree .git/objects
+ 2949  2024-07-06 12:54:01 sudo apt install tree
+ 2950  2024-07-06 12:54:21 tree .git/objects
+ 2951  2024-07-06 12:54:35 git ls-files -s
+ 2952  2024-07-06 12:54:49 git status
+ 2953  2024-07-06 12:55:09 hexdump
+ 2954  2024-07-06 12:55:24 hexdump .git/index
+ 2955  2024-07-06 12:55:33 hexdump --help
+ 2956  2024-07-06 12:55:50 hd .git/index
+ 2957  2024-07-06 12:56:08 git status
+ 2958  2024-07-06 12:56:36 git restore --staged hello.txt
+ 2959  2024-07-06 12:56:39 git status
+ 2960  2024-07-06 12:56:45 hd .git/index
+ 2961  2024-07-06 12:57:36 tree .git/objects
+ 2962  2024-07-06 12:58:19 git add hello.txt 
+ 2963  2024-07-06 12:58:22 hd .git/index
+ 2964  2024-07-06 14:23:01 git add hello.txt 
+ 2965  2024-07-06 14:23:12 hd .git/index
+ 2966  2024-07-06 14:24:29 git cat-file -p 66899b26
+ 2967  2024-07-06 14:24:59 git cat-file -p 3b18e512
+ 2968  2024-07-06 14:26:38 git commit -m "test"
+ 2969  2024-07-06 14:26:43 hd .git/index
+ 2970  2024-07-06 14:26:58 tree .git/objects
+ 2971  2024-07-06 14:27:51 git cat-file -p edf036f
+ 2972  2024-07-06 14:28:24 git cat-file -p 6009101
+ 2973  2024-07-06 14:29:09 git cat-file -p a042389
+ 2974  2024-07-06 14:32:22 git log
+ 2975  2024-07-06 14:33:00 git cat-file -p 6702e9d
+ 2976  2024-07-06 14:33:27 git cat-file -p 68aba62
+ 2977  2024-07-02 04:21:58 vim -p pointers/*
+ 2978  2024-07-07 07:20:49 exit
+ 2979  2024-07-02 04:21:21 cd workspace/test
+ 2980  2024-07-02 04:26:51 make pointers
+ 2981  2024-07-02 04:26:59 output/pointers
+ 2982  2024-07-02 04:33:06 make pointers
+ 2983  2024-07-02 04:33:08 output/pointers
+ 2984  2024-07-02 04:39:20 make pointers
+ 2985  2024-07-02 04:39:22 output/pointers
+ 2986  2024-07-02 04:47:20 make pointers
+ 2987  2024-07-02 04:47:21 output/pointers
+ 2988  2024-07-02 04:49:30 make pointers
+ 2989  2024-07-02 04:49:32 output/pointers
+ 2990  2024-07-02 04:52:55 make pointers
+ 2991  2024-07-02 04:52:57 output/pointers
+ 2992  2024-07-02 04:54:51 make pointers
+ 2993  2024-07-02 04:54:56 output/pointers
+ 2994  2024-07-02 04:56:32 make pointers
+ 2995  2024-07-02 04:56:58 output/pointers
+ 2996  2024-07-02 04:58:33 make pointers
+ 2997  2024-07-02 04:58:38 output/pointers
+ 2998  2024-07-02 05:00:54 make pointers
+ 2999  2024-07-02 05:00:56 output/pointers
+ 3000  2024-07-02 05:03:51 make pointers
+ 3001  2024-07-02 05:03:52 output/pointers
+ 3002  2024-07-02 05:06:09 make pointers
+ 3003  2024-07-02 05:06:15 output/pointers
+ 3004  2024-07-02 05:08:42 make pointers
+ 3005  2024-07-02 05:10:04 output/pointers
+ 3006  2024-07-02 05:21:35 make pointers
+ 3007  2024-07-02 05:21:39 output/pointers
+ 3008  2024-07-02 05:25:06 make pointers
+ 3009  2024-07-02 05:25:08 output/pointers
+ 3010  2024-07-02 05:26:28 make pointers
+ 3011  2024-07-02 05:26:30 output/pointers
+ 3012  2024-07-02 05:32:54 make pointers
+ 3013  2024-07-02 05:32:56 output/pointers
+ 3014  2024-07-02 05:35:13 make pointers
+ 3015  2024-07-02 05:35:14 output/pointers
+ 3016  2024-07-02 05:40:37 make pointers
+ 3017  2024-07-02 05:40:38 output/pointers
+ 3018  2024-07-02 05:47:13 make pointers
+ 3019  2024-07-02 05:47:16 output/pointers
+ 3020  2024-07-02 05:49:10 make pointers
+ 3021  2024-07-02 05:49:11 output/pointers
+ 3022  2024-07-02 05:50:10 make pointers
+ 3023  2024-07-02 05:50:11 output/pointers
+ 3024  2024-07-02 05:50:53 make pointers
+ 3025  2024-07-02 05:50:54 output/pointers
+ 3026  2024-07-02 05:52:13 make pointers
+ 3027  2024-07-02 05:52:14 output/pointers
+ 3028  2024-07-02 05:53:49 make pointers
+ 3029  2024-07-02 05:53:50 output/pointers
+ 3030  2024-07-02 05:55:19 make pointers
+ 3031  2024-07-02 05:55:21 output/pointers
+ 3032  2024-07-02 05:58:00 make pointers
+ 3033  2024-07-02 05:58:02 output/pointers
+ 3034  2024-07-02 06:06:02 make pointers
+ 3035  2024-07-02 06:06:04 output/pointers
+ 3036  2024-07-02 06:07:34 make pointers
+ 3037  2024-07-02 06:07:35 output/pointers
+ 3038  2024-07-02 06:08:17 make pointers
+ 3039  2024-07-02 06:08:18 output/pointers
+ 3040  2024-07-02 06:09:14 make pointers
+ 3041  2024-07-02 06:09:15 output/pointers
+ 3042  2024-07-02 07:23:19 make pointers
+ 3043  2024-07-02 07:23:21 output/pointers
+ 3044  2024-07-03 10:21:17 ls -al .git
+ 3045  2024-07-03 10:21:41 ls -al .git/hooks
+ 3046  2024-07-03 10:22:08 ls -al .git/refs
+ 3047  2024-07-03 10:22:25 ls -al .git/objects
+ 3048  2024-07-03 10:22:42 output/pointers
+ 3049  2024-07-03 10:25:13 make pointers
+ 3050  2024-07-03 10:25:27 output/pointesrs
+ 3051  2024-07-03 10:25:39 output/pointers
+ 3052  2024-07-03 10:27:13 make pointers
+ 3053  2024-07-03 10:27:16 output/pointers
+ 3054  2024-07-03 10:30:09 make pointers
+ 3055  2024-07-03 10:30:11 output/pointers
+ 3056  2024-07-03 10:31:20 make pointers
+ 3057  2024-07-03 10:31:21 output/pointers
+ 3058  2024-07-03 10:35:06 make pointers
+ 3059  2024-07-03 10:35:08 output/pointers
+ 3060  2024-07-03 10:39:01 make pointers
+ 3061  2024-07-03 10:39:03 output/pointers
+ 3062  2024-07-03 10:43:36 make pointers
+ 3063  2024-07-03 10:43:38 output/pointers
+ 3064  2024-07-03 10:46:18 make pointers
+ 3065  2024-07-03 10:46:20 output/pointers
+ 3066  2024-07-03 10:51:44 make pointers
+ 3067  2024-07-03 10:51:46 output/pointers
+ 3068  2024-07-03 10:53:07 make pointers
+ 3069  2024-07-03 10:53:08 output/pointers
+ 3070  2024-07-03 10:53:53 make pointers
+ 3071  2024-07-03 10:53:54 output/pointers
+ 3072  2024-07-03 10:56:27 make pointers
+ 3073  2024-07-03 10:56:36 output/pointers
+ 3074  2024-07-03 10:58:05 make pointers
+ 3075  2024-07-03 10:58:06 output/pointers
+ 3076  2024-07-03 10:58:47 make pointers
+ 3077  2024-07-03 10:58:47 output/pointers
+ 3078  2024-07-03 11:58:21 make pointers
+ 3079  2024-07-03 11:58:23 output/pointers
+ 3080  2024-07-03 11:59:33 make pointers
+ 3081  2024-07-03 11:59:34 output/pointers
+ 3082  2024-07-03 11:59:59 make pointers
+ 3083  2024-07-03 12:00:00 output/pointers
+ 3084  2024-07-03 12:01:25 make pointers
+ 3085  2024-07-03 12:01:27 output/pointers
+ 3086  2024-07-03 12:01:48 make pointers
+ 3087  2024-07-03 12:01:58 output/pointers
+ 3088  2024-07-03 12:03:45 make pointers
+ 3089  2024-07-03 12:03:47 output/pointers
+ 3090  2024-07-03 14:28:28 make pointers
+ 3091  2024-07-03 14:28:30 output/pointers
+ 3092  2024-07-03 14:29:12 make pointers
+ 3093  2024-07-03 14:29:46 output/pointers
+ 3094  2024-07-03 14:31:03 make pointers
+ 3095  2024-07-03 14:31:04 output/pointers
+ 3096  2024-07-03 14:39:49 make pointers
+ 3097  2024-07-03 14:39:50 output/pointers
+ 3098  2024-07-03 14:43:05 make pointers
+ 3099  2024-07-03 14:43:06 output/pointers
+ 3100  2024-07-03 14:45:22 make pointers
+ 3101  2024-07-03 14:45:24 output/pointers
+ 3102  2024-07-03 14:46:06 make pointers
+ 3103  2024-07-03 14:46:07 output/pointers
+ 3104  2024-07-03 14:47:07 make pointers
+ 3105  2024-07-03 14:47:08 output/pointers
+ 3106  2024-07-03 15:40:41 make pointers
+ 3107  2024-07-03 15:40:42 output/pointers
+ 3108  2024-07-03 15:41:22 make pointers
+ 3109  2024-07-03 15:41:23 output/pointers
+ 3110  2024-07-03 22:20:36 make pointers
+ 3111  2024-07-03 22:21:08 output/pointers
+ 3112  2024-07-03 22:22:21 make pointers
+ 3113  2024-07-03 22:22:22 output/pointers
+ 3114  2024-07-04 07:09:23 make pointers
+ 3115  2024-07-04 07:10:15 output/pointers
+ 3116  2024-07-04 07:10:19 make pointers
+ 3117  2024-07-04 07:11:01 output/pointers
+ 3118  2024-07-04 07:15:43 make pointers
+ 3119  2024-07-04 07:16:14 output/pointers
+ 3120  2024-07-04 07:18:02 make pointers
+ 3121  2024-07-04 07:18:03 output/pointers
+ 3122  2024-07-04 09:14:04 make pointers
+ 3123  2024-07-04 09:22:00 output/pointers
+ 3124  2024-07-04 09:24:28 make pointers
+ 3125  2024-07-04 09:24:29 output/pointers
+ 3126  2024-07-04 09:27:45 make pointers
+ 3127  2024-07-04 09:28:16 output/pointers
+ 3128  2024-07-04 09:28:20 make pointers
+ 3129  2024-07-04 09:28:21 output/pointers
+ 3130  2024-07-04 09:30:43 make pointers
+ 3131  2024-07-04 09:34:42 output/pointers
+ 3132  2024-07-04 09:36:27 make pointers
+ 3133  2024-07-04 09:36:29 output/pointers
+ 3134  2024-07-04 09:37:18 make pointers
+ 3135  2024-07-04 09:37:19 output/pointers
+ 3136  2024-07-04 09:38:41 make pointers
+ 3137  2024-07-04 09:38:43 output/pointers
+ 3138  2024-07-04 09:51:37 make pointers
+ 3139  2024-07-04 09:54:06 links2 -g &
+ 3140  2024-07-04 10:02:44 make pointers
+ 3141  2024-07-04 10:23:44 output/pointers
+ 3142  2024-07-04 10:23:52 output/pointers 4
+ 3143  2024-07-04 10:24:47 make pointers
+ 3144  2024-07-04 10:24:50 output/pointers
+ 3145  2024-07-04 10:25:26 make pointers
+ 3146  2024-07-04 10:25:28 output/pointers
+ 3147  2024-07-04 10:25:58 make pointers
+ 3148  2024-07-04 10:25:59 output/pointers
+ 3149  2024-07-04 10:26:09 output/pointers 4
+ 3150  2024-07-04 10:27:21 make pointers
+ 3151  2024-07-04 10:27:24 output/pointers 4
+ 3152  2024-07-04 10:29:23 make pointers
+ 3153  2024-07-04 10:29:25 output/pointers 4
+ 3154  2024-07-04 10:30:11 make pointers
+ 3155  2024-07-04 10:30:13 output/pointers 4
+ 3156  2024-07-04 12:29:26 man memcpy
+ 3157  2024-07-04 12:30:39 make pointers
+ 3158  2024-07-04 12:33:08 man memcpy
+ 3159  2024-07-04 12:37:16 make pointers
+ 3160  2024-07-04 12:37:21 output/pointers 4
+ 3161  2024-07-04 12:56:24 man memcpy
+ 3162  2024-07-04 12:56:30 make pointers
+ 3163  2024-07-04 12:57:00 output/pointers 4
+ 3164  2024-07-04 12:58:21 make pointers
+ 3165  2024-07-04 12:58:23 output/pointers 4
+ 3166  2024-07-04 12:59:22 make pointers
+ 3167  2024-07-04 12:59:24 output/pointers 4
+ 3168  2024-07-04 13:03:00 make pointers
+ 3169  2024-07-04 13:03:02 output/pointers 4
+ 3170  2024-07-04 13:03:46 make pointers
+ 3171  2024-07-04 13:03:48 output/pointers 4
+ 3172  2024-07-04 13:05:44 make pointers
+ 3173  2024-07-04 13:05:46 output/pointers 4
+ 3174  2024-07-04 13:05:59 make pointers
+ 3175  2024-07-04 13:06:00 output/pointers 4
+ 3176  2024-07-04 13:07:11 make pointers
+ 3177  2024-07-04 13:07:18 output/pointers 4
+ 3178  2024-07-04 13:10:40 make pointers
+ 3179  2024-07-04 13:10:42 output/pointers 4
+ 3180  2024-07-04 13:11:35 output/pointers
+ 3181  2024-07-04 13:12:09 output/pointers 4
+ 3182  2024-07-04 13:25:27 make pointers
+ 3183  2024-07-04 13:25:32 output/pointers 1
+ 3184  2024-07-04 13:27:06 make pointers
+ 3185  2024-07-04 13:27:08 output/pointers 1
+ 3186  2024-07-04 13:27:58 make pointers
+ 3187  2024-07-04 13:27:59 output/pointers 1
+ 3188  2024-07-04 13:28:16 make pointers
+ 3189  2024-07-04 13:28:17 output/pointers 1
+ 3190  2024-07-04 13:32:24 make pointers
+ 3191  2024-07-04 13:32:25 output/pointers 1
+ 3192  2024-07-04 13:33:10 make pointers
+ 3193  2024-07-04 13:33:11 output/pointers 1
+ 3194  2024-07-04 13:35:50 make pointers
+ 3195  2024-07-04 13:35:51 output/pointers 1
+ 3196  2024-07-04 13:43:35 make pointers
+ 3197  2024-07-04 13:43:36 output/pointers 1
+ 3198  2024-07-04 13:44:37 make pointers
+ 3199  2024-07-04 13:44:38 output/pointers 1
+ 3200  2024-07-04 13:47:48 make pointers
+ 3201  2024-07-04 13:47:49 output/pointers 1
+ 3202  2024-07-04 13:49:02 make pointers
+ 3203  2024-07-04 13:49:03 output/pointers 1
+ 3204  2024-07-04 13:50:23 make pointers
+ 3205  2024-07-04 13:50:23 output/pointers 1
+ 3206  2024-07-04 13:53:55 make pointers
+ 3207  2024-07-04 13:53:56 output/pointers 1
+ 3208  2024-07-04 13:56:55 make pointers
+ 3209  2024-07-04 13:56:56 output/pointers 1
+ 3210  2024-07-04 13:57:26 make pointers
+ 3211  2024-07-04 13:57:28 output/pointers 1
+ 3212  2024-07-04 13:58:10 make pointers
+ 3213  2024-07-04 13:58:11 output/pointers 1
+ 3214  2024-07-04 14:01:16 make pointers
+ 3215  2024-07-04 14:01:17 output/pointers 1
+ 3216  2024-07-04 14:02:40 make pointers
+ 3217  2024-07-04 14:02:41 output/pointers 1
+ 3218  2024-07-04 14:03:49 make pointers
+ 3219  2024-07-04 14:03:50 output/pointers 1
+ 3220  2024-07-04 14:04:48 make pointers
+ 3221  2024-07-04 14:04:50 output/pointers 1
+ 3222  2024-07-04 14:07:03 make pointers
+ 3223  2024-07-04 14:07:04 output/pointers 1
+ 3224  2024-07-04 14:08:06 make pointers
+ 3225  2024-07-04 14:08:07 output/pointers 1
+ 3226  2024-07-04 14:14:46 make pointers
+ 3227  2024-07-04 14:14:47 output/pointers 1
+ 3228  2024-07-04 14:16:46 make pointers
+ 3229  2024-07-04 14:16:47 output/pointers 1
+ 3230  2024-07-04 14:19:40 make pointers
+ 3231  2024-07-04 14:19:41 output/pointers 1
+ 3232  2024-07-04 14:20:44 output/pointers 1\2
+ 3233  2024-07-04 14:21:00 output/pointers 2
+ 3234  2024-07-04 14:23:02 make pointers
+ 3235  2024-07-04 14:23:04 output/pointers 2
+ 3236  2024-07-04 14:24:12 make pointers
+ 3237  2024-07-04 14:24:14 output/pointers 2
+ 3238  2024-07-04 14:28:49 make pointers
+ 3239  2024-07-04 14:28:50 output/pointers 2
+ 3240  2024-07-04 14:32:36 make pointers
+ 3241  2024-07-04 14:32:38 output/pointers 2
+ 3242  2024-07-04 14:34:20 make pointers
+ 3243  2024-07-04 14:34:21 output/pointers 2
+ 3244  2024-07-04 14:36:32 make pointers
+ 3245  2024-07-04 14:36:33 output/pointers 2
+ 3246  2024-07-04 14:37:30 make pointers
+ 3247  2024-07-04 14:37:46 output/pointers 2
+ 3248  2024-07-04 14:38:38 make pointers
+ 3249  2024-07-04 14:38:39 output/pointers 2
+ 3250  2024-07-04 14:40:59 make pointers
+ 3251  2024-07-04 14:41:00 output/pointers 2
+ 3252  2024-07-04 14:41:36 output/pointers 3
+ 3253  2024-07-04 14:43:06 make pointers
+ 3254  2024-07-04 14:43:08 output/pointers 3
+ 3255  2024-07-04 14:44:33 output/pointers 4
+ 3256  2024-07-04 14:46:08 make pointers
+ 3257  2024-07-04 14:46:11 output/pointers 4
+ 3258  2024-07-04 14:49:09 make pointers
+ 3259  2024-07-04 14:49:13 output/pointers 4
+ 3260  2024-07-04 14:49:57 make pointers
+ 3261  2024-07-04 14:50:00 output/pointers 4
+ 3262  2024-07-04 17:45:26 make pointers
+ 3263  2024-07-04 17:45:28 output/pointers 4
+ 3264  2024-07-04 17:47:21 make pointers
+ 3265  2024-07-04 17:47:25 output/pointers 4
+ 3266  2024-07-04 17:51:21 make pointers
+ 3267  2024-07-04 17:51:25 output/pointers 5
+ 3268  2024-07-04 17:57:01 make pointers
+ 3269  2024-07-04 17:57:03 output/pointers 5
+ 3270  2024-07-04 17:58:01 make pointers
+ 3271  2024-07-04 17:58:02 output/pointers 5
+ 3272  2024-07-04 17:59:42 make pointers
+ 3273  2024-07-04 17:59:44 output/pointers 5
+ 3274  2024-07-04 18:00:20 make pointers
+ 3275  2024-07-04 18:00:22 output/pointers 5
+ 3276  2024-07-04 18:03:51 make pointers
+ 3277  2024-07-04 18:03:53 output/pointers 5
+ 3278  2024-07-04 18:04:50 git status
+ 3279  2024-07-04 18:04:56 git diff
+ 3280  2024-07-04 18:05:26 git status
+ 3281  2024-07-04 21:10:00 make pointers
+ 3282  2024-07-04 21:10:10 output/pointers 5
+ 3283  2024-07-04 21:15:40 make pointers
+ 3284  2024-07-04 21:15:44 output/pointers 5
+ 3285  2024-07-04 21:17:08 make pointers
+ 3286  2024-07-04 21:17:10 output/pointers 5
+ 3287  2024-07-04 21:18:05 make pointers
+ 3288  2024-07-04 21:18:08 output/pointers 5
+ 3289  2024-07-04 21:19:41 make pointers
+ 3290  2024-07-04 21:19:44 output/pointers 5
+ 3291  2024-07-04 21:29:34 make pointers
+ 3292  2024-07-04 21:29:36 output/pointers 5
+ 3293  2024-07-04 21:30:42 make pointers
+ 3294  2024-07-04 21:30:43 output/pointers 5
+ 3295  2024-07-04 21:33:06 make pointers
+ 3296  2024-07-04 21:33:09 output/pointers 5
+ 3297  2024-07-04 21:34:08 make pointers
+ 3298  2024-07-04 21:34:09 output/pointers 5
+ 3299  2024-07-04 21:34:52 make pointers
+ 3300  2024-07-04 21:34:55 output/pointers 5
+ 3301  2024-07-04 21:36:02 make pointers
+ 3302  2024-07-04 21:36:03 output/pointers 5
+ 3303  2024-07-04 21:38:41 make pointers
+ 3304  2024-07-04 21:38:43 output/pointers 5
+ 3305  2024-07-04 21:40:37 make pointers
+ 3306  2024-07-04 21:40:39 output/pointers 5
+ 3307  2024-07-04 22:23:42 make pointers
+ 3308  2024-07-04 22:23:45 output/pointers 5
+ 3309  2024-07-04 22:25:41 make pointers
+ 3310  2024-07-04 22:25:43 output/pointers 5
+ 3311  2024-07-04 22:27:06 make pointers
+ 3312  2024-07-04 22:27:09 output/pointers 5
+ 3313  2024-07-04 22:40:02 make pointers
+ 3314  2024-07-04 22:40:03 output/pointers 5
+ 3315  2024-07-04 22:40:25 make pointers
+ 3316  2024-07-04 22:40:26 output/pointers 5
+ 3317  2024-07-05 07:35:47 make pointers
+ 3318  2024-07-05 07:35:52 output/pointers 6
+ 3319  2024-07-05 07:36:02 output/pointers 5
+ 3320  2024-07-05 07:40:08 make pointers
+ 3321  2024-07-05 07:40:12 output/pointers 5
+ 3322  2024-07-05 08:02:59 output/pointers 4
+ 3323  2024-07-05 08:06:22 output/pointers 6
+ 3324  2024-07-05 08:06:39 output/pointers 5
+ 3325  2024-07-05 08:10:55 make pointers
+ 3326  2024-07-05 08:10:58 output/pointers 6
+ 3327  2024-07-05 08:18:11 make pointers
+ 3328  2024-07-05 08:18:14 output/pointers 6
+ 3329  2024-07-05 08:19:59 make pointers
+ 3330  2024-07-05 08:20:01 output/pointers 6
+ 3331  2024-07-05 08:20:48 make pointers
+ 3332  2024-07-05 08:20:50 output/pointers 6
+ 3333  2024-07-05 08:23:24 make pointers
+ 3334  2024-07-05 08:26:30 output/pointers 1
+ 3335  2024-07-05 08:34:24 make pointers
+ 3336  2024-07-05 08:35:24 output/pointers 6
+ 3337  2024-07-05 08:47:32 make pointers
+ 3338  2024-07-05 08:58:43 output/pointers 6
+ 3339  2024-07-05 09:00:01 make pointers
+ 3340  2024-07-05 09:00:03 output/pointers 6
+ 3341  2024-07-05 09:00:32 make pointers
+ 3342  2024-07-05 09:00:33 output/pointers 6
+ 3343  2024-07-05 10:53:10 make pointers
+ 3344  2024-07-05 10:53:12 output/pointers 6
+ 3345  2024-07-05 10:54:49 make pointers
+ 3346  2024-07-05 10:54:52 output/pointers 6
+ 3347  2024-07-05 10:55:16 make pointers
+ 3348  2024-07-05 10:55:17 output/pointers 6
+ 3349  2024-07-05 11:14:51 make pointers
+ 3350  2024-07-05 11:14:57 output/pointers
+ 3351  2024-07-05 11:20:55 make pointers
+ 3352  2024-07-05 11:20:58 output/pointers
+ 3353  2024-07-05 12:32:54 make pointers
+ 3354  2024-07-05 12:33:00 output/pointers 6
+ 3355  2024-07-05 12:34:54 make pointers
+ 3356  2024-07-05 12:34:56 output/pointers 6
+ 3357  2024-07-05 12:36:51 make pointers
+ 3358  2024-07-05 12:36:53 output/pointers 6
+ 3359  2024-07-05 13:07:05 make pointers
+ 3360  2024-07-05 13:08:37 output/pointers 1
+ 3361  2024-07-05 13:09:39 make pointers
+ 3362  2024-07-05 13:09:42 output/pointers 1
+ 3363  2024-07-05 13:10:12 make pointers
+ 3364  2024-07-05 13:10:14 output/pointers 1
+ 3365  2024-07-05 13:10:52 make pointers
+ 3366  2024-07-05 13:10:54 output/pointers 1
+ 3367  2024-07-05 13:11:40 make pointers
+ 3368  2024-07-05 13:11:41 output/pointers 1
+ 3369  2024-07-05 13:11:46 make pointers
+ 3370  2024-07-05 13:11:48 output/pointers 1
+ 3371  2024-07-05 13:19:44 make pointers
+ 3372  2024-07-05 13:21:19 output/pointers 1
+ 3373  2024-07-05 13:23:15 make pointers
+ 3374  2024-07-05 13:23:16 output/pointers 1
+ 3375  2024-07-05 13:25:03 make pointers
+ 3376  2024-07-05 13:25:07 output/pointers 1
+ 3377  2024-07-05 13:25:34 make pointers
+ 3378  2024-07-05 13:25:36 output/pointers 1
+ 3379  2024-07-05 13:26:38 make pointers
+ 3380  2024-07-05 13:26:40 output/pointers 1
+ 3381  2024-07-05 13:30:53 make pointers
+ 3382  2024-07-05 13:30:54 output/pointers 1
+ 3383  2024-07-05 16:03:35 output/pointers 2
+ 3384  2024-07-05 16:07:43 output/pointers 5
+ 3385  2024-07-05 16:08:06 output/pointers 1
+ 3386  2024-07-05 16:14:23 make pointers
+ 3387  2024-07-05 16:14:26 output/pointers 1
+ 3388  2024-07-05 16:17:04 output/pointers 2
+ 3389  2024-07-05 16:23:05 make pointers
+ 3390  2024-07-05 16:23:08 output/pointers 1
+ 3391  2024-07-05 16:23:50 make pointers
+ 3392  2024-07-05 16:23:51 output/pointers 1
+ 3393  2024-07-05 16:25:43 make pointers
+ 3394  2024-07-05 16:25:48 output/pointers 1
+ 3395  2024-07-05 16:28:37 make pointers
+ 3396  2024-07-05 16:28:40 output/pointers 1
+ 3397  2024-07-05 16:42:06 make pointers
+ 3398  2024-07-05 16:42:10 output/pointers 2
+ 3399  2024-07-05 16:42:22 output/pointers 3
+ 3400  2024-07-05 16:44:16 make pointers
+ 3401  2024-07-05 16:44:19 output/pointers 3
+ 3402  2024-07-05 16:44:55 make pointers
+ 3403  2024-07-05 16:44:59 output/pointers 3
+ 3404  2024-07-05 16:46:29 make pointers
+ 3405  2024-07-05 16:46:30 output/pointers 3
+ 3406  2024-07-05 16:47:20 make pointers
+ 3407  2024-07-05 16:47:22 output/pointers 3
+ 3408  2024-07-05 16:48:28 make pointers
+ 3409  2024-07-05 16:48:30 output/pointers 3
+ 3410  2024-07-05 18:07:35 output/pointers 2
+ 3411  2024-07-05 18:08:41 output/pointers 1
+ 3412  2024-07-05 18:10:39 make pointers
+ 3413  2024-07-05 18:10:41 output/pointers 1
+ 3414  2024-07-05 18:15:00 make pointers
+ 3415  2024-07-05 18:15:01 output/pointers 1
+ 3416  2024-07-05 18:16:20 make pointers
+ 3417  2024-07-05 18:16:21 output/pointers 1
+ 3418  2024-07-05 18:17:46 make pointers
+ 3419  2024-07-05 18:17:47 output/pointers 1
+ 3420  2024-07-05 18:19:00 make pointers
+ 3421  2024-07-05 18:19:02 output/pointers 1
+ 3422  2024-07-05 18:20:41 make pointers
+ 3423  2024-07-05 18:20:43 output/pointers 1
+ 3424  2024-07-05 18:21:06 make pointers
+ 3425  2024-07-05 18:21:08 output/pointers 1
+ 3426  2024-07-05 18:22:05 make pointers
+ 3427  2024-07-05 18:22:06 output/pointers 1
+ 3428  2024-07-06 10:35:26 make pointers
+ 3429  2024-07-06 10:35:30 output/pointers 7
+ 3430  2024-07-06 10:44:03 make pointers
+ 3431  2024-07-06 10:44:06 output/pointers 7
+ 3432  2024-07-06 10:44:36 output/pointers 9
+ 3433  2024-07-06 10:45:25 make pointers
+ 3434  2024-07-06 10:45:27 output/pointers 9
+ 3435  2024-07-06 10:46:22 make pointers
+ 3436  2024-07-06 10:46:23 output/pointers 9
+ 3437  2024-07-06 12:32:51 git ls-files
+ 3438  2024-07-06 12:33:17 git ls-files -s
+ 3439  2024-07-06 14:52:51 output/pointers 9
+ 3440  2024-07-06 14:53:05 output/pointers 1
+ 3441  2024-07-06 15:01:12 output/pointers 9
+ 3442  2024-07-06 15:02:01 output/pointers 4
+ 3443  2024-07-06 15:02:06 output/pointers 9
+ 3444  2024-07-06 15:08:05 make pointers
+ 3445  2024-07-06 15:09:02 output/pointers 9
+ 3446  2024-07-06 15:10:05 make pointers
+ 3447  2024-07-06 15:10:07 output/pointers 9
+ 3448  2024-07-06 15:12:12 output/pointers 4
+ 3449  2024-07-06 15:12:16 output/pointers 9
+ 3450  2024-07-06 15:37:04 make pointers
+ 3451  2024-07-06 15:38:55 output/pointers 4
+ 3452  2024-07-06 15:43:11 make pointers
+ 3453  2024-07-06 15:44:02 output/pointers 4
+ 3454  2024-07-06 15:48:41 make pointers
+ 3455  2024-07-06 15:48:42 output/pointers 4
+ 3456  2024-07-06 15:50:33 output/pointers 9
+ 3457  2024-07-06 16:07:10 make pointers
+ 3458  2024-07-06 16:07:15 output/pointers 4
+ 3459  2024-07-06 16:10:47 make pointers
+ 3460  2024-07-06 16:10:49 output/pointers 4
+ 3461  2024-07-06 16:11:55 make pointers
+ 3462  2024-07-06 16:11:56 output/pointers 4
+ 3463  2024-07-06 16:16:32 output/pointers 9
+ 3464  2024-07-06 16:16:50 make pointers
+ 3465  2024-07-06 16:16:52 output/pointers 9
+ 3466  2024-07-06 16:24:12 make pointers
+ 3467  2024-07-06 18:08:12 output/pointers 9
+ 3468  2024-07-06 18:08:25 output/pointers 4
+ 3469  2024-07-06 21:58:36 ls -al .git
+ 3470  2024-07-06 21:59:02 ls ~/temp
+ 3471  2024-07-06 21:59:13 ls ~/temp/gittest/
+ 3472  2024-07-06 22:00:01 hd .git/index
+ 3473  2024-07-06 22:00:48 git ls-files
+ 3474  2024-07-06 22:01:42 strace git ls-files
+ 3475  2024-07-07 06:37:25 hd .git/index
+ 3476  2024-07-07 06:37:36 cd ~/temp/gittest/
+ 3477  2024-07-07 06:37:38 hd .git/index
+ 3478  2024-07-07 06:37:48 git log
+ 3479  2024-07-07 06:39:50 git cat-file edf036
+ 3480  2024-07-07 06:39:58 git cat-file -p edf036
+ 3481  2024-07-07 06:43:39 git cat-file -p 600910
+ 3482  2024-07-07 06:44:20 git status
+ 3483  2024-07-07 06:44:57 cd -
+ 3484  2024-07-07 07:20:52 exit
+ 3485  2024-07-06 21:59:32 cd temp/gittest
+ 3486  2024-07-06 21:59:42 ls -al .git
+ 3487  2024-07-06 22:02:44 strace git ls-files
+ 3488  2024-07-06 22:03:03 strace git ls-files | grep index
+ 3489  2024-07-06 22:04:03 strace --help
+ 3490  2024-07-06 22:06:36 ~~man strace
+ 3491  2024-07-06 22:06:43 man strace
+ 3492  2024-07-06 22:08:29 strace -e read git ls-files
+ 3493  2024-07-06 22:09:16 strace -e open git ls-files
+ 3494  2024-07-06 22:09:37 strace -o stdump git ls-files
+ 3495  2024-07-06 22:09:50 vim stdump 
+ 3496  2024-07-06 22:10:43 strace -e openat git ls-files
+ 3497  2024-07-06 22:12:38 less stdump 
+ 3498  2024-07-07 06:45:19 hd .git/index
+ 3499  2024-07-07 06:45:48 git cat-file -p 600910
+ 3500  2024-07-07 06:48:45 git cat-file -p a04238
+ 3501  2024-07-07 06:48:53 git status
+ 3502  2024-07-07 06:49:47 git checkout -b test
+ 3503  2024-07-07 06:50:21 git status
+ 3504  2024-07-07 06:50:28 hd .git/index
+ 3505  2024-07-07 06:50:41 git add hello.txt 
+ 3506  2024-07-07 06:50:52 hd .git/index
+ 3507  2024-07-07 06:51:35 git commit -m "new checkin on test branch."
+ 3508  2024-07-07 06:51:39 hd .git/index
+ 3509  2024-07-07 06:52:14 git cat-file -p 2063534
+ 3510  2024-07-07 06:52:26 git cat-file -p 6339eb
+ 3511  2024-07-07 06:52:53 cat .git/head
+ 3512  2024-07-07 06:52:59 ls -al .git
+ 3513  2024-07-07 06:53:06 cat .git/HEAD
+ 3514  2024-07-07 06:53:29 cat .git/refs/heads/test
+ 3515  2024-07-07 06:53:47 cat .git/refs/heads/master 
+ 3516  2024-07-07 06:54:10 git cat-file -p edf036
+ 3517  2024-07-07 06:54:20 git cat-file -p 600910
+ 3518  2024-07-07 06:54:39 git checkout master
+ 3519  2024-07-07 06:54:46 hd .git/index
+ 3520  2024-07-07 06:55:25 git merge test
+ 3521  2024-07-07 06:55:35 hd .git/index
+ 3522  2024-07-07 06:57:16 git add hello.txt 
+ 3523  2024-07-07 06:57:41 git commit -m "good master."
+ 3524  2024-07-07 06:57:53 git checkout test
+ 3525  2024-07-07 06:58:20 git add hello.txt 
+ 3526  2024-07-07 06:58:35 git commit -m "bye test."
+ 3527  2024-07-07 06:58:45 git checkout master
+ 3528  2024-07-07 06:58:52 git merge test
+ 3529  2024-07-07 06:58:58 hd .git/index
+ 3530  2024-07-07 07:00:18 git cat-file -p 6084209
+ 3531  2024-07-07 07:00:35 git cat-file -p f116ee
+ 3532  2024-07-07 07:01:22 git cat-file -p 849113
+ 3533  2024-07-07 07:01:34 git cat-file -p 166da22
+ 3534  2024-07-07 07:02:29 git ls-files
+ 3535  2024-07-07 07:06:16 git status
+ 3536  2024-07-07 07:06:32 git add hello.txt 
+ 3537  2024-07-07 07:06:38 git status
+ 3538  2024-07-07 07:06:48 git ls-files
+ 3539  2024-07-07 07:06:53 hd .git/index
+ 3540  2024-07-07 07:07:38 git commit -m "merge."
+ 3541  2024-07-07 07:07:43 hd .git/index
+ 3542  2024-07-07 07:07:53 git ls-files
+ 3543  2024-07-07 07:08:44 cat .git/refs/heads/master 
+ 3544  2024-07-07 07:12:18 git status
+ 3545  2024-07-07 07:13:36 git ls-files
+ 3546  2024-07-07 07:13:41 hd .git/index
+ 3547  2024-07-07 07:13:58 git add hello.txt 
+ 3548  2024-07-07 07:14:02 git ls-files
+ 3549  2024-07-07 07:14:07 hd .git/index
+ 3550  2024-07-07 07:14:56 rm -rf .git
+ 3551  2024-07-07 07:14:59 git init
+ 3552  2024-07-07 07:15:07 git add hello.txt 
+ 3553  2024-07-07 07:15:13 hd .git/index
+ 3554  2024-07-07 07:15:29 rm -rf .git
+ 3555  2024-07-07 07:15:32 git init
+ 3556  2024-07-07 07:15:35 hd .git/index
+ 3557  2024-07-07 07:15:42 git add hello.txt 
+ 3558  2024-07-07 07:15:44 hd .git/index
+ 3559  2024-07-07 07:16:25 git commit -m "initial commit"
+ 3560  2024-07-07 07:16:29 hd .git/index
+ 3561  2024-07-07 07:17:02 cat .git/refs/heads/master 
+ 3562  2024-07-07 07:17:32 git cat-file -p ead9d7
+ 3563  2024-07-07 07:17:44 git cat-file -p 695237
+ 3564  2024-07-07 07:21:03 hd .git/index
+ 3565  2024-07-07 07:21:35 ls -al .git/objects/
+ 3566  2024-07-07 07:21:43 git add hello.txt 
+ 3567  2024-07-07 07:21:46 ls -al .git/objects/
+ 3568  2024-07-07 07:22:03 git ls-files
+ 3569  2024-07-07 07:22:10 hd .git/index
+ 3570  2024-07-07 07:23:51 git cat-file -p f83f77
+ 3571  2024-07-07 07:25:04 git cat-file -p 695237
+ 3572  2024-07-07 07:25:31 git cat-file -p ead9d7
+ 3573  2024-07-07 07:27:36 git status
+ 3574  2024-07-07 07:27:45 git ls-files
+ 3575  2024-07-07 07:47:35 git help ls-files
+ 3576  2024-07-07 07:53:01 git ls-files --debug
+ 3577  2024-07-07 08:54:06 git status
+ 3578  2024-07-07 08:54:46 git restore hello.txt
+ 3579  2024-07-07 08:54:50 git status
+ 3580  2024-07-07 08:55:06 git restore --staged hello.txt
+ 3581  2024-07-07 08:55:08 git status
+ 3582  2024-07-07 08:55:16 git ls-files --debug
+ 3583  2024-07-07 08:56:24 git diff
+ 3584  2024-07-07 08:56:39 git restore hello.txt
+ 3585  2024-07-07 08:56:42 git status
+ 3586  2024-07-07 08:56:49 exit
+ 3587  2024-07-07 06:47:57 vim hello.txt 
+ 3588  2024-07-07 06:48:07 ls
+ 3589  2024-07-07 06:48:15 vim hello.txt 
+ 3590  2024-07-07 06:49:00 ls
+ 3591  2024-07-07 06:49:08 cat hello.txt 
+ 3592  2024-07-07 06:49:24 nano hello.txt 
+ 3593  2024-07-07 07:04:06 vim hello.txt 
+ 3594  2024-07-07 07:04:33 nano hello.txt 
+ 3595  2024-07-07 08:56:52 exit
+ 3596  2024-07-08 15:36:18 cd temp/gittest
+ 3597  2024-07-08 15:36:21 ls
+ 3598  2024-07-08 15:36:31 rm stdump 
+ 3599  2024-07-08 15:36:35 ls
+ 3600  2024-07-08 15:36:43 git ls-files
+ 3601  2024-07-08 15:36:58 git help ls-files
+ 3602  2024-07-08 15:37:29 git ls-files --debug
+ 3603  2024-07-08 15:37:41 ls -al .git
+ 3604  2024-07-08 15:38:14 cat .git/HEAD 
+ 3605  2024-07-08 15:38:42 cat .git /refs/heads/master
+ 3606  2024-07-08 15:38:57 cat .git/refs/heads/master
+ 3607  2024-07-08 15:39:20 ls -al .git/refs
+ 3608  2024-07-08 15:39:30 ls -al .git/refs/heads
+ 3609  2024-07-08 15:40:07 tree. 
+ 3610  2024-07-08 15:40:11 tree .
+ 3611  2024-07-08 15:40:25 tree --help
+ 3612  2024-07-08 15:40:43 tree -a .
+ 3613  2024-07-08 14:26:52 vim pointers/pointers.c
+ 3614  2024-07-08 19:03:18 exit
+ 3615  2024-07-07 17:14:31 cd workspace
+ 3616  2024-07-07 17:14:34 ls
+ 3617  2024-07-07 17:14:44 cd qemu
+ 3618  2024-07-07 17:14:49 ls -al
+ 3619  2024-07-07 17:15:05 ls -al cpcidev_pci/
+ 3620  2024-07-07 17:15:21 ls -al pci`
+ 3621  2024-07-07 17:15:30 ls -al pci-echodev/
+ 3622  2024-07-07 17:15:57 ls -al tutorial/
+ 3623  2024-07-07 17:16:26 ls -al
+ 3624  2024-07-07 17:42:55 df -h
+ 3625  2024-07-07 17:43:01 dg -h
+ 3626  2024-07-07 17:43:08 du -h
+ 3627  2024-07-07 17:43:43 du -h | grep G
+ 3628  2024-07-07 17:44:01 du -h | grep 'G '
+ 3629  2024-07-07 17:50:18 du -h | grep [0-9]G
+ 3630  2024-07-07 17:50:56 cd  tutorial
+ 3631  2024-07-07 17:50:58 du -h | grep [0-9]G
+ 3632  2024-07-07 17:51:32 cd linux-6.6.30/
+ 3633  2024-07-07 17:51:34 du -h | grep [0-9]G
+ 3634  2024-07-07 17:51:51 cd driver
+ 3635  2024-07-07 17:51:54 cd drivers
+ 3636  2024-07-07 17:51:56 du -h | grep [0-9]G
+ 3637  2024-07-07 17:52:00 ls
+ 3638  2024-07-07 17:52:12 cd ..
+ 3639  2024-07-07 17:52:18 du -h | grep [0-9]G
+ 3640  2024-07-07 17:52:38 ls
+ 3641  2024-07-07 17:53:01 ls -al tutorial/
+ 3642  2024-07-07 17:53:07 ls -al tutorial/linux-6.6.30/
+ 3643  2024-07-07 17:53:37 cd ..
+ 3644  2024-07-07 17:53:56 find -type d -name '.git'
+ 3645  2024-07-07 17:54:14 find -type d -name '.git' | xargs du -h
+ 3646  2024-07-07 17:54:31 find -type d -name '.git' | xargs du -h | grep [0-9]G
+ 3647  2024-07-07 17:55:10 cd kernel/torvalds/linux/
+ 3648  2024-07-07 17:55:17 git remotre list
+ 3649  2024-07-07 17:55:23 git remote list
+ 3650  2024-07-07 17:55:59 git remote get-url --all
+ 3651  2024-07-07 17:56:41 git remote
+ 3652  2024-07-07 17:56:51 git remote get-url --all origin
+ 3653  2024-07-07 17:57:11 df -h
+ 3654  2024-07-07 17:57:25 d ..
+ 3655  2024-07-07 17:57:27 cd ..
+ 3656  2024-07-07 18:00:51 cd ../temp
+ 3657  2024-07-07 18:00:59 cd git
+ 3658  2024-07-07 18:01:02 ls
+ 3659  2024-07-07 18:01:08 cd gittest
+ 3660  2024-07-07 18:01:17 git ls-files
+ 3661  2024-07-07 18:01:22 git ls-tree
+ 3662  2024-07-07 18:01:46 git log
+ 3663  2024-07-07 18:02:09 git ls-commit ead9d7
+ 3664  2024-07-07 18:02:41 git show ead9d7
+ 3665  2024-07-07 18:02:49 git show ead9d7 --debug
+ 3666  2024-07-07 18:06:23 git show ead9d7 --pretty=raw
+ 3667  2024-07-07 18:07:02 git show 695237 --pretty=raw
+ 3668  2024-07-07 18:09:10 git ls-tree 695237
+ 3669  2024-07-07 18:13:37 gitk
+ 3670  2024-07-07 18:13:58 sudo apt install gitk
+ 3671  2024-07-07 18:14:37 gitk
+ 3672  2024-07-07 18:18:28 git log
+ 3673  2024-07-07 18:18:38 gitk &
+ 3674  2024-07-08 14:26:03 cd -
+ 3675  2024-07-08 14:26:16 cd ~/workspace/test
+ 3676  2024-07-08 14:27:19 output/pointers
+ 3677  2024-07-08 14:28:01 output/pointers 7
+ 3678  2024-07-08 14:28:35 output/pointers
+ 3679  2024-07-08 14:34:24 make pointers
+ 3680  2024-07-08 14:34:28 output/pointers
+ 3681  2024-07-08 19:03:22 exit
+ 3682  2024-07-09 04:03:55 git help hash-object
+ 3683  2024-07-09 04:08:14 ls ~/workspace/rev_llist/
+ 3684  2024-07-09 04:08:21 ls ~/workspace/rev_llist/makefile 
+ 3685  2024-07-09 04:08:53 git hash-object -w ~/workspace/rev_llist/makefile
+ 3686  2024-07-09 04:09:20 cd temp/gittest/
+ 3687  2024-07-09 04:09:36 ls .git/objects/
+ 3688  2024-07-09 04:09:47 tree .git/objects/
+ 3689  2024-07-09 04:09:53 git hash-object -w ~/workspace/rev_llist/makefile
+ 3690  2024-07-09 04:09:56 tree .git/objects/
+ 3691  2024-07-09 04:10:29 git status
+ 3692  2024-07-09 04:11:26 git list-files
+ 3693  2024-07-09 04:11:33 git ls-files
+ 3694  2024-07-09 04:11:41 git ls-files --debug
+ 3695  2024-07-09 04:12:26 git cat-file -p d540f1
+ 3696  2024-07-09 04:15:23 git update_index -add --cacheinfo 100644 d540f1 makefile
+ 3697  2024-07-09 04:16:08 git update-index -add --cacheinfo 100644 d540f1 makefile
+ 3698  2024-07-09 04:16:20 git update-index --add --cacheinfo 100644 d540f1 makefile
+ 3699  2024-07-09 04:17:06 git update-index --add --cacheinfo 100644 d540f150bb6e125506349139d9aaf1c077762e25 makefile
+ 3700  2024-07-09 04:17:23 git status
+ 3701  2024-07-09 04:19:10 git cat-file -p d540f1
+ 3702  2024-07-09 04:19:18 git cat-file -p d540f1 > makefile
+ 3703  2024-07-09 04:19:20 git status
+ 3704  2024-07-09 04:19:35 vim makefile
+ 3705  2024-07-09 04:31:24 history
+ 3706* 2024-07-09 04:31:44 
+ 3707  2024-07-09 05:52:41 tree .git/objects/
+ 3708  2024-07-09 05:53:06 hd .git/index 
+ 3709  2024-07-09 05:54:49 git status
+ 3710  2024-07-09 05:55:34 ls ~/workspace/rev_llist/
+ 3711  2024-07-09 05:55:43 ls -al ~/workspace/rev_llist/
+ 3712  2024-07-09 05:56:28 git hash-object -w ~/workspace/rev_llist/.vscode
+ 3713  2024-07-09 05:56:59 git hash-object -w ~/workspace/rev_llist/.vscode/launch.json
+ 3714  2024-07-09 05:57:09 git hash-object -w ~/workspace/rev_llist/.vscode/tasks.json
+ 3715  2024-07-09 05:57:37 git status
+ 3716  2024-07-09 05:58:56 git update-index --add --cacheinfo 100644 7c40a925e772b9f7baea99423e0b06a738bfa5a0 .vscode/launch.json
+ 3717  2024-07-09 05:58:59 git status
+ 3718  2024-07-09 06:00:51 git update-index --add --cacheinfo 100644 27b6359b66e6465f6860d52864914f0cc1d957f8 .vscode/tasks.json
+ 3719  2024-07-09 06:00:55 git status
+ 3720  2024-07-09 06:01:49 git restore .vscode/launch.json .vscode/tasks.json
+ 3721  2024-07-09 06:01:51 ls
+ 3722  2024-07-09 06:01:54 ls -al
+ 3723  2024-07-09 06:02:00 ls -al .vscode/
+ 3724  2024-07-09 06:05:48 git status
+ 3725  2024-07-09 06:06:24 fg
+ 3726  2024-07-09 06:12:55 history
+ 3727  2024-07-09 06:13:35 history > ~/workspace/template/history
