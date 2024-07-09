@@ -9,8 +9,8 @@ TARGETS := temp
 # Common build rules
 ############################################################
 OBJDIR := ./obj
-OUTPUTDIR := ./source
-SOURCEDIR := ./output
+OUTPUTDIR := ./output
+SOURCEDIR := ./source
 
 COMPILEFLAGS := -g -Wall
 #COMPILEFLAGS += -ffunction-sections

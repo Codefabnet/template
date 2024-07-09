@@ -3861,3 +3861,58 @@
  3861  2024-07-09 06:58:45 git update-index --add --cacheinfo 100644 27b6359b66e6465f6860d52864914f0cc1d957f8 .vscode/tasks.json
  3862  2024-07-09 06:58:45 git restore .
  3863  2024-07-09 06:59:07 history > ~/workspace/template/history 
+ 3864  2024-07-09 06:59:11 cd -
+ 3865  2024-07-09 06:59:25 git status
+ 3866  2024-07-09 06:59:45 cd ~/workspace/template/
+ 3867  2024-07-09 06:59:49 git status
+ 3868  2024-07-09 06:59:55 git add .
+ 3869  2024-07-09 07:00:05 git commit -m "updated history."
+ 3870  2024-07-09 07:00:11 git push
+ 3871  2024-07-09 07:00:13 cd -
+ 3872  2024-07-09 07:00:17 ls
+ 3873* 2024-07-09 07:00:21 ls -a
+ 3874  2024-07-09 07:00:30 mkdir source
+ 3875  2024-07-09 07:00:57 cp ../gittest/source/temp.c source
+ 3876  2024-07-09 07:01:00 make
+ 3877  2024-07-09 07:01:05 ls
+ 3878  2024-07-09 07:01:14 vim makefile 
+ 3879  2024-07-09 07:01:52 make temp
+ 3880  2024-07-09 07:01:57 ls
+ 3881  2024-07-09 07:02:06 vim makefile 
+ 3882  2024-07-09 07:03:22 cd ..
+ 3883  2024-07-09 07:03:29 rm -rf template_test/
+ 3884  2024-07-09 07:03:41 cd ~/workspace/template/
+ 3885  2024-07-09 07:03:45 vim makefile 
+ 3886  2024-07-09 07:04:31 cd -
+ 3887  2024-07-09 07:04:50 mkdir template_test
+ 3888  2024-07-09 07:05:02 cd template_test/
+ 3889  2024-07-09 07:05:24 cat ~/workspace/template/history 
+ 3890  2024-07-09 07:06:41 git init
+ 3891  2024-07-09 07:06:41 git hash-object -w ~/workspace/template/makefile
+ 3892  2024-07-09 07:06:41 git hash-object -w ~/workspace/template/.vscode/launch.json
+ 3893  2024-07-09 07:06:41 git hash-object -w ~/workspace/template/.vscode/tasks.json
+ 3894  2024-07-09 07:07:33 git update-index --add --cacheinfo 100644 ecac557451c5d0a49b9b1577127bf7c7f5d8b925 makefile
+ 3895  2024-07-09 07:07:33 git update-index --add --cacheinfo 100644 7c40a925e772b9f7baea99423e0b06a738bfa5a0 .vscode/launch.json
+ 3896  2024-07-09 07:07:33 git update-index --add --cacheinfo 100644 27b6359b66e6465f6860d52864914f0cc1d957f8 .vscode/tasks.json
+ 3897  2024-07-09 07:07:33 git restore .
+ 3898  2024-07-09 07:07:38 git status
+ 3899  2024-07-09 07:08:01 ls -al
+ 3900  2024-07-09 07:08:12 mkdir source
+ 3901  2024-07-09 07:08:16 cp ../gittest/source/temp.c source
+ 3902  2024-07-09 07:08:19 make
+ 3903  2024-07-09 07:08:30 output/temp
+ 3904  2024-07-09 07:08:34 cd ..
+ 3905  2024-07-09 07:08:39 rm -rf template_test/
+ 3906  2024-07-09 07:08:49 mkdir template_test
+ 3907  2024-07-09 07:08:55 cd template_test
+ 3908  2024-07-09 07:09:02 history
+ 3909  2024-07-09 07:09:33 git init
+ 3910  2024-07-09 07:09:33 git hash-object -w ~/workspace/template/makefile
+ 3911  2024-07-09 07:09:33 git hash-object -w ~/workspace/template/.vscode/launch.json
+ 3912  2024-07-09 07:09:33 git hash-object -w ~/workspace/template/.vscode/tasks.json
+ 3913  2024-07-09 07:09:33 git update-index --add --cacheinfo 100644 ecac557451c5d0a49b9b1577127bf7c7f5d8b925 makefile
+ 3914  2024-07-09 07:09:33 git update-index --add --cacheinfo 100644 7c40a925e772b9f7baea99423e0b06a738bfa5a0 .vscode/launch.json
+ 3915  2024-07-09 07:09:33 git update-index --add --cacheinfo 100644 27b6359b66e6465f6860d52864914f0cc1d957f8 .vscode/tasks.json
+ 3916  2024-07-09 07:09:33 git restore .
+ 3917  2024-07-09 07:09:33 git status
+ 3918  2024-07-09 07:09:45 history > ~/workspace/template/history 
