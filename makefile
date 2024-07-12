@@ -19,17 +19,6 @@ COMPILEFLAGS := -g -Wall
 #LINKERFLAGS += -Wl,--cref
 #LINKERFLAGS += -Wl,--gc-sections
 
-
-COMMON_HEADERS :=
-
-.PHONY: all
-all: $(TARGETS)
-
-$(TARGETS): $*
-
-%: $(SOURCEDIR)/%.c
-	gcc $(COMPILEFLAGS) $< -o $(OUTPUTDIR)/$@
-
 $(TARGETS): | $(OUTPUTDIR)
 
 $(OUTPUTDIR):
@@ -41,4 +30,23 @@ $(OBJDIR):
 clean:
 	rm -rf $(OUTPUTDIR)
 	rm -rf $(OBJDIR)
+
+############################################################
+
+
+SOURCES := $(wildcard $(SOURCEDIR)/*.c)
+
+OBJECTS := $(patsubst $(SOURCEDIR)/%.c, $(OBJDIR)/%.o, $(SOURCES))
+
+HEADERS := $(wildcard $(SOURCEDIR)/*.h)
+
+############################################################
+
+$(TARGETS): $(OBJECTS)
+	gcc $(LINKERFLAGS) $(OBJECTS) -o $(OUTPUTDIR)/$@
+
+$(OBJDIR)/%.o : $(SOURCEDIR)/%.c $(HEADERS) $(COMMON_HEADERS)
+	gcc $(COMPILEFLAGS) -c $< -o $@
+
+$(OBJECTS): | $(OBJDIR)
 
